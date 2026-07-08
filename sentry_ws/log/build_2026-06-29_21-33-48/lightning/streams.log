@@ -1,0 +1,352 @@
+[0.012s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning --clean-first -- -j16 -l16
+[0.599s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.634s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.659s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.062s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.073s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.073s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.183s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.188s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.195s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.293s] -- Found Qhull version 8.0.2
+[1.400s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.498s] -- looking for PCL_COMMON
+[1.498s] -- looking for PCL_KDTREE
+[1.498s] -- looking for PCL_OCTREE
+[1.499s] -- looking for PCL_SEARCH
+[1.499s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.499s] -- looking for PCL_FILTERS
+[1.499s] -- looking for PCL_2D
+[1.499s] -- looking for PCL_GEOMETRY
+[1.499s] -- looking for PCL_IO
+[1.500s] -- looking for PCL_FEATURES
+[1.500s] -- looking for PCL_ML
+[1.500s] -- looking for PCL_SEGMENTATION
+[1.500s] -- looking for PCL_VISUALIZATION
+[1.500s] -- looking for PCL_SURFACE
+[1.500s] -- looking for PCL_REGISTRATION
+[1.501s] -- looking for PCL_KEYPOINTS
+[1.501s] -- looking for PCL_TRACKING
+[1.501s] -- looking for PCL_RECOGNITION
+[1.501s] -- looking for PCL_STEREO
+[1.501s] -- looking for PCL_APPS
+[1.502s] -- looking for PCL_IN_HAND_SCANNER
+[1.502s] -- looking for PCL_MODELER
+[1.502s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.502s] -- looking for PCL_OUTOFCORE
+[1.502s] -- looking for PCL_PEOPLE
+[1.513s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[1.515s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.516s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.770s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.778s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.798s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.935s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.938s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.086s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.284s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.314s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[2.339s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[2.347s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.443s] -- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.462s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.470s] -- Found rm_referee_msgs: 0.0.0 (/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/share/rm_referee_msgs/cmake)
+[2.709s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.070s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.244s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.267s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.267s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.267s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.394s] -- livox_ros_driver2 version: 2.6.0
+[3.394s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.407s] [0m/usr/include/apr-1.0[0m
+[3.407s] [0mapr-1[0m
+[3.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.026s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.065s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.065s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.168s] -- Configuring done
+[4.767s] -- Generating done
+[4.833s] -- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/lightning
+[4.877s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.877s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.887s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.887s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.888s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.888s] [  5%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/graph.cc.o[0m
+[4.888s] [  6%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/common/string_tools.cc.o[0m
+[4.888s] [  6%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/optimizer.cc.o[0m
+[4.888s] [  7%] [32mBuilding CXX object src/core/miao/utils/CMakeFiles/miao.utils.dir/sampler.cc.o[0m
+[4.888s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.888s] [  8%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/math/marginal_covariance_cholesky.cc.o[0m
+[4.888s] [  8%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/optimization_algorithm.cc.o[0m
+[4.890s] [  9%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_lm.cc.o[0m
+[4.890s] [ 10%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_gauss_newton.cc.o[0m
+[4.898s] [ 10%] Built target ament_cmake_python_copy_lightning
+[4.898s] [ 10%] Built target ament_cmake_python_copy_livox_ros_driver2
+[4.907s] [ 11%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_dogleg.cc.o[0m
+[5.180s] running egg_info
+[5.181s] writing livox_ros_driver2.egg-info/PKG-INFO
+[5.181s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[5.181s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[5.191s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[5.191s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[5.272s] [ 11%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[5.406s] [ 11%] Built target lightning__rs
+[5.421s] [ 11%] Built target livox_interfaces2__rs
+[5.435s] [ 11%] [32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/solver/solver.cc.o[0m
+[5.521s] [ 11%] Built target livox_interfaces2__cpp
+[5.536s] [ 12%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[5.541s] [ 13%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[5.555s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.563s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.cc:5[m[K:
+[5.564s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[5.564s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.564s]    80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+[5.564s]       |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[5.568s] [ 14%] Built target lightning__cpp
+[5.582s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.609s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+[5.609s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5[m[K:
+[5.609s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[5.609s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.609s]    44 |     bool [01;35m[Kis_dense_[m[K = true;
+[5.609s]       |          [01;35m[K^~~~~~~~~[m[K
+[5.609s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.610s]    39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[5.610s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.610s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.610s]    31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+[5.610s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.612s] [ 16%] [32mBuilding C object CMakeFiles/lightning__rosidl_generator_c.dir/rosidl_generator_c/lightning/srv/detail/loc_cmd__functions.c.o[0m
+[5.712s] running egg_info
+[5.715s] writing lightning.egg-info/PKG-INFO
+[5.716s] writing dependency_links to lightning.egg-info/dependency_links.txt
+[5.717s] writing top-level names to lightning.egg-info/top_level.txt
+[5.728s] reading manifest file 'lightning.egg-info/SOURCES.txt'
+[5.728s] writing manifest file 'lightning.egg-info/SOURCES.txt'
+[5.729s] [ 16%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[5.741s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.804s] [ 18%] [32mBuilding C object CMakeFiles/lightning__rosidl_generator_c.dir/rosidl_generator_c/lightning/srv/detail/save_map__functions.c.o[0m
+[5.804s] [ 18%] Built target ament_cmake_python_build_lightning_egg
+[5.815s] [ 18%] Built target livox_interfaces2__rosidl_generator_c
+[5.833s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.833s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.929s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.980s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+[5.980s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5[m[K:
+[5.980s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[5.980s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.980s]    80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+[5.981s]       |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[5.987s] [ 22%] [32m[1mLinking C shared library liblightning__rosidl_generator_c.so[0m
+[6.070s] [ 22%] Built target lightning__rosidl_generator_c
+[6.089s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.137s] [ 24%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[6.157s] [ 24%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[6.279s] [ 25%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[6.466s] [ 26%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/loc_cmd__type_support.cpp.o[0m
+[6.489s] [ 27%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/loc_cmd__type_support.cpp.o[0m
+[6.575s] [ 27%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/loc_cmd__type_support.cpp.o[0m
+[6.579s] [ 27%] [32m[1mLinking CXX shared library libmiao.utils.so[0m
+[6.616s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+[6.617s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7[m[K:
+[6.617s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[6.617s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.617s]    44 |     bool [01;35m[Kis_dense_[m[K = true;
+[6.617s]       |          [01;35m[K^~~~~~~~~[m[K
+[6.617s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.617s]    39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[6.617s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.617s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.618s]    31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+[6.618s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.652s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+[6.652s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7[m[K:
+[6.652s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[6.652s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.652s]    80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+[6.652s]       |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[6.672s] [ 28%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[6.675s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+[6.676s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6[m[K:
+[6.676s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[6.676s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.676s]    44 |     bool [01;35m[Kis_dense_[m[K = true;
+[6.676s]       |          [01;35m[K^~~~~~~~~[m[K
+[6.676s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.676s]    39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[6.676s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.676s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.676s]    31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+[6.678s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.700s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+[6.701s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6[m[K:
+[6.701s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[6.701s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.701s]    44 |     bool [01;35m[Kis_dense_[m[K = true;
+[6.701s]       |          [01;35m[K^~~~~~~~~[m[K
+[6.701s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.701s]    39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[6.701s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.701s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.701s]    31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+[6.701s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.718s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+[6.719s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6[m[K:
+[6.719s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[6.719s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.719s]    80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+[6.719s]       |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[6.719s] [ 29%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[6.739s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+[6.739s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6[m[K:
+[6.739s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[6.739s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.739s]    80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+[6.740s]       |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[6.743s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+[6.743s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5[m[K:
+[6.743s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[6.743s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.743s]    44 |     bool [01;35m[Kis_dense_[m[K = true;
+[6.743s]       |          [01;35m[K^~~~~~~~~[m[K
+[6.743s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.743s]    39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[6.743s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.743s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.743s]    31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+[6.743s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.748s] [ 30%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[6.748s] [ 30%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[6.761s] [ 30%] Built target miao.utils
+[6.776s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+[6.776s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5[m[K:
+[6.776s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[6.776s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.777s]    80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+[6.777s]       |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[6.787s] [ 30%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[6.866s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/solver/solver.h:9[m[K,
+[6.866s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/solver/solver.cc:5[m[K:
+[6.866s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[6.866s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.866s]    80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+[6.866s]       |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[6.874s] [ 30%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[6.972s] [ 31%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/save_map__type_support.cpp.o[0m
+[7.108s] [ 32%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/save_map__type_support.cpp.o[0m
+[7.117s] [ 32%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[7.144s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.214s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[7.234s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.273s] [ 35%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[7.302s] [ 36%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.328s] [ 37%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[7.347s] [ 38%] [32m[1mLinking CXX shared library liblightning__rosidl_typesupport_cpp.so[0m
+[7.408s] [ 38%] Built target lightning__rosidl_typesupport_cpp
+[7.424s] [ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.424s] [ 39%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.427s] [ 39%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[7.430s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.446s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[7.471s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[7.506s] [ 41%] [32m[1mLinking CXX shared library liblightning__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.628s] [ 41%] [32m[1mLinking CXX shared library liblightning__rosidl_typesupport_introspection_cpp.so[0m
+[7.635s] [ 41%] Built target lightning__rosidl_typesupport_fastrtps_cpp
+[7.682s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:[m[K In member function ‘[01m[Kvirtual bool lightning::miao::Optimizer::AddVertex(std::shared_ptr<lightning::miao::Vertex>)[m[K’:
+[7.682s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:288:62:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::unordered_map<int, std::shared_ptr<lightning::miao::Vertex> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.682s]   288 |         if (config_.max_vertex_size_ > 0 && [01;35m[Kvertices_.size() == config_.max_vertex_size_[m[K) {
+[7.682s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.683s] [ 42%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[7.683s] [ 42%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[7.702s] [ 42%] Built target lightning__rosidl_typesupport_introspection_cpp
+[7.720s] [ 44%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[7.720s] [ 44%] [32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[7.734s] [ 45%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[7.748s] [ 45%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[7.767s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[7.786s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_c
+[7.808s] [ 45%] Built target livox_interfaces2
+[7.824s] [ 47%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/loc_cmd__type_support.cpp.o[0m
+[7.824s] [ 47%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/save_map__type_support.cpp.o[0m
+[7.828s] [ 47%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.833s] [ 48%] [32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lightning/srv/detail/save_map__type_support.c.o[0m
+[7.833s] [ 48%] [32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lightning/srv/detail/loc_cmd__type_support.c.o[0m
+[7.853s] [ 49%] [32m[1mLinking CXX shared library liblightning__rosidl_typesupport_c.so[0m
+[7.874s] [ 50%] [32m[1mLinking C shared library liblightning__rosidl_typesupport_introspection_c.so[0m
+[7.895s] [ 50%] Built target lightning__rosidl_typesupport_c
+[7.908s] [ 50%] Built target lightning__rosidl_typesupport_introspection_c
+[7.915s] [ 51%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/loc_cmd__type_support_c.cpp.o[0m
+[7.915s] [ 51%] [32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/save_map__type_support_c.cpp.o[0m
+[8.193s] [ 52%] [32m[1mLinking CXX shared library liblightning__rosidl_typesupport_fastrtps_c.so[0m
+[8.267s] [ 52%] Built target lightning__rosidl_typesupport_fastrtps_c
+[8.272s] [ 52%] Built target livox_interfaces2__py
+[8.285s] [ 52%] Built target lightning
+[8.289s] [ 53%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[8.289s] [ 54%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[8.307s] [ 55%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.405s] [ 55%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[8.445s] [ 55%] Built target livox_interfaces2__rosidl_generator_py
+[8.464s] [ 58%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[8.465s] [ 58%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.465s] [ 58%] [32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.565s] [ 60%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.565s] [ 60%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.566s] [ 60%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.604s] [ 60%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[8.604s] [ 60%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[8.608s] [ 60%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[8.807s] [ 60%] Built target lightning__py
+[8.827s] [ 61%] [32mBuilding C object CMakeFiles/lightning__rosidl_generator_py.dir/rosidl_generator_py/lightning/srv/_loc_cmd_s.c.o[0m
+[8.827s] [ 61%] [32mBuilding C object CMakeFiles/lightning__rosidl_generator_py.dir/rosidl_generator_py/lightning/srv/_save_map_s.c.o[0m
+[8.895s] [ 62%] [32m[1mLinking CXX shared library libmiao.core.so[0m
+[8.937s] [ 63%] [32m[1mLinking C shared library rosidl_generator_py/lightning/liblightning__rosidl_generator_py.so[0m
+[8.985s] [ 63%] Built target lightning__rosidl_generator_py
+[8.995s] [ 63%] Built target miao.core
+[9.004s] [ 64%] [32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_c.c.o[0m
+[9.004s] [ 65%] [32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.004s] [ 65%] [32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.018s] [ 69%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/io/yaml_io.cc.o[0m
+[9.018s] [ 69%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/io/file_io.cc.o[0m
+[9.018s] [ 69%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/options.cc.o[0m
+[9.018s] [ 69%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/nav_state.cc.o[0m
+[9.018s] [ 69%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o[0m
+[9.018s] [ 69%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o[0m
+[9.019s] [ 69%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o[0m
+[9.020s] [ 71%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o[0m
+[9.020s] [ 71%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_subgrid.cc.o[0m
+[9.020s] [ 70%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_map.cc.o[0m
+[9.020s] [ 72%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o[0m
+[9.022s] [ 73%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o[0m
+[9.026s] [ 74%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o[0m
+[9.181s] [ 74%] [32m[1mLinking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.182s] [ 74%] [32m[1mLinking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.213s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.271s] [ 75%] Built target lightning__rosidl_typesupport_introspection_c__pyext
+[9.280s] [ 75%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext
+[9.281s] [ 75%] Built target lightning__rosidl_typesupport_c__pyext
+[9.301s] [ 75%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o[0m
+[9.303s] [ 76%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map_chunk.cc.o[0m
+[9.309s] [ 77%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o[0m
+[9.505s] [ 78%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o[0m
+[10.687s] [ 78%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o[0m
+[10.900s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/io/file_io.cc:[m[K In function ‘[01m[Kbool lightning::RemoveIfExist(const string&)[m[K’:
+[10.900s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/io/file_io.cc:17:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[10.901s]    17 |         [01;35m[Ksystem(("rm -f " + path).c_str())[m[K;
+[10.901s]       |         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.016s] [ 79%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o[0m
+[11.894s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:[m[K In member function ‘[01m[Kvoid lightning::g2p5::G2P5Map::SetMissPoint(const float&, const float&, const float&, const float&, float, float)[m[K’:
+[11.895s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:215:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<int, 2, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.895s]   215 |     for (int i = 0; [01;35m[Ki < updated_pts.size()[m[K; ++i) {
+[11.895s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[12.557s] [ 80%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o[0m
+[13.672s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.cc:5[m[K:
+[13.672s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[13.672s] [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.672s]    27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+[13.672s]       |                       [01;35m[K~~~~^~~[m[K

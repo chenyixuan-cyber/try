@@ -1,0 +1,647 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "thirdparty/livox_ros_driver/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"find_package",
+			"include_directories",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"thirdparty/livox_ros_driver/CMakeLists.txt",
+			"/opt/ros/humble/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake",
+			"cmake/packages.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 139,
+				"parent" : 11
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 34,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 18,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 54,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 21
+			},
+			{
+				"file" : 8,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"file" : 7,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 25
+			},
+			{
+				"file" : 6,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 25,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 42,
+				"parent" : 13
+			},
+			{
+				"file" : 9,
+				"parent" : 29
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 35,
+				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 51,
+				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 55,
+				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 4
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -fopenmp -fopenmp -msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -O2 -DNDEBUG -fopenmp -fPIC -fPIC   -msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wredundant-decls"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "BUILDING_ROS2"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "DISABLE_PCAP"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "FASTCDR_DYN_LINK"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "PCL_NO_PRECOMPILE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"define" : "ROSIDL_TYPESUPPORT_FASTRTPS_CPP_BUILDING_DLL_livox_ros_driver2"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "ROS_PACKAGE_NAME=\"lightning\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 31,
+					"path" : "/usr/include/opencv4"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/usr/include/pcl-1.12"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/usr/include/ni"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/usr/include/openni2"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/tf2"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rclcpp"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/ament_index_cpp"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/libstatistics_collector"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rcl"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rcpputils"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosgraph_msgs"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_cpp"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_c"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rcl_yaml_param_parser"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/statistics_msgs"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/tracetools"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosbag2_cpp"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/pluginlib"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosbag2_storage"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_introspection_cpp"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_fastrtps_c"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/opt/ros/humble/include/nav_msgs"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/chen/sentry_try/sentry_ws/src/lightning-lm/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/chen/sentry_try/sentry_ws/src/lightning-lm/thirdparty"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rcutils"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rmw"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/std_msgs"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/fastcdr"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					36
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 12,
+			"id" : "livox_interfaces2__cpp::@17a47b369debf1e330eb"
+		}
+	],
+	"id" : "livox_interfaces2__rosidl_typesupport_fastrtps_cpp::@17a47b369debf1e330eb",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/chen/sentry_try/sentry_ws/install/lightning"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/humble/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/libfastcdr.so.1.0.29",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/librmw.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "livox_interfaces2__rosidl_typesupport_fastrtps_cpp",
+	"nameOnDisk" : "liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so",
+	"paths" : 
+	{
+		"build" : "thirdparty/livox_ros_driver",
+		"source" : "thirdparty/livox_ros_driver"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

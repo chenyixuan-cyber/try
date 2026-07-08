@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rm_referee_msgs__rs",
+		"source" : "/home/chen/sentry_try/sentry_ws/build/rm_referee_msgs/rm_referee_msgs__rs"
+	}
+}

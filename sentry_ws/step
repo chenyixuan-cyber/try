@@ -1,0 +1,336 @@
+# 🚀 哨兵巡航系统 — 从零开始部署指南
+
+> 适用平台：Ubuntu 22.04 + ROS 2 Humble  
+> 硬件：Livox MID360 激光雷达、CAN 总线底盘、RM 裁判系统
+
+---
+
+## 📋 前置条件
+
+```bash
+# 1. 安装 ROS 2 Humble（若未安装）
+# 参考：https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
+
+# 2. 确保 ROS 2 环境已加载
+source /opt/ros/humble/setup.bash
+
+# 3. 创建工作空间
+mkdir -p ~/sentry_ws/src
+cd ~/sentry_ws
+```
+
+> 💡 建议将 `source /opt/ros/humble/setup.bash` 添加到 `~/.bashrc`
+
+---
+
+## 第一步：安装系统依赖
+
+```bash
+cd ~/sentry_ws
+bash depend_install.sh
+```
+
+自动安装以下关键依赖：
+
+| 包名 | 用途 |
+|------|------|
+| `libopencv-dev`, `libpcl-dev` | 计算机视觉、点云处理 |
+| `libyaml-cpp-dev` | YAML 配置文件解析 |
+| `nlohmann-json3-dev` | JSON 解析 |
+| `ros-humble-navigation2`, `ros-humble-nav2-bringup` | Nav2 导航栈 |
+| `ros-humble-pcl-conversions`, `ros-humble-pcl-ros` | ROS ↔ PCL 桥接 |
+| `ros-humble-rmw-cyclonedds-cpp` | Cyclone DDS 中间件 |
+| `ros-humble-spatio-temporal-voxel-layer` | 时空体素代价地图层 |
+| `ros-humble-behaviortree-cpp` | 行为树 |
+| `ros-humble-robot-localization` | 机器人状态估计 |
+| `ros-humble-realsense2-camera` | RealSense 相机驱动（可选） |
+
+---
+
+## 第二步：编译项目
+
+### 2.1 一键编译
+
+```bash
+cd ~/sentry_ws
+bash build.sh
+```
+
+`build.sh` 内部流程：
+1. **编译 Pangolin** — 解压编译 `src/lightning-lm/thirdparty/Pangolin-0.9.3.zip`（Lightning SLAM 可视化依赖）
+2. **安装系统依赖** — 调用 `depend_install.sh`
+3. **首次编译** — `colcon build --packages-select lightning rm_referee_msgs`
+4. **创建地图占位文件** — `mkdir -p src/bringup/map && touch ...`
+5. **全量编译** — `colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release`
+
+### 2.2 分步编译（若一键编译中途失败）
+
+如果 `build.sh` 中途出错，可按以下顺序手动执行：
+
+```bash
+cd ~/sentry_ws
+
+# 步骤 A：编译第三方库 Pangolin
+cd src/lightning-lm/thirdparty
+cd Pangolin-0.9.3
+mkdir -p build && cd build
+cmake .. && make -j$(nproc) && sudo make install
+cd ../../../..
+
+# 步骤 B：安装系统依赖
+bash depend_install.sh
+
+# 步骤 C：先编译 lightning + 裁判系统消息（lightning 依赖 rm_referee_msgs）
+colcon build --packages-select lightning rm_referee_msgs
+
+# 步骤 D：创建地图占位
+mkdir -p src/bringup/map
+touch src/bringup/map/map.yaml src/bringup/map/map.pgm
+
+# 步骤 E：全量编译
+colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+```
+
+### 2.3 加载编译产物
+
+```bash
+source install/setup.bash
+```
+
+> 💡 建议将 `source ~/sentry_ws/install/setup.bash` 添加到 `~/.bashrc`
+
+---
+
+## 第三步：配置 CAN 总线
+
+适用于使用 CAN 通信的底盘。只需执行一次：
+
+```bash
+cd ~/sentry_ws
+sudo bash can.sh
+```
+
+该脚本创建 `/etc/udev/rules.d/99-can.rules`，使系统启动或插入 CAN 设备时自动配置：
+
+```bash
+ip link set can0 type can bitrate 1000000
+ip link set can0 up
+```
+
+**手动配置**（无需重启）：
+
+```bash
+sudo ip link set can0 type can bitrate 1000000
+sudo ip link set can0 up
+```
+
+**验证 CAN 状态**：
+
+```bash
+ip -details link show can0
+```
+
+---
+
+## 第四步：设置 DDS 中间件
+
+项目使用 Cyclone DDS，每次打开新终端都需要设置：
+
+```bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+```
+
+> 💡 `start.sh` 中已自动设置此环境变量。如果单独运行节点，需手动 export。
+
+---
+
+## 第五步：SLAM 建图
+
+操控机器人走遍目标区域，构建点云地图。
+
+### 5.1 启动建图
+
+```bash
+cd ~/sentry_ws
+source install/setup.bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+ros2 run lightning run_slam_online --config ./src/bringup/config/default_livox.yaml
+```
+
+启动后自动拉起：
+- Livox MID360 激光雷达驱动
+- FAST-LIO 里程计
+- Lightning SLAM 在线建图
+
+### 5.2 保存地图
+
+建图完成后（另开终端）：
+
+```bash
+cd ~/sentry_ws
+source install/setup.bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+ros2 service call /lightning/save_map lightning/srv/SaveMap "{map_id: 'new_map'}"
+```
+
+地图文件保存在 `./data/new_map/`。
+
+### 5.3 转换为 Nav2 导航地图
+
+```bash
+cd ~/sentry_ws
+bash map.sh
+```
+
+`map.sh` 执行：
+1. 复制 `data/new_map/` 中的 `.yaml` / `.pgm` 到 `src/bringup/map/`
+2. 编译 `src/pcd_to_nav_map/` 的 PCD→Nav2 地图转换工具
+3. 将 `global.pcd` 点云地图转为 Nav2 导航地图
+
+> 若需手动转换 PCD ↔ PLY 格式，可使用 `pcd_ply.py`：
+> ```bash
+> python3 pcd_ply.py input.pcd output.ply
+> ```
+
+---
+
+## 第六步：定位模式验证
+
+确认建图完成后定位功能正常：
+
+```bash
+cd ~/sentry_ws
+source install/setup.bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+ros2 run lightning run_loc_online --config ./src/bringup/config/default_livox.yaml
+```
+
+在 Rviz 中观察：
+- ✅ 点云与地图正确对齐
+- ✅ `map` → `odom` TF 稳定发布
+- ✅ 机器人在正确位置
+
+---
+
+## 第七步：完整启动巡航系统
+
+```bash
+cd ~/sentry_ws
+bash start.sh
+```
+
+### 启动顺序
+
+| 顺序 | 组件 | 可执行文件 | 说明 |
+|:---:|------|-----------|------|
+| 1 | `nuclear_cleanup` | 函数 | 强力杀掉所有残留进程 |
+| 2 | Livox 驱动 | `livox_ros_driver2_node` | MID360 雷达数据采集 |
+| 3 | FAST-LIO | `fastlio_mapping` | LiDAR 里程计 → `/odom` |
+| 4 | Lightning 定位 | `run_loc_online` | 地图匹配定位 → `map` TF |
+| 5 | Livox → Scan | `livox_to_scan_node` | 点云转 2D LaserScan |
+| 6 | 串口通信 | `sentry_comm_node` | 底盘控制指令下发 |
+| 7 | CAN 通信 | `can_comm.launch.py` | CAN 总线收发 |
+| 8 | 裁判系统 | `referee_node.launch.py` | RM 比赛系统对接 |
+| 9 | Nav2 导航栈 | `navigation_launch.py` | 全局规划 + 局部控制 |
+| 10 | 哨兵巡航 BT | `sentry_eval_bt_node` | 按路点自动巡航（延迟 5s） |
+
+### 自动重启机制
+
+`start.sh` 监控 launch 进程退出码：
+- **退出码 0** → 正常关闭，退出循环
+- **退出码 ≠ 0** → 异常崩溃，2 秒后自动重启
+
+按 `Ctrl+C` 即可安全停止。
+
+---
+
+## 第八步：调整巡航路点
+
+路点定义在 `src/bringup/config/singlenav2_params.yaml`：
+
+```yaml
+sentry_eval_bt_node:
+  ros__parameters:
+    points: [
+      -0.2, -6.5, 0.0,   # [x, y, theta]
+       1.2, -6.5, 0.0,
+       1.0,  0.5, 0.0,
+       ...
+    ]
+    loop_points: true      # 是否循环遍历路点
+    stop_on_last: false    # 是否停在最后一个点
+```
+
+修改后重启 `bash start.sh` 即可生效。
+
+---
+
+## 📊 系统架构图
+
+```mermaid
+flowchart LR
+    subgraph 传感器
+        L["Livox MID360 LiDAR"]
+    end
+
+    subgraph 感知
+        FAST["FAST-LIO<br/>里程计"]
+        LIGHT["Lightning<br/>定位"]
+    end
+
+    subgraph 导航
+        SCAN["Livox→Scan"]
+        NAV2["Nav2 Stack<br/>规划+控制"]
+        BT["哨兵BT<br/>路点巡航"]
+    end
+
+    subgraph 底盘
+        SERIAL["串口通信"]
+        CAN["CAN 总线"]
+    end
+
+    subgraph 比赛
+        REF["裁判系统"]
+    end
+
+    L --> FAST
+    FAST --> LIGHT
+    L --> SCAN
+    SCAN --> NAV2
+    LIGHT --> NAV2
+    BT -->|navigate_to_pose| NAV2
+    NAV2 --> SERIAL
+    SERIAL --> CAN
+```
+
+---
+
+## 🐛 常见问题排查
+
+| 问题 | 原因与解决 |
+|------|-----------|
+| **`lightning` 编译失败** | 缺少 `rm_referee_msgs`。先执行 `colcon build --packages-select rm_referee_msgs` |
+| **找不到 Livox 驱动** | 确认 `src/` 下包含 `livox_ros_driver2_humble/`，需从[Livox 官方](https://github.com/Livox-SDK/livox_ros_driver2)获取 |
+| **Rviz 中无地图显示** | 检查 `src/bringup/map/map.yaml` 和 `map.pgm` 是否存在且路径正确 |
+| **串口无法打开** | 添加用户到 dialout 组：`sudo usermod -aG dialout $USER`，注销重登录 |
+| **`rmw_cyclonedds_cpp` 找不到** | 安装：`sudo apt install ros-humble-rmw-cyclonedds-cpp` |
+| **导航时机器人不动** | 检查 `/state_estimation` 话题是否有数据；检查 CAN 总线 `ip -details link show can0` |
+| **CAN 配置失败** | 使用 `sudo ip link set can0 type can bitrate 1000000 && sudo ip link set can0 up` |
+| **启动后闪退** | 查看终端日志中的关键报错；检查硬件连接（雷达、串口、CAN） |
+
+---
+
+## 🔄 快捷命令速查
+
+```bash
+# 一键启动（依赖安装 + 编译 + 运行）
+cd ~/sentry_ws
+bash depend_install.sh   # 安装系统依赖
+bash build.sh            # 编译全部
+bash start.sh            # 启动巡航
+
+# 单独启动各模式
+ros2 run lightning run_slam_online --config ./src/bringup/config/default_livox.yaml   # 建图
+ros2 run lightning run_loc_online  --config ./src/bringup/config/default_livox.yaml   # 定位
+bash start.sh            # 完整巡航
+```

@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target pb_back_up_frees_space_behavior[0m
+[ 50%] Built target pb_back_up_frees_space_behavior
+[35m[1mConsolidate compiler generated dependencies of target layers[0m
+[100%] Built target layers
+-- Install configuration: ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/behavior_plugin.xml
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/costmap_plugins.xml
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/include
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/include/pb_nav2_plugins
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/include/pb_nav2_plugins/behaviors
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/include/pb_nav2_plugins/behaviors/back_up_free_space.hpp
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/include/pb_nav2_plugins/layers
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/include/pb_nav2_plugins/layers/intensity_voxel_layer.hpp
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/library_path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/library_path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/libpb_back_up_frees_space_behavior.so
+-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/libpb_back_up_frees_space_behavior.so" to ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/liblayers.so
+-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/liblayers.so" to ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/ament_index/resource_index/package_run_dependencies/pb_nav2_plugins
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/ament_index/resource_index/parent_prefix_path/pb_nav2_plugins
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.bash
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.zsh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/ament_index/resource_index/packages/pb_nav2_plugins
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/ament_index/resource_index/nav2_core__pluginlib__plugin/pb_nav2_plugins
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/pb_nav2_plugins
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/pb_nav2_pluginsConfig.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/pb_nav2_pluginsConfig-version.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.xml

@@ -1,0 +1,73 @@
+[0.021s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/lightning-lm -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/lightning
+[0.040s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.094s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.127s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.389s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.397s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.397s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.574s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.583s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.591s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.806s] -- Found Qhull version 8.0.2
+[1.013s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.239s] -- looking for PCL_COMMON
+[1.241s] -- looking for PCL_KDTREE
+[1.241s] -- looking for PCL_OCTREE
+[1.243s] -- looking for PCL_SEARCH
+[1.243s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.244s] -- looking for PCL_FILTERS
+[1.245s] -- looking for PCL_2D
+[1.248s] -- looking for PCL_GEOMETRY
+[1.248s] -- looking for PCL_IO
+[1.248s] -- looking for PCL_FEATURES
+[1.248s] -- looking for PCL_ML
+[1.248s] -- looking for PCL_SEGMENTATION
+[1.248s] -- looking for PCL_VISUALIZATION
+[1.249s] -- looking for PCL_SURFACE
+[1.249s] -- looking for PCL_REGISTRATION
+[1.250s] -- looking for PCL_KEYPOINTS
+[1.250s] -- looking for PCL_TRACKING
+[1.250s] -- looking for PCL_RECOGNITION
+[1.251s] -- looking for PCL_STEREO
+[1.251s] -- looking for PCL_APPS
+[1.252s] -- looking for PCL_IN_HAND_SCANNER
+[1.253s] -- looking for PCL_MODELER
+[1.253s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.254s] -- looking for PCL_OUTOFCORE
+[1.254s] -- looking for PCL_PEOPLE
+[1.267s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[1.272s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.272s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.516s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.519s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.527s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.554s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.597s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.601s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.124s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.168s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[2.216s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[2.218s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.387s] -- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.458s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.501s] [31mCMake Error at CMakeLists.txt:43 (find_package):
+[2.502s]   By not providing "Findrm_referee_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.502s]   project has asked CMake to find a package configuration file provided by
+[2.502s]   "rm_referee_msgs", but CMake did not find one.
+[2.502s] 
+[2.502s]   Could not find a package configuration file provided by "rm_referee_msgs"
+[2.502s] -- Configuring incomplete, errors occurred!
+[2.502s] See also "/home/chen/sentry_try/sentry_ws/build/lightning/CMakeFiles/CMakeOutput.log".
+[2.505s]   with any of the following names:
+[2.505s] 
+[2.505s]     rm_referee_msgsConfig.cmake
+[2.505s]     rm_referee_msgs-config.cmake
+[2.505s] 
+[2.505s]   Add the installation prefix of "rm_referee_msgs" to CMAKE_PREFIX_PATH or
+[2.505s]   set "rm_referee_msgs_DIR" to a directory containing one of the above files.
+[2.505s]   If "rm_referee_msgs" provides a separate development package or SDK, be
+[2.506s]   sure it has been installed.
+[2.506s] 
+[2.506s] [0m

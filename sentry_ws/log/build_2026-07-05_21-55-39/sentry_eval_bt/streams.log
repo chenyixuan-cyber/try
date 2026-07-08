@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/sentry_eval_bt -- -j16 -l16
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target sentry_eval_bt_node[0m
+[0.092s] [100%] Built target sentry_eval_bt_node
+[0.104s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/sentry_eval_bt -- -j16 -l16
+[0.106s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/sentry_eval_bt
+[0.113s] -- Install configuration: ""
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/lib/sentry_eval_bt/sentry_eval_bt_node
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config/params.yaml
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config/waypoints_bt.xml
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/launch
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/launch/sentry_eval_bt.launch.py
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/package_run_dependencies/sentry_eval_bt
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/parent_prefix_path/sentry_eval_bt
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/ament_prefix_path.sh
+[0.114s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/ament_prefix_path.dsv
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/path.sh
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/path.dsv
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.bash
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.sh
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.zsh
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.dsv
+[0.115s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/package.dsv
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/packages/sentry_eval_bt
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/cmake/sentry_eval_btConfig.cmake
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/cmake/sentry_eval_btConfig-version.cmake
+[0.115s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/package.xml
+[0.117s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/sentry_eval_bt

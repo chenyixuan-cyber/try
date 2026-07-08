@@ -1,0 +1,20 @@
+[100%] Built target goal_approach_controller
+-- Install configuration: ""
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/goal_approach_controller_plugin.xml
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/libgoal_approach_controller.so
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/package_run_dependencies/goal_approach_controller
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/parent_prefix_path/goal_approach_controller
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.bash
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.zsh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/packages/goal_approach_controller
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/goal_approach_controller
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/cmake/goal_approach_controllerConfig.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/cmake/goal_approach_controllerConfig-version.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.xml

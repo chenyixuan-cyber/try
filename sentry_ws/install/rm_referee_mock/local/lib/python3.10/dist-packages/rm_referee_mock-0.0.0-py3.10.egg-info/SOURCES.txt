@@ -1,0 +1,17 @@
+setup.py
+rm_referee_mock/__init__.py
+rm_referee_mock/dart_client_widget.py
+rm_referee_mock/fake_location_widget.py
+rm_referee_mock/keyboard_publisher_widget.py
+rm_referee_mock/match_control_widget.py
+rm_referee_mock/publisher_pool.py
+rm_referee_mock/rqt_plugin_dart_client.py
+rm_referee_mock/rqt_plugin_fake_location.py
+rm_referee_mock/rqt_plugin_keyboard_publisher.py
+rm_referee_mock/rqt_plugin_match_control.py
+rm_referee_mock/sentry_posture.py
+rm_referee_mock/widget_confirmed_line_edit.py
+rm_referee_mock.egg-info/PKG-INFO
+rm_referee_mock.egg-info/SOURCES.txt
+rm_referee_mock.egg-info/dependency_links.txt
+rm_referee_mock.egg-info/top_level.txt

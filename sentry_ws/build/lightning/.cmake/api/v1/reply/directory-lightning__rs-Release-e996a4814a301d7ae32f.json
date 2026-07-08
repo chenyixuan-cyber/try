@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lightning__rs",
+		"source" : "/home/chen/sentry_try/sentry_ws/build/lightning/lightning__rs"
+	}
+}

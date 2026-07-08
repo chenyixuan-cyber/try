@@ -1,0 +1,63 @@
+[  3%] Built target lightning__cpp
+[  3%] Built target lightning__rs
+[  3%] Built target livox_interfaces2__cpp
+[  3%] Built target livox_interfaces2__rs
+[  6%] Built target livox_interfaces2__rosidl_generator_c
+[  7%] Built target miao.utils
+[ 15%] Built target lightning__rosidl_generator_c
+[ 17%] Built target miao.core
+[ 17%] Built target ament_cmake_python_copy_lightning
+[ 17%] Built target ament_cmake_python_copy_livox_ros_driver2
+[ 42%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 42%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 42%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target lightning__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 42%] Built target lightning__rosidl_typesupport_cpp
+[ 42%] Built target lightning__rosidl_typesupport_c
+[ 42%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 49%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 49%] Built target lightning__rosidl_typesupport_introspection_c
+[ 50%] Built target lightning__rosidl_typesupport_introspection_cpp
+[ 53%] Built target lightning__rosidl_typesupport_fastrtps_c
+[ 53%] Built target lightning
+[ 53%] Built target livox_interfaces2
+[ 54%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/nav_state.cc.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/options.cc.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map_chunk.cc.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o[0m
+[ 62%] Built target livox_interfaces2__py
+[ 62%] Built target lightning__py
+[ 63%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o[0m
+[ 65%] Built target lightning__rosidl_generator_py
+[ 65%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o[0m
+running egg_info
+running egg_info
+writing lightning.egg-info/PKG-INFO
+writing dependency_links to lightning.egg-info/dependency_links.txt
+writing livox_ros_driver2.egg-info/PKG-INFO
+writing top-level names to lightning.egg-info/top_level.txt
+writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+reading manifest file 'lightning.egg-info/SOURCES.txt'
+reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+writing manifest file 'lightning.egg-info/SOURCES.txt'
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[ 65%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[ 65%] Built target ament_cmake_python_build_lightning_egg
+[ 66%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o[0m
+[ 68%] Built target livox_interfaces2__rosidl_generator_py
+[ 69%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext
+[ 70%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o[0m
+[ 72%] Built target lightning__rosidl_typesupport_introspection_c__pyext
+[ 73%] Built target lightning__rosidl_typesupport_c__pyext
+[ 73%] [32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o[0m

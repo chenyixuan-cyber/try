@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/app/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/lightning",
+			"paths" : 
+			[
+				"/home/chen/sentry_try/sentry_ws/src/lightning-lm/bin/run_slam_offline"
+			],
+			"targetId" : "run_slam_offline::@ff93792cf40911dae1b8",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/lightning",
+			"paths" : 
+			[
+				"/home/chen/sentry_try/sentry_ws/src/lightning-lm/bin/run_slam_online"
+			],
+			"targetId" : "run_slam_online::@ff93792cf40911dae1b8",
+			"targetIndex" : 43,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/lightning",
+			"paths" : 
+			[
+				"/home/chen/sentry_try/sentry_ws/src/lightning-lm/bin/run_loc_offline"
+			],
+			"targetId" : "run_loc_offline::@ff93792cf40911dae1b8",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/lightning",
+			"paths" : 
+			[
+				"/home/chen/sentry_try/sentry_ws/src/lightning-lm/bin/run_loc_online"
+			],
+			"targetId" : "run_loc_online::@ff93792cf40911dae1b8",
+			"targetIndex" : 40,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/app",
+		"source" : "src/app"
+	}
+}

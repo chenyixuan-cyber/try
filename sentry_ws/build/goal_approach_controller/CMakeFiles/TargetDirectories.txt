@@ -1,0 +1,10 @@
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/uninstall.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/goal_approach_controller_uninstall.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/goal_approach_controller.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/test.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/edit_cache.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/rebuild_cache.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/list_install_components.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/install.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/install/local.dir
+/home/chen/sentry_try/sentry_ws/build/goal_approach_controller/CMakeFiles/install/strip.dir

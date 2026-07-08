@@ -1,0 +1,64 @@
+[ 14%] Built target hipnuc_sdk
+[ 26%] Built target referee_node
+[ 26%] Built target tf_publisher
+[ 38%] Built target ardupilot_filter
+[ 89%] Built target rm
+[ 95%] Built target referee_node_component
+[100%] Built target tf_publisher_component
+-- Install configuration: ""
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/rm_referee/referee_node
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/rm_referee/tf_publisher
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libreferee_node_component.so
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libtf_publisher_component.so
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/launch
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/launch/referee_node.launch.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/launch/tf_publisher.launch.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/referee_node.hpp
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/byte_stream_recorder.hpp
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/log_utils.hpp
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/asio_serial.hpp
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/library_path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/library_path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libreferee_node_component.so
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libtf_publisher_component.so
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/package_run_dependencies/rm_referee
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/parent_prefix_path/rm_referee
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.bash
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.zsh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/package.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/packages/rm_referee
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/rclcpp_components/rm_referee
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/rm_refereeConfig.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/rm_refereeConfig-version.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/package.xml
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libardupilot_filter.a
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/HarmonicNotchFilter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/AP_Filter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/filter_math.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/AP_Filter_config.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/SlewLimiter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/Butter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/filter_config.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/Filter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/LowPassFilter2p.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/AverageFilter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/DerivativeFilter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/FilterWithBuffer.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/LowPassFilter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/FilterClass.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/ModeFilter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/NotchFilter.h
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/cmake/ardupilot_filter/ardupilot_filter-targets.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/cmake/ardupilot_filter/ardupilot_filter-targets-noconfig.cmake

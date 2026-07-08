@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3abaa843442e9c0a59ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_referee_mock",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rm_referee_mock_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rm_referee_mock_egg-3ecae970fa02e2e2690e.json",
+					"name" : "ament_cmake_python_build_rm_referee_mock_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rm_referee_mock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rm_referee_mock-51be592f4dfb944f6140.json",
+					"name" : "ament_cmake_python_copy_rm_referee_mock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_referee_mock_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_referee_mock_uninstall-a90847ae2547f900477c.json",
+					"name" : "rm_referee_mock_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7841639933fb08378ca4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chen/sentry_try/sentry_ws/build/rm_referee_mock",
+		"source" : "/home/chen/sentry_try/sentry_ws/src/rm_referee_mock"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

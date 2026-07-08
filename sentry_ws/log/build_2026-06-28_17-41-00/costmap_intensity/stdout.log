@@ -1,0 +1,4 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/obstacle_layer.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/voxel_layer.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcostmap_intensity_core.so[0m
+[100%] Built target costmap_intensity_core

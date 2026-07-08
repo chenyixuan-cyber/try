@@ -1,0 +1,28 @@
+[0.034s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_intensity -- -j16 -l16
+[0.142s] [ 33%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/obstacle_layer.cpp.o[0m
+[0.145s] [ 66%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/voxel_layer.cpp.o[0m
+[20.616s] [100%] [32m[1mLinking CXX shared library libcostmap_intensity_core.so[0m
+[20.967s] [100%] Built target costmap_intensity_core
+[20.978s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_intensity -- -j16 -l16
+[20.987s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_intensity
+[20.994s] -- Install configuration: "Release"
+[20.999s] -- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/libcostmap_intensity_core.so
+[21.003s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/libcostmap_intensity_core.so" to ""
+[21.004s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/costmap_intensity.xml
+[21.005s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/package_run_dependencies/costmap_intensity
+[21.005s] -- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/parent_prefix_path/costmap_intensity
+[21.007s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/ament_prefix_path.sh
+[21.007s] -- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/ament_prefix_path.dsv
+[21.010s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/path.sh
+[21.010s] -- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/path.dsv
+[21.010s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.bash
+[21.010s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.sh
+[21.010s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.zsh
+[21.010s] -- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.dsv
+[21.011s] -- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.dsv
+[21.013s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/packages/costmap_intensity
+[21.013s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/costmap_intensity
+[21.013s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/cmake/costmap_intensityConfig.cmake
+[21.013s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/cmake/costmap_intensityConfig-version.cmake
+[21.014s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.xml
+[21.016s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_intensity

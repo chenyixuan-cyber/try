@@ -1,0 +1,142 @@
+[0.010s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[0.030s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.110s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.129s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.130s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.134s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.166s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.254s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.282s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.289s] -- Found sentry_msgs: 0.0.2 (/home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake)
+[0.340s] -- Configuring done
+[0.348s] -- Generating done
+[0.353s] -- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/can_comm
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target can_receive_node[0m
+[0.385s] [ 25%] [32mBuilding CXX object CMakeFiles/can_send_node.dir/src/can_send.cpp.o[0m
+[0.390s] [ 75%] Built target can_receive_node
+[2.778s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:70[m[K,
+[2.778s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8[m[K:
+[2.778s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:[m[K In member function ‘[01m[Kvirtual rm::modules::BuzzerNote rm::modules::buzzer_melody::Silent::Update(rm::modules::SequenceGenerator<rm::modules::BuzzerNote>::TimePoint)[m[K’:
+[2.779s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:244:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.779s]   244 |   BuzzerNote Update([01;35m[KTimePoint now[m[K) override { return BuzzerNote(0, 0); }
+[2.779s]       |                     [01;35m[K~~~~~~~~~~^~~[m[K
+[2.779s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:[m[K In member function ‘[01m[Kvirtual void rm::modules::buzzer_melody::Silent::Reset(rm::modules::SequenceGenerator<rm::modules::BuzzerNote>::TimePoint)[m[K’:
+[2.779s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:246:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.779s]   246 |   void Reset([01;35m[KTimePoint now[m[K) override {}
+[2.779s]       |              [01;35m[K~~~~~~~~~~^~~[m[K
+[2.792s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:75[m[K,
+[2.792s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8[m[K:
+[2.792s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:[m[K In member function ‘[01m[Kvirtual rm::modules::RgbLedPattern::Rgb rm::modules::led_pattern::Off::Update(rm::modules::SequenceGenerator<std::tuple<unsigned char, unsigned char, unsigned char> >::TimePoint)[m[K’:
+[2.792s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:58:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.792s]    58 |   Rgb Update([01;35m[KTimePoint now[m[K) override { return Rgb(0, 0, 0); }
+[2.792s]       |              [01;35m[K~~~~~~~~~~^~~[m[K
+[2.792s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:[m[K In member function ‘[01m[Kvirtual void rm::modules::led_pattern::Off::Reset(rm::modules::SequenceGenerator<std::tuple<unsigned char, unsigned char, unsigned char> >::TimePoint)[m[K’:
+[2.792s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:60:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.792s]    60 |   void Reset([01;35m[KTimePoint now[m[K) override {}
+[2.792s]       |              [01;35m[K~~~~~~~~~~^~~[m[K
+[2.812s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K At global scope:
+[2.812s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:206:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klibrm[m[K’ was not declared in this scope
+[2.812s]   206 |     std::unique_ptr<[01;31m[Klibrm[m[K::Can> can_;
+[2.812s]       |                     [01;31m[K^~~~~[m[K
+[2.812s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:206:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.812s]   206 |     std::unique_ptr<librm::Can[01;31m[K>[m[K can_;
+[2.812s]       |                               [01;31m[K^[m[K
+[2.812s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:206:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.861s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:208:44:[m[K [01;31m[Kerror: [m[K‘[01m[KScanModel[m[K’ is not a member of ‘[01m[Ksentry_msgs::msg[m[K’; did you mean ‘[01m[KScanMode_[m[K’?
+[2.861s]   208 |     rclcpp::Subscription<sentry_msgs::msg::[01;31m[KScanModel[m[K>::SharedPtr scan_model_topic_sub_;
+[2.861s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[2.861s]       |                                            [32m[KScanMode_[m[K
+[2.861s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:208:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.862s]   208 |     rclcpp::Subscription<sentry_msgs::msg::ScanModel[01;31m[K>[m[K::SharedPtr scan_model_topic_sub_;
+[2.862s]       |                                                     [01;31m[K^[m[K
+[2.862s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:208:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.862s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:208:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.862s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:208:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.862s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:208:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.862s]   208 |     rclcpp::Subscription<sentry_msgs::msg::ScanModel>::[01;31m[KSharedPtr[m[K scan_model_topic_sub_;
+[2.862s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[2.862s]       |                                                                 [32m[K;[m[K
+[2.864s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:208:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_model_topic_sub_[m[K’ does not name a type
+[2.864s]   208 |     rclcpp::Subscription<sentry_msgs::msg::ScanModel>::SharedPtr [01;31m[Kscan_model_topic_sub_[m[K;
+[2.864s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.921s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In constructor ‘[01m[KCanSender::CanSender()[m[K’:
+[2.921s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:50:36:[m[K [01;31m[Kerror: [m[K‘[01m[Klibrm[m[K’ was not declared in this scope
+[2.921s]    50 |             can_= std::make_unique<[01;31m[Klibrm[m[K::Can>(port.c_str(), send_freq, id_scan);
+[2.922s]       |                                    [01;31m[K^~~~~[m[K
+[2.922s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:50:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.922s]    50 |             can_= std::[01;31m[Kmake_unique<librm::Can>[m[K(port.c_str(), send_freq, id_scan);
+[2.922s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.922s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:50:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const char*, int&, int&)[m[K’
+[2.922s]    50 |             can_= [01;31m[Kstd::make_unique<librm::Can>(port.c_str(), send_freq, id_scan)[m[K;
+[2.922s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.922s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.922s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:1[m[K:
+[2.922s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[2.922s]   961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[2.922s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.922s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.922s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:50:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.922s]    50 |             can_= [01;31m[Kstd::make_unique<librm::Can>(port.c_str(), send_freq, id_scan)[m[K;
+[2.922s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.922s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.922s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:1[m[K:
+[2.922s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[2.922s]   967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[2.922s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.922s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.922s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:50:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.922s]    50 |             can_= [01;31m[Kstd::make_unique<librm::Can>(port.c_str(), send_freq, id_scan)[m[K;
+[2.922s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.923s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.923s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:1[m[K:
+[2.923s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+[2.923s]   973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[2.923s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.923s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.923s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:50:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.923s]    50 |             can_= [01;31m[Kstd::make_unique<librm::Can>(port.c_str(), send_freq, id_scan)[m[K;
+[2.923s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.923s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:51:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.923s]    51 |             can_[01;31m[K->[m[Kbegin();
+[2.923s]       |                 [01;31m[K^~[m[K
+[2.935s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_model_topic_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_model_topic[m[K’?
+[2.935s]    67 |         [01;31m[Kscan_model_topic_sub_[m[K = this->create_subscription<sentry_msgs::msg::ScanMode>(
+[2.936s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.936s]       |         [32m[Kscan_model_topic[m[K
+[2.943s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In lambda function:
+[2.943s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:70:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_model_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_model_type_[m[K’?
+[2.943s]    70 |                 std::lock_guard<std::mutex> lock([01;31m[Kscan_model_mutex_[m[K);
+[2.944s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.944s]       |                                                  [32m[Kscan_model_type_[m[K
+[2.975s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In lambda function:
+[2.975s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:78:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kvw_mutex_[m[K’ was not declared in this scope
+[2.975s]    78 |                 std::lock_guard<std::mutex> lock([01;31m[Kvw_mutex_[m[K);
+[2.975s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.982s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In lambda function:
+[2.982s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:89:50:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_yaw_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_yaw_sub_[m[K’?
+[2.982s]    89 |                 std::lock_guard<std::mutex> lock([01;31m[Ktarget_yaw_mutex_[m[K);
+[2.982s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.982s]       |                                                  [32m[Ktarget_yaw_sub_[m[K
+[2.997s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In member function ‘[01m[Kvoid CanSender::cmd_vel_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.997s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:111:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcmd_vel_sub_[m[K’?
+[2.997s]   111 |         std::lock_guard<std::mutex> lock([01;31m[Kcmd_vel_mutex_[m[K);
+[2.997s]       |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.997s]       |                                          [32m[Kcmd_vel_sub_[m[K
+[3.002s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In member function ‘[01m[Kvoid CanSender::SendFrame()[m[K’:
+[3.002s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:125:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcmd_vel_sub_[m[K’?
+[3.002s]   125 |            std::lock_guard<std::mutex> lock1([01;31m[Kcmd_vel_mutex_[m[K);
+[3.002s]       |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.002s]       |                                              [32m[Kcmd_vel_sub_[m[K
+[3.002s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:192:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.002s]   192 |         can_[01;31m[K->[m[KWrite(id_scan_, data, sizeof(data));
+[3.003s]       |             [01;31m[K^~[m[K
+[6.621s] gmake[2]: *** [CMakeFiles/can_send_node.dir/build.make:76：CMakeFiles/can_send_node.dir/src/can_send.cpp.o] 错误 1
+[6.622s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/can_send_node.dir/all] 错误 2
+[6.622s] gmake: *** [Makefile:146：all] 错误 2
+[6.625s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '2': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16

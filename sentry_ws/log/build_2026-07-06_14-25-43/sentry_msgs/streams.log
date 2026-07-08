@@ -1,0 +1,274 @@
+[0.034s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/sentry_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/sentry_msgs
+[0.049s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.169s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.229s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.483s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.990s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.019s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.019s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.019s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.147s] -- Configuring done
+[1.205s] -- Generating done
+[1.218s] -- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/sentry_msgs
+[1.230s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/sentry_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/sentry_msgs
+[1.231s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/sentry_msgs -- -j16 -l16
+[1.292s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_generator_c[0m
+[1.322s] [  2%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/vw__functions.c.o[0m
+[1.329s] [  6%] Built target sentry_msgs__cpp
+[1.334s] [  6%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/scan_mode__functions.c.o[0m
+[1.336s] [  8%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/armor_presence__functions.c.o[0m
+[1.340s] [ 10%] Built target sentry_msgs__rs
+[1.353s] [ 10%] Built target ament_cmake_python_copy_sentry_msgs
+[1.358s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.367s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_cpp[0m
+[1.372s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.383s] [ 12%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/vw__type_support.cpp.o[0m
+[1.395s] [ 14%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/scan_mode__type_support.cpp.o[0m
+[1.404s] [ 16%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/armor_presence__type_support.cpp.o[0m
+[1.410s] [ 18%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/vw__type_support.cpp.o[0m
+[1.412s] [ 20%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/vw__type_support.cpp.o[0m
+[1.418s] [ 22%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/scan_mode__type_support.cpp.o[0m
+[1.418s] [ 25%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/armor_presence__type_support.cpp.o[0m
+[1.426s] [ 27%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/scan_mode__type_support.cpp.o[0m
+[1.429s] [ 29%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/armor_presence__type_support.cpp.o[0m
+[1.534s] [ 31%] [32m[1mLinking C shared library libsentry_msgs__rosidl_generator_c.so[0m
+[1.670s] [ 33%] Built target sentry_msgs__rosidl_generator_c
+[1.702s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_c[0m
+[1.718s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.720s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_introspection_c[0m
+[1.735s] [ 39%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/scan_mode__type_support.cpp.o[0m
+[1.735s] [ 39%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/vw__type_support.cpp.o[0m
+[1.737s] [ 39%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/armor_presence__type_support.cpp.o[0m
+[1.756s] [ 41%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/scan_mode__type_support_c.cpp.o[0m
+[1.767s] [ 43%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/vw__type_support_c.cpp.o[0m
+[1.775s] [ 45%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/vw__type_support.c.o[0m
+[1.798s] [ 47%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/armor_presence__type_support_c.cpp.o[0m
+[1.838s] [ 50%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/scan_mode__type_support.c.o[0m
+[1.843s] [ 52%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/armor_presence__type_support.c.o[0m
+[1.854s] [ 54%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_c.so[0m
+[1.970s] [ 56%] [32m[1mLinking C shared library libsentry_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.993s] [ 58%] Built target sentry_msgs__rosidl_typesupport_c
+[2.061s] [ 60%] Built target sentry_msgs__rosidl_typesupport_introspection_c
+[2.127s] [ 62%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_cpp.so[0m
+[2.159s] running egg_info
+[2.163s] writing sentry_msgs.egg-info/PKG-INFO
+[2.163s] writing dependency_links to sentry_msgs.egg-info/dependency_links.txt
+[2.163s] writing top-level names to sentry_msgs.egg-info/top_level.txt
+[2.177s] reading manifest file 'sentry_msgs.egg-info/SOURCES.txt'
+[2.182s] writing manifest file 'sentry_msgs.egg-info/SOURCES.txt'
+[2.202s] [ 64%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.233s] [ 66%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.261s] [ 68%] Built target sentry_msgs__rosidl_typesupport_cpp
+[2.315s] [ 68%] Built target ament_cmake_python_build_sentry_msgs_egg
+[2.458s] [ 70%] Built target sentry_msgs__rosidl_typesupport_introspection_cpp
+[2.567s] [ 72%] Built target sentry_msgs__rosidl_typesupport_fastrtps_cpp
+[2.715s] [ 75%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.977s] [ 77%] Built target sentry_msgs__rosidl_typesupport_fastrtps_c
+[3.045s] [ 77%] Built target sentry_msgs
+[3.112s] [ 79%] Built target sentry_msgs__py
+[3.152s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_generator_py[0m
+[3.193s] [ 81%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_armor_presence_s.c.o[0m
+[3.196s] [ 83%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_scan_mode_s.c.o[0m
+[3.198s] [ 85%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_vw_s.c.o[0m
+[3.503s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/libsentry_msgs__rosidl_generator_py.so[0m
+[3.641s] [ 87%] Built target sentry_msgs__rosidl_generator_py
+[3.672s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.680s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_c__pyext[0m
+[3.689s] [35m[1mConsolidate compiler generated dependencies of target sentry_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.709s] [ 89%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.716s] [ 91%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.735s] [ 93%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.981s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.043s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.072s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.129s] [100%] Built target sentry_msgs__rosidl_typesupport_introspection_c__pyext
+[4.179s] [100%] Built target sentry_msgs__rosidl_typesupport_c__pyext
+[4.226s] [100%] Built target sentry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.274s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/sentry_msgs -- -j16 -l16
+[4.274s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/sentry_msgs
+[4.301s] -- Install configuration: "Release"
+[4.302s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/ament_index/resource_index/rosidl_interfaces/sentry_msgs
+[4.302s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[4.302s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[4.302s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/armor_presence.h
+[4.302s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/scan_mode.h
+[4.302s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/vw.h
+[4.304s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.305s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__functions.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__functions.c
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__functions.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__functions.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__functions.c
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__type_support.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__struct.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__type_support.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__functions.c
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__type_support.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__struct.h
+[4.306s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__struct.h
+[4.307s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/library_path.sh
+[4.307s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/library_path.dsv
+[4.312s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_c.so
+[4.313s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_c.so" to ""
+[4.315s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[4.316s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[4.316s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.316s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[4.316s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__rosidl_typesupport_fastrtps_c.h
+[4.316s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__rosidl_typesupport_fastrtps_c.h
+[4.317s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__rosidl_typesupport_fastrtps_c.h
+[4.317s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_c.so
+[4.317s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.317s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[4.317s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[4.317s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.317s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[4.317s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__type_support.c
+[4.317s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__type_support.c
+[4.318s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__type_support.c
+[4.318s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__rosidl_typesupport_introspection_c.h
+[4.318s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__rosidl_typesupport_introspection_c.h
+[4.318s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__rosidl_typesupport_introspection_c.h
+[4.319s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_c.so
+[4.319s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.324s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_c.so
+[4.325s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_c.so" to ""
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/scan_mode.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/armor_presence.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/vw.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__struct.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__type_support.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__traits.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__traits.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__builder.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__builder.hpp
+[4.325s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__type_support.hpp
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__struct.hpp
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__struct.hpp
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__builder.hpp
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__type_support.hpp
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__traits.hpp
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__rosidl_typesupport_fastrtps_cpp.hpp
+[4.326s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__rosidl_typesupport_fastrtps_cpp.hpp
+[4.333s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.333s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dds_fastrtps
+[4.333s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.333s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.335s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__type_support.cpp
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/scan_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__type_support.cpp
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/vw__rosidl_typesupport_introspection_cpp.hpp
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__type_support.cpp
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/armor_presence__rosidl_typesupport_introspection_cpp.hpp
+[4.336s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_cpp.so
+[4.336s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.336s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_cpp.so
+[4.336s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_cpp.so" to ""
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/pythonpath.sh
+[4.336s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/pythonpath.dsv
+[4.336s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.2-py3.10.egg-info
+[4.343s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.2-py3.10.egg-info/top_level.txt
+[4.343s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.2-py3.10.egg-info/PKG-INFO
+[4.343s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.2-py3.10.egg-info/SOURCES.txt
+[4.343s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.2-py3.10.egg-info/dependency_links.txt
+[4.343s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs
+[4.343s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_vw_s.c
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_scan_mode_s.c
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_vw.py
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_scan_mode.py
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_armor_presence.py
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_armor_presence_s.c
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/__init__.py
+[4.347s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/libsentry_msgs__rosidl_generator_py.so
+[4.347s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.347s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.347s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_c.c
+[4.347s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/__init__.py
+[4.418s] Listing '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs'...
+[4.418s] Compiling '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/__init__.py'...
+[4.418s] Listing '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg'...
+[4.439s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.439s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.439s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.440s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.440s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.443s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.443s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_py.so
+[4.444s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_py.so" to ""
+[4.444s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/ament_index/resource_index/rust_packages/sentry_msgs
+[4.444s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust
+[4.445s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust/Cargo.toml
+[4.446s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust/build.rs
+[4.446s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust/src
+[4.446s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust/src/msg
+[4.447s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust/src/msg/rmw.rs
+[4.447s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust/src/msg.rs
+[4.447s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/rust/src/lib.rs
+[4.447s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/msg/Vw.idl
+[4.447s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/msg/ScanMode.idl
+[4.447s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/msg/ArmorPresence.idl
+[4.448s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/msg/Vw.msg
+[4.448s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/msg/ScanMode.msg
+[4.448s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/msg/ArmorPresence.msg
+[4.448s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/ament_index/resource_index/package_run_dependencies/sentry_msgs
+[4.448s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/ament_index/resource_index/parent_prefix_path/sentry_msgs
+[4.451s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/ament_prefix_path.sh
+[4.451s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/ament_prefix_path.dsv
+[4.451s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/path.sh
+[4.451s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/environment/path.dsv
+[4.451s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/local_setup.bash
+[4.451s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/local_setup.sh
+[4.451s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/local_setup.zsh
+[4.451s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/local_setup.dsv
+[4.451s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/package.dsv
+[4.454s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/ament_index/resource_index/packages/sentry_msgs
+[4.454s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_cExport.cmake
+[4.454s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_cExport-release.cmake
+[4.454s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.455s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.455s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.456s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[4.456s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cExport.cmake
+[4.456s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cExport-release.cmake
+[4.456s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_cppExport.cmake
+[4.457s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.457s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.457s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.457s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.461s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cppExport.cmake
+[4.461s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cppExport-release.cmake
+[4.461s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_pyExport.cmake
+[4.461s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_pyExport-release.cmake
+[4.461s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/rosidl_cmake-extras.cmake
+[4.461s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.461s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.462s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.462s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.462s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.462s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.462s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[4.462s] -- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgsConfig.cmake
+[4.462s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgsConfig-version.cmake
+[4.462s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/package.xml
+[4.466s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/sentry_msgs

@@ -1,0 +1,10 @@
+setup.py
+sentry_msgs/__init__.py
+sentry_msgs.egg-info/PKG-INFO
+sentry_msgs.egg-info/SOURCES.txt
+sentry_msgs.egg-info/dependency_links.txt
+sentry_msgs.egg-info/top_level.txt
+sentry_msgs/msg/__init__.py
+sentry_msgs/msg/_armor_presence.py
+sentry_msgs/msg/_scan_mode.py
+sentry_msgs/msg/_vw.py

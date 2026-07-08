@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target costmap_voxel_layer[0m
+[100%] Built target costmap_voxel_layer
+-- Install configuration: ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/resource/costmap_voxel_plugins.xml
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib/libcostmap_voxel_layer.so
+-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib/libcostmap_voxel_layer.so" to ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/include
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/include/costmap_voxel
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/include/costmap_voxel/voxel_filter_layer.hpp
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/costmap_voxel_plugins.xml
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/ament_index/resource_index/packages/costmap_voxel
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/ament_index/resource_index/package_run_dependencies/costmap_voxel
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/ament_index/resource_index/parent_prefix_path/costmap_voxel
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/environment/ament_prefix_path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/environment/ament_prefix_path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/environment/path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/environment/path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/local_setup.bash
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/local_setup.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/local_setup.zsh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/ament_index/resource_index/packages/costmap_voxel
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/costmap_voxel
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/cmake/costmap_voxelConfig.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/cmake/costmap_voxelConfig-version.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.xml

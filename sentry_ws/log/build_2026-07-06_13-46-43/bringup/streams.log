@@ -1,0 +1,52 @@
+[0.010s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/bringup -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/bringup
+[0.020s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Configuring done
+[0.152s] -- Generating done
+[0.154s] -- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/bringup
+[0.159s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/bringup -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/bringup
+[0.159s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/bringup -- -j16 -l16
+[0.195s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/bringup -- -j16 -l16
+[0.204s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/bringup
+[0.211s] -- Install configuration: ""
+[0.211s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/lib/bringup/costmap_monitor.py
+[0.211s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/lib/bringup/restart_manager.py
+[0.211s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/lib/bringup/scan_monitor.py
+[0.211s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/lib/bringup/map_monitor.py
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//launch
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//launch/start.launch.py
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//launch/monitored_start.launch.py
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/default_livox.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/sequential_nodes.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/serial_params.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/lidar.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/nav2_default_view.rviz
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/navigation_params.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/topic_names.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/loc_start_pose.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/odin.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/livox_to_scan.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/can_params.yaml
+[0.211s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//config/singlenav2_params.yaml
+[0.211s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//map
+[0.212s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//map/map.yaml
+[0.212s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//map/map.pgm
+[0.213s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//behavior_trees
+[0.213s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
+[0.214s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup//behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+[0.214s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
+[0.214s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
+[0.214s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh
+[0.214s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv
+[0.214s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/environment/path.sh
+[0.214s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/environment/path.dsv
+[0.214s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/local_setup.bash
+[0.215s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/local_setup.sh
+[0.215s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/local_setup.zsh
+[0.215s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/local_setup.dsv
+[0.215s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/package.dsv
+[0.215s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/ament_index/resource_index/packages/bringup
+[0.215s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake
+[0.215s] -- Installing: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake
+[0.215s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/bringup/share/bringup/package.xml
+[0.217s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/bringup

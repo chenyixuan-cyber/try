@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target sentry_eval_bt_node[0m
+[100%] Built target sentry_eval_bt_node
+-- Install configuration: ""
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/lib/sentry_eval_bt/sentry_eval_bt_node
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config/params.yaml
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config/waypoints_bt.xml
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/launch
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/launch/sentry_eval_bt.launch.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/package_run_dependencies/sentry_eval_bt
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/parent_prefix_path/sentry_eval_bt
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.bash
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.zsh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/package.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/packages/sentry_eval_bt
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/cmake/sentry_eval_btConfig.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/cmake/sentry_eval_btConfig-version.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/package.xml

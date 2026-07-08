@@ -1,0 +1,4 @@
+[ 87%] Built target can_send_node
+[ 87%] [32mBuilding CXX object CMakeFiles/target_frame_node.dir/src/target_frame_node.cpp.o[0m
+[ 87%] Built target can_receive_node
+[ 87%] Built target vyaw_tf_yaw_controller_node

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target goal_approach_controller[0m
+[100%] Built target goal_approach_controller
+-- Install configuration: ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/goal_approach_controller_plugin.xml
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/libgoal_approach_controller.so
+-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/libgoal_approach_controller.so" to ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/package_run_dependencies/goal_approach_controller
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/parent_prefix_path/goal_approach_controller
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/ament_prefix_path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.bash
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.zsh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/packages/goal_approach_controller
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/goal_approach_controller
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/cmake/goal_approach_controllerConfig.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/cmake/goal_approach_controllerConfig-version.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.xml

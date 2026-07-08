@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (-) JobUnselected: {'identifier': 'costmap_intensity'}
+[0.000396] (-) JobUnselected: {'identifier': 'costmap_voxel'}
+[0.000436] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000467] (-) JobUnselected: {'identifier': 'goal_approach_controller'}
+[0.000493] (-) JobUnselected: {'identifier': 'lightning'}
+[0.000520] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000547] (-) JobUnselected: {'identifier': 'livox_to_scan'}
+[0.000577] (-) JobUnselected: {'identifier': 'pb_nav2_plugins'}
+[0.000742] (-) JobUnselected: {'identifier': 'rm_referee'}
+[0.000765] (-) JobUnselected: {'identifier': 'rm_referee_mock'}
+[0.000782] (-) JobUnselected: {'identifier': 'rm_referee_msgs'}
+[0.000797] (-) JobUnselected: {'identifier': 'sentry_msgs'}
+[0.000810] (-) JobUnselected: {'identifier': 'serial_comm'}
+[0.000824] (can_comm) JobQueued: {'identifier': 'can_comm', 'dependencies': OrderedDict([('sentry_msgs', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs')])}
+[0.000842] (can_comm) JobStarted: {'identifier': 'can_comm'}
+[0.010356] (can_comm) JobProgress: {'identifier': 'can_comm', 'progress': 'cmake'}
+[0.010731] (can_comm) JobProgress: {'identifier': 'can_comm', 'progress': 'build'}
+[0.011132] (can_comm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/sentry_try/sentry_ws/build/can_comm', '--', '-j16', '-l16'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/can_comm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1466'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1618'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3553'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:15169'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1587,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1587'), ('INVOCATION_ID', '0811db6233e64d5295bac4ae9c54ee42'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ea1f05db986d3501.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I6IQR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/can_comm'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble')]), 'shell': False}
+[0.047663] (can_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target can_send_node\x1b[0m\n'}
+[0.059314] (can_comm) StdoutLine: {'line': b'[ 50%] Built target can_receive_node\n'}
+[0.064335] (can_comm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/can_send_node.dir/src/can_send.cpp.o\x1b[0m\n'}
+[0.099450] (-) TimerEvent: {}
+[0.200057] (-) TimerEvent: {}
+[0.300323] (-) TimerEvent: {}
+[0.400623] (-) TimerEvent: {}
+[0.500934] (-) TimerEvent: {}
+[0.601228] (-) TimerEvent: {}
+[0.701512] (-) TimerEvent: {}
+[0.801766] (-) TimerEvent: {}
+[0.902022] (-) TimerEvent: {}
+[1.002286] (-) TimerEvent: {}
+[1.102554] (-) TimerEvent: {}
+[1.202905] (-) TimerEvent: {}
+[1.303187] (-) TimerEvent: {}
+[1.403478] (-) TimerEvent: {}
+[1.503742] (-) TimerEvent: {}
+[1.604047] (-) TimerEvent: {}
+[1.704327] (-) TimerEvent: {}
+[1.804632] (-) TimerEvent: {}
+[1.810583] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCanSender::CanSender()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.810715] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:44:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksend_freq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.810760] (can_comm) StderrLine: {'line': b'   44 |         int \x1b[01;35m\x1b[Ksend_freq\x1b[m\x1b[K = this->get_parameter("send_freq").as_int();\n'}
+[1.810792] (can_comm) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904740] (-) TimerEvent: {}
+[2.005044] (-) TimerEvent: {}
+[2.105312] (-) TimerEvent: {}
+[2.205568] (-) TimerEvent: {}
+[2.305878] (-) TimerEvent: {}
+[2.406214] (-) TimerEvent: {}
+[2.506550] (-) TimerEvent: {}
+[2.606858] (-) TimerEvent: {}
+[2.707163] (-) TimerEvent: {}
+[2.807492] (-) TimerEvent: {}
+[2.907792] (-) TimerEvent: {}
+[3.008100] (-) TimerEvent: {}
+[3.108420] (-) TimerEvent: {}
+[3.208748] (-) TimerEvent: {}
+[3.309065] (-) TimerEvent: {}
+[3.409400] (-) TimerEvent: {}
+[3.509710] (-) TimerEvent: {}
+[3.610028] (-) TimerEvent: {}
+[3.710322] (-) TimerEvent: {}
+[3.810624] (-) TimerEvent: {}
+[3.910927] (-) TimerEvent: {}
+[4.011250] (-) TimerEvent: {}
+[4.111574] (-) TimerEvent: {}
+[4.211948] (-) TimerEvent: {}
+[4.312297] (-) TimerEvent: {}
+[4.412680] (-) TimerEvent: {}
+[4.513018] (-) TimerEvent: {}
+[4.613326] (-) TimerEvent: {}
+[4.713626] (-) TimerEvent: {}
+[4.813927] (-) TimerEvent: {}
+[4.914239] (-) TimerEvent: {}
+[5.014567] (-) TimerEvent: {}
+[5.114880] (-) TimerEvent: {}
+[5.215183] (-) TimerEvent: {}
+[5.315558] (-) TimerEvent: {}
+[5.415910] (-) TimerEvent: {}
+[5.516309] (-) TimerEvent: {}
+[5.616677] (-) TimerEvent: {}
+[5.717011] (-) TimerEvent: {}
+[5.817317] (-) TimerEvent: {}
+[5.917697] (-) TimerEvent: {}
+[6.018057] (-) TimerEvent: {}
+[6.118326] (-) TimerEvent: {}
+[6.218594] (-) TimerEvent: {}
+[6.318848] (-) TimerEvent: {}
+[6.419104] (-) TimerEvent: {}
+[6.519411] (-) TimerEvent: {}
+[6.619792] (-) TimerEvent: {}
+[6.720022] (-) TimerEvent: {}
+[6.820249] (-) TimerEvent: {}
+[6.920489] (-) TimerEvent: {}
+[7.020733] (-) TimerEvent: {}
+[7.121028] (-) TimerEvent: {}
+[7.221334] (-) TimerEvent: {}
+[7.321730] (-) TimerEvent: {}
+[7.422203] (-) TimerEvent: {}
+[7.522565] (-) TimerEvent: {}
+[7.622961] (-) TimerEvent: {}
+[7.723290] (-) TimerEvent: {}
+[7.823718] (-) TimerEvent: {}
+[7.924302] (-) TimerEvent: {}
+[8.024585] (-) TimerEvent: {}
+[8.124822] (-) TimerEvent: {}
+[8.225073] (-) TimerEvent: {}
+[8.325390] (-) TimerEvent: {}
+[8.425707] (-) TimerEvent: {}
+[8.526028] (-) TimerEvent: {}
+[8.626330] (-) TimerEvent: {}
+[8.726628] (-) TimerEvent: {}
+[8.826923] (-) TimerEvent: {}
+[8.927208] (-) TimerEvent: {}
+[9.027469] (-) TimerEvent: {}
+[9.127756] (-) TimerEvent: {}
+[9.228047] (-) TimerEvent: {}
+[9.328322] (-) TimerEvent: {}
+[9.428593] (-) TimerEvent: {}
+[9.528864] (-) TimerEvent: {}
+[9.629144] (-) TimerEvent: {}
+[9.729434] (-) TimerEvent: {}
+[9.829752] (-) TimerEvent: {}
+[9.930044] (-) TimerEvent: {}
+[10.030310] (-) TimerEvent: {}
+[10.130546] (-) TimerEvent: {}
+[10.230802] (-) TimerEvent: {}
+[10.331113] (-) TimerEvent: {}
+[10.431460] (-) TimerEvent: {}
+[10.531751] (-) TimerEvent: {}
+[10.632050] (-) TimerEvent: {}
+[10.694998] (can_comm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable can_send_node\x1b[0m\n'}
+[10.732156] (-) TimerEvent: {}
+[10.832554] (-) TimerEvent: {}
+[10.932899] (-) TimerEvent: {}
+[11.033227] (-) TimerEvent: {}
+[11.133491] (-) TimerEvent: {}
+[11.232782] (can_comm) StdoutLine: {'line': b'[100%] Built target can_send_node\n'}
+[11.233558] (-) TimerEvent: {}
+[11.243748] (can_comm) CommandEnded: {'returncode': 0}
+[11.244193] (can_comm) JobProgress: {'identifier': 'can_comm', 'progress': 'install'}
+[11.252857] (can_comm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/sentry_try/sentry_ws/build/can_comm'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/can_comm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1466'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1618'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3553'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:15169'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1587,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1587'), ('INVOCATION_ID', '0811db6233e64d5295bac4ae9c54ee42'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ea1f05db986d3501.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I6IQR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/can_comm'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble')]), 'shell': False}
+[11.261224] (can_comm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.261556] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_receive_node\n'}
+[11.261682] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_send_node\n'}
+[11.269446] (can_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_send_node" to ""\n'}
+[11.269647] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config\n'}
+[11.269687] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config/can_params.yaml\n'}
+[11.269724] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/package_run_dependencies/can_comm\n'}
+[11.269778] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/parent_prefix_path/can_comm\n'}
+[11.269961] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.sh\n'}
+[11.270019] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.dsv\n'}
+[11.270195] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.sh\n'}
+[11.270238] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.dsv\n'}
+[11.270434] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.bash\n'}
+[11.270476] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.sh\n'}
+[11.270519] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.zsh\n'}
+[11.270553] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.dsv\n'}
+[11.270710] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.dsv\n'}
+[11.270930] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/packages/can_comm\n'}
+[11.270967] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig.cmake\n'}
+[11.271003] (can_comm) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig-version.cmake\n'}
+[11.271030] (can_comm) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.xml\n'}
+[11.272907] (can_comm) CommandEnded: {'returncode': 0}
+[11.283102] (can_comm) JobEnded: {'identifier': 'can_comm', 'rc': 0}
+[11.283856] (-) EventReactorShutdown: {}

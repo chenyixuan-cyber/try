@@ -1,0 +1,114 @@
+[0.010s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_generator_c[0m
+[0.056s] [  1%] Built target lightning__rs
+[0.058s] [  4%] Built target lightning__rosidl_generator_c
+[0.074s] [  5%] Built target lightning__cpp
+[0.082s] [  5%] Built target ament_cmake_python_copy_lightning
+[0.090s] [  5%] Built target livox_interfaces2__rs
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c[0m
+[0.101s] [  8%] Built target livox_interfaces2__rosidl_generator_c
+[0.107s] [  9%] Built target livox_interfaces2__cpp
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target miao.utils[0m
+[0.128s] [  9%] Built target ament_cmake_python_copy_livox_ros_driver2
+[0.131s] [ 10%] Built target miao.utils
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target miao.core[0m
+[0.151s] [ 13%] Built target lightning__rosidl_typesupport_fastrtps_c
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_cpp[0m
+[0.166s] [ 20%] Built target miao.core
+[0.173s] [ 23%] Built target lightning__rosidl_typesupport_fastrtps_cpp
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_c[0m
+[0.183s] [ 26%] Built target lightning__rosidl_typesupport_introspection_c
+[0.191s] [ 29%] Built target lightning__rosidl_typesupport_c
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_cpp[0m
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_cpp[0m
+[0.203s] [ 32%] Built target lightning__rosidl_typesupport_introspection_cpp
+[0.211s] [ 35%] Built target lightning__rosidl_typesupport_cpp
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c[0m
+[0.233s] [ 38%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp[0m
+[0.256s] [ 41%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c[0m
+[0.276s] [ 44%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[0.285s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c[0m
+[0.296s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_c
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp[0m
+[0.318s] [ 50%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp[0m
+[0.339s] [ 53%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[0.367s] running egg_info
+[0.368s] writing lightning.egg-info/PKG-INFO
+[0.368s] writing dependency_links to lightning.egg-info/dependency_links.txt
+[0.368s] writing top-level names to lightning.egg-info/top_level.txt
+[0.369s] reading manifest file 'lightning.egg-info/SOURCES.txt'
+[0.370s] writing manifest file 'lightning.egg-info/SOURCES.txt'
+[0.393s] [ 53%] Built target ament_cmake_python_build_lightning_egg
+[0.431s] [35m[1mConsolidate compiler generated dependencies of target lightning.libs[0m
+[0.509s] running egg_info
+[0.509s] writing livox_ros_driver2.egg-info/PKG-INFO
+[0.510s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[0.510s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[0.511s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.512s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.535s] [ 53%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[0.552s] [ 53%] Built target lightning
+[0.570s] [ 53%] Built target livox_interfaces2
+[0.575s] [ 76%] Built target lightning.libs
+[0.589s] [ 77%] Built target lightning__py
+[0.592s] [ 77%] Built target livox_interfaces2__py
+[0.601s] [35m[1mConsolidate compiler generated dependencies of target run_frontend_offline[0m
+[0.602s] [35m[1mConsolidate compiler generated dependencies of target run_loop_offline[0m
+[0.632s] [ 79%] Built target run_frontend_offline
+[0.632s] [ 80%] Built target run_loop_offline
+[0.643s] [35m[1mConsolidate compiler generated dependencies of target run_slam_offline[0m
+[0.643s] [35m[1mConsolidate compiler generated dependencies of target run_slam_online[0m
+[0.671s] [ 83%] Built target run_slam_online
+[0.671s] [ 83%] Built target run_slam_offline
+[0.682s] [35m[1mConsolidate compiler generated dependencies of target run_loc_online[0m
+[0.682s] [35m[1mConsolidate compiler generated dependencies of target run_loc_offline[0m
+[0.709s] [ 85%] Built target run_loc_offline
+[0.709s] [ 86%] Built target run_loc_online
+[0.719s] [35m[1mConsolidate compiler generated dependencies of target test_ui[0m
+[0.744s] [ 88%] Built target test_ui
+[0.752s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_generator_py[0m
+[0.752s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py[0m
+[0.764s] [ 92%] Built target lightning__rosidl_generator_py
+[0.764s] [ 92%] Built target livox_interfaces2__rosidl_generator_py
+[0.774s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext[0m
+[0.774s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.784s] [ 95%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[0.785s] [ 95%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[0.792s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext[0m
+[0.804s] [ 97%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[0.812s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.812s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c__pyext[0m
+[0.822s] [ 99%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext
+[0.823s] [ 99%] Built target lightning__rosidl_typesupport_introspection_c__pyext
+[0.833s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_c__pyext[0m
+[0.844s] [100%] Built target lightning__rosidl_typesupport_c__pyext
+[0.855s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/lightning' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning
+[0.856s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 120, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 108, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 124, in has_target
+    codemodel_targets = _get_codemodel_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 92, in _get_codemodel_targets
+    codemodel_data = _read_codemodel(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 88, in _read_codemodel
+    return json.load(f)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

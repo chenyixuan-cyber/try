@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "thirdparty/livox_ros_driver/livox_interfaces2__rs",
+		"source" : "/home/chen/sentry_try/sentry_ws/build/lightning/thirdparty/livox_ros_driver/livox_interfaces2__rs"
+	}
+}

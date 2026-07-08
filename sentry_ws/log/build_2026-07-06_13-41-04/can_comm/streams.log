@@ -1,0 +1,59 @@
+[0.014s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/home/chen/sentry_try/sentry_ws/install/serial_comm:/home/chen/sentry_try/sentry_ws/install/can_comm:/home/chen/sentry_try/sentry_ws/install/sentry_eval_bt:/home/chen/sentry_try/sentry_ws/install/rm_referee_mock:/home/chen/sentry_try/sentry_ws/install/rm_referee:/home/chen/sentry_try/sentry_ws/install/lightning:/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins:/home/chen/sentry_try/sentry_ws/install/livox_to_scan:/home/chen/sentry_try/sentry_ws/install/fast_lio:/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2:/home/chen/sentry_try/sentry_ws/install/goal_approach_controller:/home/chen/sentry_try/sentry_ws/install/costmap_voxel:/home/chen/sentry_try/sentry_ws/install/costmap_intensity:/home/chen/sentry_try/sentry_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[0.057s] gmake[2]: 警告：文件“/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp”的修改时间在未来 27424 秒后
+[0.066s] [ 87%] Built target can_send_node
+[0.067s] [ 87%] [32mBuilding CXX object CMakeFiles/target_frame_node.dir/src/target_frame_node.cpp.o[0m
+[0.067s] [ 87%] Built target can_receive_node
+[0.067s] [ 87%] Built target vyaw_tf_yaw_controller_node
+[0.315s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:11[m[K:
+[0.315s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.315s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.315s]       |  [01;35m[K^~~~~~~[m[K
+[1.942s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:[m[K In constructor ‘[01m[KTargetFrameNode::TargetFrameNode()[m[K’:
+[1.942s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_name_topic_[m[K’ was not declared in this scope
+[1.942s]    46 |         [01;31m[Kplanner_name_topic_[m[K = this->get_parameter("planner_name_topic").as_string();
+[1.942s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.945s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:[m[K In lambda function:
+[1.945s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:59:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.945s]    59 |             [this]([01;35m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr msg[m[K) {
+[1.945s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.954s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:[m[K In constructor ‘[01m[KTargetFrameNode::TargetFrameNode()[m[K’:
+[1.954s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaner_name_sub_[m[K’ was not declared in this scope
+[1.954s]    86 |         [01;31m[Kplaner_name_sub_[m[K = this->create_subscription<std_msgs::msg::String>(
+[1.954s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.962s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:[m[K In lambda function:
+[1.962s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:89:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_planner_[m[K’ was not declared in this scope
+[1.962s]    89 |                 auto prev = [01;31m[Kcurrent_planner_[m[K;
+[1.962s]       |                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.968s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:94:17:[m[K [01;31m[Kerror: [m[K‘[01m[KtryAutoNavigate[m[K’ was not declared in this scope
+[1.968s]    94 |                 [01;31m[KtryAutoNavigate[m[K();
+[1.968s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.974s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:95:56:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_goal_handle_[m[K’ was not declared in this scope
+[1.975s]    95 |                 } else if (prev == "ElasticTracker" && [01;31m[Knav_goal_handle_[m[K) {
+[1.975s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.980s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:98:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_action_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_client_t[m[K’?
+[1.980s]    98 |                 [01;31m[Knav_action_client_[m[K->async_cancel_goal(nav_goal_handle_);
+[1.980s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.980s]       |                 [32m[Krcl_action_client_t[m[K
+[1.985s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:100:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_goal_active_[m[K’ was not declared in this scope
+[1.986s]   100 |                 [01;31m[Knav_goal_active_[m[K = false;
+[1.986s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.001s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.002s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:1[m[K:
+[2.002s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:[m[K In constructor ‘[01m[KTargetFrameNode::TargetFrameNode()[m[K’:
+[2.002s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/target_frame_node.cpp:114:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kfreq[m[K’ was not declared in this scope; did you mean ‘[01m[Kfree[m[K’?
+[2.002s]   114 |          base_frame_.c_str(), target_frame_.c_str(), target_pose_topic_.c_str(), [01;31m[Kfreq[m[K);
+[2.002s]       |                                                                                  [01;31m[K^~~~[m[K
+[5.435s] gmake[2]: *** [CMakeFiles/target_frame_node.dir/build.make:76：CMakeFiles/target_frame_node.dir/src/target_frame_node.cpp.o] 错误 1
+[5.435s] gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/target_frame_node.dir/all] 错误 2
+[5.435s] gmake: *** [Makefile:146：all] 错误 2
+[5.437s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '2': CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/home/chen/sentry_try/sentry_ws/install/serial_comm:/home/chen/sentry_try/sentry_ws/install/can_comm:/home/chen/sentry_try/sentry_ws/install/sentry_eval_bt:/home/chen/sentry_try/sentry_ws/install/rm_referee_mock:/home/chen/sentry_try/sentry_ws/install/rm_referee:/home/chen/sentry_try/sentry_ws/install/lightning:/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins:/home/chen/sentry_try/sentry_ws/install/livox_to_scan:/home/chen/sentry_try/sentry_ws/install/fast_lio:/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2:/home/chen/sentry_try/sentry_ws/install/goal_approach_controller:/home/chen/sentry_try/sentry_ws/install/costmap_voxel:/home/chen/sentry_try/sentry_ws/install/costmap_intensity:/home/chen/sentry_try/sentry_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16

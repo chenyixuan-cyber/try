@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target costmap_intensity_core[0m
+[100%] Built target costmap_intensity_core
+-- Install configuration: ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/libcostmap_intensity_core.so
+-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/libcostmap_intensity_core.so" to ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/costmap_intensity.xml
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/package_run_dependencies/costmap_intensity
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/parent_prefix_path/costmap_intensity
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/ament_prefix_path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/ament_prefix_path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/environment/path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.bash
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.zsh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/packages/costmap_intensity
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/costmap_intensity
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/cmake/costmap_intensityConfig.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/cmake/costmap_intensityConfig-version.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.xml

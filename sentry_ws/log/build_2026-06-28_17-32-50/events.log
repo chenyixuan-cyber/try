@@ -1,0 +1,607 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (costmap_intensity) JobQueued: {'identifier': 'costmap_intensity', 'dependencies': OrderedDict()}
+[0.000423] (costmap_voxel) JobQueued: {'identifier': 'costmap_voxel', 'dependencies': OrderedDict()}
+[0.000432] (goal_approach_controller) JobQueued: {'identifier': 'goal_approach_controller', 'dependencies': OrderedDict()}
+[0.000442] (lightning) JobQueued: {'identifier': 'lightning', 'dependencies': OrderedDict()}
+[0.000452] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000460] (pb_nav2_plugins) JobQueued: {'identifier': 'pb_nav2_plugins', 'dependencies': OrderedDict()}
+[0.000467] (serial_comm) JobQueued: {'identifier': 'serial_comm', 'dependencies': OrderedDict()}
+[0.000475] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2')])}
+[0.000486] (livox_to_scan) JobQueued: {'identifier': 'livox_to_scan', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2')])}
+[0.000784] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.004635] (costmap_intensity) JobStarted: {'identifier': 'costmap_intensity'}
+[0.007259] (costmap_voxel) JobStarted: {'identifier': 'costmap_voxel'}
+[0.009470] (goal_approach_controller) JobStarted: {'identifier': 'goal_approach_controller'}
+[0.012396] (lightning) JobStarted: {'identifier': 'lightning'}
+[0.015827] (pb_nav2_plugins) JobStarted: {'identifier': 'pb_nav2_plugins'}
+[0.019279] (serial_comm) JobStarted: {'identifier': 'serial_comm'}
+[0.022862] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.023173] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src', '-DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/build'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1494'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1649'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:11936'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1620,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1620'), ('INVOCATION_ID', 'de167d1fcef64ca6b4cc13a83df2e8c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f02862041dad6ad0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VWOZR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024975] (costmap_intensity) JobProgress: {'identifier': 'costmap_intensity', 'progress': 'cmake'}
+[0.025336] (costmap_intensity) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_intensity', '-DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/costmap_intensity'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/costmap_intensity', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/build'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1494'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1649'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:11936'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1620,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1620'), ('INVOCATION_ID', 'de167d1fcef64ca6b4cc13a83df2e8c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f02862041dad6ad0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VWOZR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/costmap_intensity'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.026255] (costmap_voxel) JobProgress: {'identifier': 'costmap_voxel', 'progress': 'cmake'}
+[0.026457] (costmap_voxel) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_voxel', '-DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/costmap_voxel'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/costmap_voxel', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/build'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1494'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1649'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:11936'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1620,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1620'), ('INVOCATION_ID', 'de167d1fcef64ca6b4cc13a83df2e8c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f02862041dad6ad0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VWOZR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/costmap_voxel'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027933] (goal_approach_controller) JobProgress: {'identifier': 'goal_approach_controller', 'progress': 'cmake'}
+[0.028079] (goal_approach_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/goal_approach_controller', '-DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/goal_approach_controller'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/build'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1494'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1649'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:11936'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1620,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1620'), ('INVOCATION_ID', 'de167d1fcef64ca6b4cc13a83df2e8c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f02862041dad6ad0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VWOZR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.030157] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'cmake'}
+[0.030862] (lightning) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/sentry_try/sentry_ws/src/lightning-lm', '-DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/lightning'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/build'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1494'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1649'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:11936'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1620,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1620'), ('INVOCATION_ID', 'de167d1fcef64ca6b4cc13a83df2e8c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f02862041dad6ad0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VWOZR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/lightning'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033417] (pb_nav2_plugins) JobProgress: {'identifier': 'pb_nav2_plugins', 'progress': 'cmake'}
+[0.034088] (pb_nav2_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/pb_nav2_plugins', '-DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/build'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1494'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1649'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:11936'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1620,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1620'), ('INVOCATION_ID', 'de167d1fcef64ca6b4cc13a83df2e8c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f02862041dad6ad0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VWOZR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037198] (serial_comm) JobProgress: {'identifier': 'serial_comm', 'progress': 'cmake'}
+[0.037717] (serial_comm) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/sentry_try/sentry_ws/src/serial_comm', '-DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/serial_comm'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/serial_comm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/build'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1494'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1649'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:11936'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1620,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1620'), ('INVOCATION_ID', 'de167d1fcef64ca6b4cc13a83df2e8c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f02862041dad6ad0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VWOZR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/serial_comm'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067707] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.068198] (costmap_intensity) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.070768] (costmap_voxel) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.070905] (goal_approach_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.074017] (lightning) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.074497] (pb_nav2_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.081360] (serial_comm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099504] (-) TimerEvent: {}
+[0.111042] (costmap_intensity) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.111500] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.112221] (costmap_voxel) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.115089] (goal_approach_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116503] (costmap_intensity) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.117419] (costmap_voxel) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.117745] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.117917] (pb_nav2_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.120526] (lightning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.121926] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.122795] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.126209] (lightning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.131570] (serial_comm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.137463] (serial_comm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.173491] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.173664] (costmap_intensity) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.173747] (costmap_voxel) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.177507] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.178098] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.179192] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.179406] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.179712] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.180273] (costmap_voxel) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.180484] (costmap_voxel) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.180516] (costmap_intensity) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.180704] (costmap_intensity) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.180805] (costmap_voxel) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.181038] (costmap_intensity) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.181846] (goal_approach_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.182015] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.182198] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.182293] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.182556] (costmap_voxel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.183347] (lightning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.183498] (costmap_intensity) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.184263] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.184494] (pb_nav2_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.184705] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185041] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.187567] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.187784] (lightning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.187963] (lightning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.188219] (lightning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.190203] (lightning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.198176] (serial_comm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199584] (-) TimerEvent: {}
+[0.202600] (serial_comm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.202793] (serial_comm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.202959] (serial_comm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.205287] (serial_comm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.247940] (costmap_voxel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.249829] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.251214] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.253110] (costmap_intensity) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.253305] (costmap_voxel) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.253404] (costmap_voxel) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.253707] (costmap_voxel) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.256172] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.256331] (costmap_voxel) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.256517] (goal_approach_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.256590] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.256712] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.256769] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.256811] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.256988] (goal_approach_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.257326] (livox_ros_driver2) StdoutLine: {'line': b'-- livox_ros_driver2 version: 1.2.4\n'}
+[0.257825] (costmap_intensity) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.258037] (costmap_intensity) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.258346] (costmap_intensity) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.259061] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.259461] (goal_approach_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.260774] (lightning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.260930] (costmap_intensity) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.263189] (pb_nav2_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.263393] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.263808] (pb_nav2_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.266537] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.267538] (lightning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.267765] (lightning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.268169] (lightning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.278553] (serial_comm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.283070] (serial_comm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.283269] (serial_comm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.283543] (serial_comm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.286754] (serial_comm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.291140] (lightning) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.299685] (-) TimerEvent: {}
+[0.301516] (lightning) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.337244] (lightning) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.337421] (lightning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.356195] (lightning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.369451] (lightning) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.373465] (goal_approach_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.373853] (costmap_voxel) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.374003] (costmap_intensity) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.379814] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.381944] (lightning) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.390816] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399914] (-) TimerEvent: {}
+[0.407967] (serial_comm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.434749] (lightning) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.434925] (lightning) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.453781] (goal_approach_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.456188] (lightning) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.456696] (costmap_intensity) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.456939] (costmap_voxel) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.486381] (costmap_intensity) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.490187] (costmap_voxel) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.490642] (costmap_intensity) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.493507] (serial_comm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.494366] (costmap_voxel) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.495069] (goal_approach_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.497197] (costmap_intensity) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.499971] (-) TimerEvent: {}
+[0.500686] (goal_approach_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500806] (costmap_voxel) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.504332] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.505513] (costmap_intensity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.511237] (goal_approach_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.511986] (costmap_voxel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.512147] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.512362] (lightning) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.512526] (lightning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.520025] (costmap_intensity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.522662] (goal_approach_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.523398] (costmap_voxel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.538954] (goal_approach_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.540473] (serial_comm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.544198] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.544665] (serial_comm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.547416] (costmap_intensity) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.551374] (serial_comm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.552238] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.555565] (costmap_voxel) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.556158] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.557709] (costmap_voxel) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.559427] (serial_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.562449] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.570394] (serial_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.570549] (pb_nav2_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.571022] (goal_approach_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.571731] (lightning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.572404] (lightning) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.573145] (goal_approach_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.573704] (lightning) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.577542] (lightning) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.581287] (pb_nav2_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.585357] (costmap_intensity) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.587479] (costmap_intensity) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600074] (-) TimerEvent: {}
+[0.600807] (serial_comm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.602922] (serial_comm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.607401] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.611340] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.614721] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.616858] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.626372] (costmap_voxel) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.643204] (goal_approach_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.652338] (costmap_voxel) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.658318] (costmap_intensity) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.670396] (goal_approach_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.672626] (serial_comm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.678768] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.681887] (lightning) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.682027] (lightning) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.682322] (costmap_intensity) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.683587] (lightning) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[0.683741] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.689893] (lightning) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.695157] (costmap_voxel) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.696873] (serial_comm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700146] (-) TimerEvent: {}
+[0.701710] (lightning) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.702056] (costmap_voxel) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.702257] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.706424] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.711219] (goal_approach_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.711421] (lightning) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[0.718845] (goal_approach_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.719293] (costmap_intensity) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.726876] (costmap_intensity) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.739711] (serial_comm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.742919] (livox_ros_driver2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.748044] (serial_comm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.751555] (pb_nav2_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.752290] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.760902] (pb_nav2_plugins) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.761266] (costmap_voxel) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.761644] (costmap_voxel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.776084] (goal_approach_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.776491] (goal_approach_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.782467] (costmap_intensity) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.782664] (costmap_intensity) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.792210] (lightning) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.792417] (lightning) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.800264] (-) TimerEvent: {}
+[0.802731] (serial_comm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.803071] (serial_comm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.811961] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.812156] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.818462] (costmap_voxel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.818679] (pb_nav2_plugins) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.818740] (pb_nav2_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.819277] (costmap_voxel) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.835613] (goal_approach_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.836609] (goal_approach_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.844655] (costmap_intensity) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.845375] (costmap_intensity) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.852399] (lightning) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.852577] (lightning) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.859184] (costmap_voxel) StdoutLine: {'line': b'-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[0.864550] (serial_comm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.865245] (serial_comm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.869961] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.870642] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.874747] (goal_approach_controller) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.876112] (pb_nav2_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.877073] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.884959] (costmap_voxel) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.890229] (goal_approach_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.897277] (costmap_intensity) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[0.898764] (goal_approach_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.900322] (-) TimerEvent: {}
+[0.901382] (serial_comm) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.904794] (costmap_voxel) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.20 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[0.908792] (lightning) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.909063] (lightning) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.910242] (goal_approach_controller) StdoutLine: {'line': b'-- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[0.918531] (serial_comm) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[0.918677] (serial_comm) StderrLine: {'line': b'  By not providing "Findsentry_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.918712] (serial_comm) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.918740] (serial_comm) StderrLine: {'line': b'  "sentry_msgs", but CMake did not find one.\n'}
+[0.918768] (serial_comm) StderrLine: {'line': b'\n'}
+[0.918793] (serial_comm) StderrLine: {'line': b'  Could not find a package configuration file provided by "sentry_msgs" with\n'}
+[0.918819] (serial_comm) StderrLine: {'line': b'  any of the following names:\n'}
+[0.918864] (serial_comm) StderrLine: {'line': b'\n'}
+[0.918890] (serial_comm) StderrLine: {'line': b'    sentry_msgsConfig.cmake\n'}
+[0.918913] (serial_comm) StderrLine: {'line': b'    sentry_msgs-config.cmake\n'}
+[0.918939] (serial_comm) StderrLine: {'line': b'\n'}
+[0.918962] (serial_comm) StderrLine: {'line': b'  Add the installation prefix of "sentry_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[0.918990] (serial_comm) StderrLine: {'line': b'  "sentry_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[0.919013] (serial_comm) StderrLine: {'line': b'  "sentry_msgs" provides a separate development package or SDK, be sure it\n'}
+[0.919035] (serial_comm) StderrLine: {'line': b'  has been installed.\n'}
+[0.919057] (serial_comm) StderrLine: {'line': b'\n'}
+[0.919079] (serial_comm) StderrLine: {'line': b'\x1b[0m\n'}
+[0.919102] (serial_comm) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.919167] (serial_comm) StdoutLine: {'line': b'See also "/home/chen/sentry_try/sentry_ws/build/serial_comm/CMakeFiles/CMakeOutput.log".\n'}
+[0.924263] (costmap_intensity) StdoutLine: {'line': b'-- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.927775] (costmap_intensity) StdoutLine: {'line': b'-- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.928641] (serial_comm) CommandEnded: {'returncode': 1}
+[0.929347] (costmap_intensity) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.946005] (serial_comm) JobEnded: {'identifier': 'serial_comm', 'rc': 1}
+[0.959968] (costmap_intensity) StdoutLine: {'line': b'-- Found nav2_util: 1.1.20 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[0.966623] (lightning) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.966800] (lightning) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.980807] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.993303] (livox_ros_driver2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.000431] (-) TimerEvent: {}
+[1.013443] (costmap_intensity) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.013670] (costmap_intensity) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.021613] (lightning) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.021796] (lightning) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.021903] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.021949] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.043007] (costmap_voxel) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.043326] (costmap_voxel) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.060026] (costmap_intensity) StdoutLine: {'line': b'-- Found nav2_voxel_grid: 1.1.20 (/opt/ros/humble/share/nav2_voxel_grid/cmake)\n'}
+[1.061343] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.062201] (goal_approach_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.062387] (goal_approach_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.062445] (costmap_intensity) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.20 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.076006] (livox_ros_driver2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.089800] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.090689] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.090790] (pb_nav2_plugins) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.092862] (lightning) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.093022] (lightning) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.100521] (-) TimerEvent: {}
+[1.115790] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.116041] (livox_ros_driver2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.127890] (costmap_voxel) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.149754] (lightning) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.152171] (costmap_voxel) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.166281] (costmap_voxel) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.196049] (costmap_intensity) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.200643] (-) TimerEvent: {}
+[1.201492] (costmap_voxel) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.201635] (costmap_voxel) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.232380] (goal_approach_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.235617] (lightning) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.236568] (costmap_voxel) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.237165] (lightning) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.238353] (costmap_intensity) StdoutLine: {'line': b'-- Generating done\n'}
+[1.239223] (lightning) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.241056] (lightning) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.244028] (costmap_intensity) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/costmap_intensity\n'}
+[1.250531] (costmap_voxel) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.252123] (lightning) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.257301] (costmap_intensity) JobEnded: {'identifier': 'costmap_intensity', 'rc': 'SIGINT'}
+[1.259209] (lightning) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.261872] (lightning) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.265774] (lightning) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.289870] (costmap_voxel) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.290062] (costmap_voxel) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.297915] (goal_approach_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.298146] (goal_approach_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/chen/sentry_try/sentry_ws/src/nav2_plugins/goal_approach_controller/include>\n'}
+[1.298197] (goal_approach_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.298674] (goal_approach_controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.298739] (goal_approach_controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.299035] (goal_approach_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.299349] (goal_approach_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.300174] (goal_approach_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.300693] (-) TimerEvent: {}
+[1.332491] (lightning) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.336912] (goal_approach_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.342216] (goal_approach_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/goal_approach_controller\n'}
+[1.344916] (lightning) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.353576] (goal_approach_controller) JobEnded: {'identifier': 'goal_approach_controller', 'rc': 'SIGINT'}
+[1.379195] (lightning) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.379778] (lightning) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.379828] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.400816] (-) TimerEvent: {}
+[1.433360] (lightning) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.433537] (lightning) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.433572] (lightning) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.500914] (-) TimerEvent: {}
+[1.546833] (lightning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.552601] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.557706] (lightning) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.575938] (pb_nav2_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.599358] (pb_nav2_plugins) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/pb_nav2_plugins` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[1.600966] (-) TimerEvent: {}
+[1.602399] (pb_nav2_plugins) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[1.602732] (pb_nav2_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.603000] (pb_nav2_plugins) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.604715] (pb_nav2_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.661096] (lightning) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.696026] (pb_nav2_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[1.701053] (-) TimerEvent: {}
+[1.704122] (pb_nav2_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins\n'}
+[1.715222] (pb_nav2_plugins) JobEnded: {'identifier': 'pb_nav2_plugins', 'rc': 'SIGINT'}
+[1.764034] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.801151] (-) TimerEvent: {}
+[1.863665] (lightning) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.864489] (lightning) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.864614] (lightning) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.865042] (lightning) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.865114] (lightning) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.865564] (lightning) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.865626] (lightning) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.866068] (lightning) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.866140] (lightning) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.866601] (lightning) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.866671] (lightning) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.867110] (lightning) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.867202] (lightning) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.867295] (lightning) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[1.867367] (lightning) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.867462] (lightning) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[1.867510] (lightning) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.867955] (lightning) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.868059] (lightning) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.868515] (lightning) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.868616] (lightning) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.869082] (lightning) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.869147] (lightning) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.869600] (lightning) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.869725] (lightning) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.870192] (lightning) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.870297] (lightning) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.870749] (lightning) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.870865] (lightning) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.871347] (lightning) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.871463] (lightning) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.871964] (lightning) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.872076] (lightning) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.872662] (lightning) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.872779] (lightning) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.872976] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.873479] (lightning) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.873657] (lightning) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.874525] (lightning) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.874658] (lightning) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.875569] (lightning) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.876130] (lightning) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.876320] (lightning) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[1.876403] (lightning) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.876580] (lightning) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[1.876653] (lightning) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.876897] (lightning) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[1.876959] (lightning) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.878795] (lightning) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.878933] (lightning) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.879632] (lightning) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.880194] (lightning) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[1.888564] (livox_ros_driver2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.888960] (lightning) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[1.890541] (lightning) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.892593] (lightning) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.901226] (-) TimerEvent: {}
+[1.925742] (livox_ros_driver2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.926341] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.977947] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.990741] (lightning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.001349] (-) TimerEvent: {}
+[2.044150] (costmap_voxel) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.057882] (costmap_voxel) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.080427] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.085588] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.090114] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.090239] (lightning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.094120] (lightning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.094437] (costmap_voxel) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.095144] (costmap_voxel) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.100185] (lightning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.101400] (-) TimerEvent: {}
+[2.108614] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.122063] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.154997] (lightning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.156409] (costmap_voxel) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.157303] (lightning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.192266] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.201523] (-) TimerEvent: {}
+[2.248478] (lightning) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.268161] (costmap_voxel) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.270942] (lightning) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.272794] (costmap_voxel) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.277747] (costmap_voxel) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.297740] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.301610] (-) TimerEvent: {}
+[2.305992] (lightning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.378608] (costmap_voxel) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.386659] (lightning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.396595] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.397026] (lightning) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.397222] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.397629] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.398130] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.398672] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.399193] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.399392] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.399561] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.400083] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.400659] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.401229] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.401662] (-) TimerEvent: {}
+[2.401782] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.402332] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.402896] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.403438] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.403928] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.404489] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.405035] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.405613] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.406162] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.406562] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.406713] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.406891] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.407445] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.407722] (lightning) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.408088] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.409686] (lightning) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.420198] (lightning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.450494] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.477710] (lightning) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[2.481382] (costmap_voxel) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.499678] (lightning) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.501775] (-) TimerEvent: {}
+[2.581010] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.581504] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.582034] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.582517] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.583046] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.583577] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.583759] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.583943] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.584451] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.585020] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.585584] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.586113] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.586417] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.586698] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.587276] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.587825] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.588452] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.589024] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.589588] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.590268] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.590820] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.591256] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.591415] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.591599] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.592231] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.592818] (costmap_voxel) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.593930] (costmap_voxel) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:10 (find_package):\n'}
+[2.594029] (costmap_voxel) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[2.594076] (costmap_voxel) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[2.594120] (costmap_voxel) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.594158] (costmap_voxel) StderrLine: {'line': b'\n'}
+[2.594195] (costmap_voxel) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[2.594233] (costmap_voxel) StderrLine: {'line': b'\n'}
+[2.594273] (costmap_voxel) StderrLine: {'line': b'    /usr\n'}
+[2.594312] (costmap_voxel) StderrLine: {'line': b'\n'}
+[2.594348] (costmap_voxel) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[2.594384] (costmap_voxel) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.594419] (costmap_voxel) StderrLine: {'line': b'\x1b[0m\n'}
+[2.601884] (-) TimerEvent: {}
+[2.648171] (costmap_voxel) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.690293] (costmap_voxel) StdoutLine: {'line': b'-- Generating done\n'}
+[2.698631] (costmap_voxel) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/costmap_voxel\n'}
+[2.698796] (lightning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.701963] (-) TimerEvent: {}
+[2.717474] (costmap_voxel) JobEnded: {'identifier': 'costmap_voxel', 'rc': 'SIGINT'}
+[2.737747] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.769464] (lightning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.769690] (lightning) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[2.779155] (lightning) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (find_package):\n'}
+[2.779322] (lightning) StderrLine: {'line': b'  By not providing "Findrm_referee_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.779391] (lightning) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.779453] (lightning) StderrLine: {'line': b'  "rm_referee_msgs", but CMake did not find one.\n'}
+[2.779515] (lightning) StderrLine: {'line': b'\n'}
+[2.779572] (lightning) StderrLine: {'line': b'  Could not find a package configuration file provided by "rm_referee_msgs"\n'}
+[2.779625] (lightning) StderrLine: {'line': b'  with any of the following names:\n'}
+[2.779677] (lightning) StderrLine: {'line': b'\n'}
+[2.779728] (lightning) StderrLine: {'line': b'    rm_referee_msgsConfig.cmake\n'}
+[2.779779] (lightning) StderrLine: {'line': b'    rm_referee_msgs-config.cmake\n'}
+[2.779828] (lightning) StderrLine: {'line': b'\n'}
+[2.779898] (lightning) StderrLine: {'line': b'  Add the installation prefix of "rm_referee_msgs" to CMAKE_PREFIX_PATH or\n'}
+[2.779950] (lightning) StderrLine: {'line': b'  set "rm_referee_msgs_DIR" to a directory containing one of the above files.\n'}
+[2.780000] (lightning) StderrLine: {'line': b'  If "rm_referee_msgs" provides a separate development package or SDK, be\n'}
+[2.780049] (lightning) StderrLine: {'line': b'  sure it has been installed.\n'}
+[2.780090] (lightning) StderrLine: {'line': b'\n'}
+[2.780112] (lightning) StderrLine: {'line': b'\x1b[0m\n'}
+[2.780140] (lightning) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.780168] (lightning) StdoutLine: {'line': b'See also "/home/chen/sentry_try/sentry_ws/build/lightning/CMakeFiles/CMakeOutput.log".\n'}
+[2.797469] (lightning) JobEnded: {'identifier': 'lightning', 'rc': 'SIGINT'}
+[2.802037] (-) TimerEvent: {}
+[2.902275] (-) TimerEvent: {}
+[2.935205] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.951119] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.952763] (livox_ros_driver2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.970177] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.970352] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.970433] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.970503] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.984426] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.002385] (-) TimerEvent: {}
+[3.070970] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.089094] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.092511] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.092873] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src/3rdparty;/home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src/src\n'}
+[3.093010] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.096114] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.096253] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.096617] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.097570] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.098119] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.101266] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.101401] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.101852] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.102483] (-) TimerEvent: {}
+[3.103361] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.155245] (livox_ros_driver2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.169552] (livox_ros_driver2) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2\n'}
+[3.189275] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 'SIGINT'}
+[3.199772] (fast_lio) JobSkipped: {'identifier': 'fast_lio'}
+[3.199864] (livox_to_scan) JobSkipped: {'identifier': 'livox_to_scan'}
+[3.199910] (-) EventReactorShutdown: {}

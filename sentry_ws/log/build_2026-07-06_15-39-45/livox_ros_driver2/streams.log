@@ -1,0 +1,211 @@
+[0.032s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2 -- -j16 -l16
+[0.099s] [  1%] Built target livox_interfaces2__rs
+[0.102s] [  3%] Built target livox_interfaces2__cpp
+[0.106s] [ 10%] Built target livox_interfaces2__rosidl_generator_c
+[0.118s] [ 12%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[0.123s] [ 12%] Built target ament_cmake_python_copy_livox_ros_driver2
+[0.134s] [ 18%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[0.136s] [ 39%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[0.137s] [ 39%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[0.137s] [ 39%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[0.139s] [ 53%] Built target livox_interfaces2__rosidl_typesupport_c
+[0.139s] [ 53%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[0.160s] [ 53%] Built target livox_interfaces2
+[0.180s] [ 55%] Built target livox_interfaces2__py
+[0.192s] [ 58%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[0.192s] [ 58%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[0.194s] [ 60%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[0.213s] [ 65%] Built target livox_interfaces2__rosidl_generator_py
+[0.237s] [ 68%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[0.240s] [ 72%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[0.246s] [ 75%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[0.347s] running egg_info
+[0.348s] writing livox_ros_driver2.egg-info/PKG-INFO
+[0.348s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[0.348s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[0.351s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.352s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.392s] [ 75%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[5.715s] [ 77%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[6.083s] [ 77%] Built target livox_ros_driver2_node
+[12.517s] [ 79%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[13.462s] [100%] Built target livox_ros_driver2
+[13.474s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2 -- -j16 -l16
+[13.484s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2
+[13.495s] -- Install configuration: "Release"
+[13.501s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[13.501s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[13.502s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[13.504s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[13.505s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[13.505s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[13.505s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[13.508s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[13.510s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[13.511s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[13.514s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[13.515s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[13.515s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[13.518s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[13.518s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.518s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[13.520s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[13.520s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[13.524s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[13.526s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[13.526s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[13.529s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[13.529s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.529s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[13.531s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[13.531s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[13.531s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[13.531s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[13.534s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[13.537s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[13.538s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[13.541s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[13.543s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[13.543s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[13.543s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.543s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[13.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[13.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[13.546s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[13.548s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[13.548s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[13.549s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.549s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[13.549s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[13.549s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[13.549s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[13.555s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[13.558s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.560s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[13.560s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[13.560s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[13.560s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[13.560s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[13.561s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[13.561s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[13.564s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[13.567s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[13.570s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[13.570s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[13.570s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[13.570s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[13.573s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+[13.573s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[13.574s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[13.574s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[13.576s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[13.579s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+[13.582s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.585s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.585s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[13.585s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[13.585s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[13.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[13.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[13.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[13.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[13.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[13.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.586s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[13.589s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.591s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[13.620s] Listing '/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[13.620s] Compiling '/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[13.620s] Listing '/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[13.626s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.626s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.626s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.626s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.626s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.627s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.628s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[13.629s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[13.632s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2
+[13.635s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust
+[13.637s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml
+[13.637s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs
+[13.637s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src
+[13.639s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg
+[13.645s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs
+[13.646s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs
+[13.646s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs
+[13.649s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[13.649s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[13.649s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[13.649s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[13.653s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[13.653s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+[13.656s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[13.657s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+[13.657s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/config
+[13.658s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[13.658s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud.rviz
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360_launch.py
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360_launch.py
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_HAP_launch.py
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_mixed.py
+[13.659s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_HAP_launch.py
+[13.661s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[13.662s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[13.662s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[13.662s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[13.665s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[13.665s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[13.665s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[13.668s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[13.668s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[13.668s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[13.668s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[13.671s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[13.674s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[13.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[13.677s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-release.cmake
+[13.683s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[13.683s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-release.cmake
+[13.685s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[13.685s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-release.cmake
+[13.686s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[13.686s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-release.cmake
+[13.692s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[13.695s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.695s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[13.697s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[13.697s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-release.cmake
+[13.698s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[13.699s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-release.cmake
+[13.704s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[13.704s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-release.cmake
+[13.705s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[13.707s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.707s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.708s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[13.710s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[13.710s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.710s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.710s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[13.711s] -- Installing: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[13.711s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[13.711s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[13.715s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2

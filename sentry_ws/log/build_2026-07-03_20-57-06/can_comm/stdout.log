@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target can_send_node[0m
+[ 50%] Built target can_receive_node
+[ 75%] [32mBuilding CXX object CMakeFiles/can_send_node.dir/src/can_send.cpp.o[0m

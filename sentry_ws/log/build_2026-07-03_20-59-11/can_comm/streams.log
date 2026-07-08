@@ -1,0 +1,36 @@
+[0.011s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target can_send_node[0m
+[0.057s] [ 50%] Built target can_receive_node
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/can_send_node.dir/src/can_send.cpp.o[0m
+[3.357s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:70[m[K,
+[3.357s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8[m[K:
+[3.357s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:[m[K In member function ‘[01m[Kvirtual rm::modules::BuzzerNote rm::modules::buzzer_melody::Silent::Update(rm::modules::SequenceGenerator<rm::modules::BuzzerNote>::TimePoint)[m[K’:
+[3.357s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:244:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.357s]   244 |   BuzzerNote Update([01;35m[KTimePoint now[m[K) override { return BuzzerNote(0, 0); }
+[3.357s]       |                     [01;35m[K~~~~~~~~~~^~~[m[K
+[3.357s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:[m[K In member function ‘[01m[Kvirtual void rm::modules::buzzer_melody::Silent::Reset(rm::modules::SequenceGenerator<rm::modules::BuzzerNote>::TimePoint)[m[K’:
+[3.357s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:246:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.357s]   246 |   void Reset([01;35m[KTimePoint now[m[K) override {}
+[3.357s]       |              [01;35m[K~~~~~~~~~~^~~[m[K
+[3.368s] In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:75[m[K,
+[3.369s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8[m[K:
+[3.369s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:[m[K In member function ‘[01m[Kvirtual rm::modules::RgbLedPattern::Rgb rm::modules::led_pattern::Off::Update(rm::modules::SequenceGenerator<std::tuple<unsigned char, unsigned char, unsigned char> >::TimePoint)[m[K’:
+[3.369s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:58:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.369s]    58 |   Rgb Update([01;35m[KTimePoint now[m[K) override { return Rgb(0, 0, 0); }
+[3.369s]       |              [01;35m[K~~~~~~~~~~^~~[m[K
+[3.369s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:[m[K In member function ‘[01m[Kvirtual void rm::modules::led_pattern::Off::Reset(rm::modules::SequenceGenerator<std::tuple<unsigned char, unsigned char, unsigned char> >::TimePoint)[m[K’:
+[3.369s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:60:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Know[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.369s]    60 |   void Reset([01;35m[KTimePoint now[m[K) override {}
+[3.369s]       |              [01;35m[K~~~~~~~~~~^~~[m[K
+[3.503s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In constructor ‘[01m[KCanSender::CanSender()[m[K’:
+[3.504s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:38:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend_freq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.504s]    38 |         int [01;35m[Ksend_freq[m[K = this->get_parameter("send_freq").as_int();
+[3.504s]       |             [01;35m[K^~~~~~~~~[m[K
+[13.415s] [100%] [32m[1mLinking CXX executable can_send_node[0m
+[13.949s] /usr/bin/ld: CMakeFiles/can_send_node.dir/src/can_send.cpp.o: in function `std::_MakeUniq<rm::hal::linux_::SocketCan>::__single_object std::make_unique<rm::hal::linux_::SocketCan, char const*>(char const*&&)':
+[13.949s] can_send.cpp:(.text._ZSt11make_uniqueIN2rm3hal6linux_9SocketCanEJPKcEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN2rm3hal6linux_9SocketCanEJPKcEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x39): undefined reference to `rm::hal::linux_::SocketCan::SocketCan(char const*)'
+[14.027s] collect2: error: ld returned 1 exit status
+[14.030s] gmake[2]: *** [CMakeFiles/can_send_node.dir/build.make:175：can_send_node] 错误 1
+[14.030s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/can_send_node.dir/all] 错误 2
+[14.030s] gmake: *** [Makefile:146：all] 错误 2
+[14.032s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '2': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16

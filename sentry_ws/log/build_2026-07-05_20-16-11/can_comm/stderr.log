@@ -1,0 +1,8 @@
+/home/chen/sentry_try/sentry_ws/src/can_comm/src/vyaw_tf_yaw_controller.cpp:5:10: fatal error: tf2_LinearMath/Quaternion.h: 没有那个文件或目录
+    5 | #include <tf2_LinearMath/Quaternion.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/vyaw_tf_yaw_controller_node.dir/build.make:76：CMakeFiles/vyaw_tf_yaw_controller_node.dir/src/vyaw_tf_yaw_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/vyaw_tf_yaw_controller_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

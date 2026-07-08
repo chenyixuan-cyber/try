@@ -1,0 +1,46 @@
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/s2.hpp:6[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/nav_state.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/lio/eskf.hpp:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/lio/eskf.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/s2.hpp:6[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/nav_state.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/localization_result.h:11[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/localization_result.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/params.cc:6[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/s2.hpp:6[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/nav_state.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:4[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/s2.hpp:6[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/nav_state.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/nav_state.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K

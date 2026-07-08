@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_referee_msgs/msg/normal_channel/RobotPos.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module rm_referee_msgs {
+  module msg {
+    struct RobotPos {
+      std_msgs::msg::Header header;
+
+      float x;
+
+      float y;
+
+      float angle;
+    };
+  };
+};

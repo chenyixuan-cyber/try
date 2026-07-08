@@ -1,0 +1,654 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bd7c575a020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bd7c5873760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bd7c5873760>>)
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chen/sentry_try/sentry_ws'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_comm) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/can_comm' with type 'ros.ament_cmake' and name 'can_comm'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/lightning-lm) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lightning-lm' with type 'ros.ament_cmake' and name 'lightning'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_humble/src) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2_humble/src' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_scan) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_to_scan' with type 'ros.ament_cmake' and name 'livox_to_scan'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_intensity) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_plugins/costmap_intensity' with type 'ros.ament_cmake' and name 'costmap_intensity'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/costmap_voxel) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_plugins/costmap_voxel' with type 'ros.ament_cmake' and name 'costmap_voxel'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/goal_approach_controller) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_plugins/goal_approach_controller' with type 'ros.ament_cmake' and name 'goal_approach_controller'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugins/pb_nav2_plugins) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_plugins/pb_nav2_plugins' with type 'ros.ament_cmake' and name 'pb_nav2_plugins'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_to_nav_map) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_to_nav_map) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_to_nav_map) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_mock) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_referee_mock' with type 'ros.ament_cmake' and name 'rm_referee_mock'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_referee_ros2/rm_referee' with type 'ros.ament_cmake' and name 'rm_referee'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_referee_ros2/rm_referee_msgs) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_referee_ros2/rm_referee_msgs' with type 'ros.ament_cmake' and name 'rm_referee_msgs'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_msgs) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sentry_msgs' with type 'ros.ament_cmake' and name 'sentry_msgs'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_comm) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_comm' with type 'ros.ament_cmake' and name 'serial_comm'
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.220s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 516 installed packages in /opt/ros/humble
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'can_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'can_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/can_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/can_comm', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/can_comm', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_intensity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_intensity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/costmap_intensity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/costmap_intensity', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_intensity', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'costmap_voxel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_voxel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/costmap_voxel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/costmap_voxel', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_voxel', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'goal_approach_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'goal_approach_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/goal_approach_controller', 'symlink_install': False, 'test_result_base': None}
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src', 'symlink_install': False, 'test_result_base': None}
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_target' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'pb_nav2_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/pb_nav2_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'cmake_target' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'rm_referee_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/rm_referee_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'cmake_target' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'sentry_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'sentry_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/sentry_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/sentry_msgs', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/sentry_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/fast_lio', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'lightning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'lightning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/lightning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/lightning', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/lightning-lm', 'symlink_install': False, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'livox_to_scan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'livox_to_scan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/livox_to_scan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/livox_to_scan', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/livox_to_scan', 'symlink_install': False, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'rm_referee' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/rm_referee', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/rm_referee', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee', 'symlink_install': False, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'rm_referee_mock' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'rm_referee_mock' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/rm_referee_mock', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/rm_referee_mock', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/rm_referee_mock', 'symlink_install': False, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'serial_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'serial_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/sentry_try/sentry_ws/build/serial_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/sentry_try/sentry_ws/install/serial_comm', 'merge_install': False, 'path': '/home/chen/sentry_try/sentry_ws/src/serial_comm', 'symlink_install': False, 'test_result_base': None}
+[0.260s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs'
+[0.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src' with build type 'ament_cmake'
+[0.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/sentry_msgs' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/sentry_msgs'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/can_comm' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/can_comm'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_intensity' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_intensity'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_voxel' with build type 'ament_cmake'
+[0.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_voxel'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/goal_approach_controller' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/goal_approach_controller'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/pb_nav2_plugins' with build type 'ament_cmake'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/sentry_try/sentry_ws/src/nav2_plugins/pb_nav2_plugins'
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/rm_referee_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/rm_referee_msgs -- -j16 -l16
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2 -- -j16 -l16
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/sentry_msgs -- -j16 -l16
+[0.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_intensity -- -j16 -l16
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_voxel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_voxel -- -j16 -l16
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/goal_approach_controller -- -j16 -l16
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins -- -j16 -l16
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_intensity -- -j16 -l16
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_intensity
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/goal_approach_controller -- -j16 -l16
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/goal_approach_controller
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_voxel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_voxel -- -j16 -l16
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_voxel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_voxel
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_intensity)
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity' for CMake module files
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_intensity
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity' for CMake config files
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_intensity', 'cmake_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/cmake_prefix_path.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/cmake_prefix_path.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/cmake_prefix_path.sh'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib'
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_intensity', 'ld_library_path_lib')
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/ld_library_path_lib.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/ld_library_path_lib.dsv'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/ld_library_path_lib.sh'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/bin'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/pkgconfig/costmap_intensity.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/python3.10/site-packages'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/bin'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.sh'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.bash'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.zsh'
+[0.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/colcon-core/packages/costmap_intensity)
+[0.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_intensity)
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity' for CMake module files
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity' for CMake config files
+[0.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_intensity', 'cmake_prefix_path')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/cmake_prefix_path.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/cmake_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/cmake_prefix_path.sh'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib'
+[0.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_intensity', 'ld_library_path_lib')
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/ld_library_path_lib.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/ld_library_path_lib.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/hook/ld_library_path_lib.sh'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/bin'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/pkgconfig/costmap_intensity.pc'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/lib/python3.10/site-packages'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/bin'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/costmap_intensity/package.zsh'
+[0.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/costmap_intensity/share/colcon-core/packages/costmap_intensity)
+[0.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(goal_approach_controller)
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller' for CMake module files
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller' for CMake config files
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/goal_approach_controller
+[0.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('goal_approach_controller', 'cmake_prefix_path')
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/cmake_prefix_path.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/cmake_prefix_path.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/cmake_prefix_path.sh'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib'
+[0.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('goal_approach_controller', 'ld_library_path_lib')
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/ld_library_path_lib.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/ld_library_path_lib.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/ld_library_path_lib.sh'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/bin'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/pkgconfig/goal_approach_controller.pc'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/python3.10/site-packages'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/bin'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.sh'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.zsh'
+[0.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/colcon-core/packages/goal_approach_controller)
+[0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(goal_approach_controller)
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller' for CMake module files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('goal_approach_controller', 'cmake_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/cmake_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/cmake_prefix_path.sh'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib'
+[0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('goal_approach_controller', 'ld_library_path_lib')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/ld_library_path_lib.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/ld_library_path_lib.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/hook/ld_library_path_lib.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/bin'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/pkgconfig/goal_approach_controller.pc'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/python3.10/site-packages'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.bash'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/colcon-core/packages/goal_approach_controller)
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins -- -j16 -l16
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins
+[0.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_voxel)
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel' for CMake module files
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_voxel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_voxel
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_voxel', 'cmake_prefix_path')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/cmake_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/cmake_prefix_path.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/cmake_prefix_path.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib'
+[0.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_voxel', 'ld_library_path_lib')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/ld_library_path_lib.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/ld_library_path_lib.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/ld_library_path_lib.sh'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/bin'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib/pkgconfig/costmap_voxel.pc'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib/python3.10/site-packages'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/bin'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.sh'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.bash'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.zsh'
+[0.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/colcon-core/packages/costmap_voxel)
+[0.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_voxel)
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel' for CMake module files
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel' for CMake config files
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_voxel', 'cmake_prefix_path')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/cmake_prefix_path.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/cmake_prefix_path.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/cmake_prefix_path.sh'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib'
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_voxel', 'ld_library_path_lib')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/ld_library_path_lib.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/ld_library_path_lib.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/hook/ld_library_path_lib.sh'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/bin'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib/pkgconfig/costmap_voxel.pc'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/lib/python3.10/site-packages'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/bin'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.sh'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.bash'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/costmap_voxel/package.zsh'
+[0.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/costmap_voxel/share/colcon-core/packages/costmap_voxel)
+[0.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_nav2_plugins)
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins' for CMake module files
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins' for CMake config files
+[0.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'cmake_prefix_path')
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.sh'
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib'
+[0.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'ld_library_path_lib')
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.ps1'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.dsv'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.sh'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/bin'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/pkgconfig/pb_nav2_plugins.pc'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/python3.10/site-packages'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/bin'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.dsv'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.sh'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.bash'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.zsh'
+[0.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/colcon-core/packages/pb_nav2_plugins)
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_nav2_plugins)
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins' for CMake module files
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins' for CMake config files
+[0.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'cmake_prefix_path')
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.sh'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib'
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'ld_library_path_lib')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.sh'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/bin'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/pkgconfig/pb_nav2_plugins.pc'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/lib/python3.10/site-packages'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/bin'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.ps1'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.bash'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.zsh'
+[0.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins/share/colcon-core/packages/pb_nav2_plugins)
+[0.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/sentry_msgs -- -j16 -l16
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/sentry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/sentry_msgs
+[0.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2 -- -j16 -l16
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/livox_ros_driver2
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/rm_referee_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/rm_referee_msgs -- -j16 -l16
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/sentry_try/sentry_ws/build/rm_referee_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/rm_referee_msgs
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_comm)
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/can_comm' for CMake module files
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/can_comm' for CMake config files
+[0.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_comm', 'cmake_prefix_path')
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/hook/cmake_prefix_path.ps1'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/hook/cmake_prefix_path.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/hook/cmake_prefix_path.sh'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/can_comm/lib'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/can_comm/bin'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/can_comm/lib/pkgconfig/can_comm.pc'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/can_comm/lib/python3.10/site-packages'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/chen/sentry_try/sentry_ws/install/can_comm/bin'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.bash'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.zsh'
+[0.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/sentry_try/sentry_ws/install/can_comm/share/colcon-core/packages/can_comm)
+[0.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[0.786s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.799s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/sentry_try/sentry_ws/install/local_setup.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/sentry_try/sentry_ws/install/_local_setup_util_ps1.py'
+[0.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/sentry_try/sentry_ws/install/setup.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/sentry_try/sentry_ws/install/local_setup.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/sentry_try/sentry_ws/install/_local_setup_util_sh.py'
+[0.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/sentry_try/sentry_ws/install/setup.sh'
+[0.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/sentry_try/sentry_ws/install/local_setup.bash'
+[0.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/sentry_try/sentry_ws/install/setup.bash'
+[0.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/sentry_try/sentry_ws/install/local_setup.zsh'
+[0.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/sentry_try/sentry_ws/install/setup.zsh'

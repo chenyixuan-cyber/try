@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/Vw.msg
+// generated code does not contain a copyright notice
+
+
+module sentry_msgs {
+  module msg {
+    struct Vw {
+      @verbatim (language="comment", text=
+        "浮点速度/角速度")
+      float vw;
+    };
+  };
+};

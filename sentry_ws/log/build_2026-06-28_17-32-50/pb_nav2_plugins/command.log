@@ -1,0 +1,1 @@
+Invoking command in '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/nav2_plugins/pb_nav2_plugins -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/pb_nav2_plugins

@@ -1,0 +1,7 @@
+[0.022s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/pb_nav2_plugins -- -j16 -l16
+[0.078s] [ 25%] [32mBuilding CXX object CMakeFiles/pb_back_up_frees_space_behavior.dir/src/behaviors/back_up_free_space.cpp.o[0m
+[8.840s] [ 50%] [32m[1mLinking CXX shared library libpb_back_up_frees_space_behavior.so[0m
+[9.625s] [ 50%] Built target pb_back_up_frees_space_behavior
+[9.650s] [ 75%] [32mBuilding CXX object CMakeFiles/layers.dir/src/layers/intensity_voxel_layer.cpp.o[0m
+[14.716s] [100%] [32m[1mLinking CXX shared library liblayers.so[0m
+[15.041s] [100%] Built target layers

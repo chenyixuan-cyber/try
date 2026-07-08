@@ -1,0 +1,194 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning at thirdparty/livox_ros_driver/CMakeLists.txt:25 (project):
+  VERSION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+[0m
+[0m/usr/include/apr-1.0[0m
+[0mapr-1[0m
+/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  warnings.warn(
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/solver/solver.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/solver/solver.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:[m[K In member function ‘[01m[Kvirtual bool lightning::miao::Optimizer::AddVertex(std::shared_ptr<lightning::miao::Vertex>)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:288:62:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::unordered_map<int, std::shared_ptr<lightning::miao::Vertex> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  288 |         if (config_.max_vertex_size_ > 0 && [01;35m[Kvertices_.size() == config_.max_vertex_size_[m[K) {
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/io/file_io.cc:[m[K In function ‘[01m[Kbool lightning::RemoveIfExist(const string&)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/io/file_io.cc:17:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   17 |         [01;35m[Ksystem(("rm -f " + path).c_str())[m[K;
+      |         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:[m[K In member function ‘[01m[Kvoid lightning::g2p5::G2P5Map::SetMissPoint(const float&, const float&, const float&, const float&, float, float)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:215:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<int, 2, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  215 |     for (int i = 0; [01;35m[Ki < updated_pts.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7[m[K,
+                 from [01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1[m[K:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K

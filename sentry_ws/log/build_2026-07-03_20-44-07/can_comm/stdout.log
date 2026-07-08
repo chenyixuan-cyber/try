@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/can_receive_node.dir/src/can_receive.cpp.o[0m
+[100%] [32m[1mLinking CXX executable can_receive_node[0m
+[100%] Built target can_receive_node
+-- Install configuration: ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_receive_node
+-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_receive_node" to ""
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config/can_params.yaml
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/package_run_dependencies/can_comm
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/parent_prefix_path/can_comm
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.bash
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.sh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.zsh
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/packages/can_comm
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig-version.cmake
+-- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.xml

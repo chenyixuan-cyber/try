@@ -1,0 +1,31 @@
+{
+  "package_name": "rm_referee_msgs",
+  "non_idl_tuples": [
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/fpv_channel/CustomControl.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/fpv_channel/CustomRobotData.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/fpv_channel/KeyboardMouseControl.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/fpv_channel/RobotCustomData.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/fpv_channel/RobotCustomData2.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/Buff.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/DartClientCmd.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/DartInfo.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/EventData.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/GameResult.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/GameRobotHP.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/GameStatus.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/GroundRobotPosition.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/HurtData.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/MapCommand.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/PowerHeatData.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/ProjectileAllowance.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/RFIDStatus.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/RadarInfo.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/RadarMarkData.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/RefereeWarning.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/RobotPos.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/RobotStatus.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/SentryInfo.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:msg/normal_channel/ShootData.msg",
+    "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee_msgs:srv/Tx.srv"
+  ]
+}

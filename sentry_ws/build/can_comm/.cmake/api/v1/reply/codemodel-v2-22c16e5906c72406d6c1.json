@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-94bdffa3a11d0a693401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "can_comm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "can_comm_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_comm_uninstall-Release-c84fa48e38b8894a23d2.json",
+					"name" : "can_comm_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "can_receive_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_receive_node-Release-b1e66c2052e8fa30d983.json",
+					"name" : "can_receive_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "can_send_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_send_node-Release-dcb99638953cd271012c.json",
+					"name" : "can_send_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-95538ce40e88dec5ccb5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vyaw_tf_yaw_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vyaw_tf_yaw_controller_node-Release-8586be4ca8b41cbbef28.json",
+					"name" : "vyaw_tf_yaw_controller_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chen/sentry_try/sentry_ws/build/can_comm",
+		"source" : "/home/chen/sentry_try/sentry_ws/src/can_comm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

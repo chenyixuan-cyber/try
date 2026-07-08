@@ -1,0 +1,2 @@
+/usr/bin/ar qc libardupilot_filter.a CMakeFiles/ardupilot_filter.dir/LowPassFilter.cpp.o CMakeFiles/ardupilot_filter.dir/LowPassFilter2p.cpp.o CMakeFiles/ardupilot_filter.dir/NotchFilter.cpp.o CMakeFiles/ardupilot_filter.dir/HarmonicNotchFilter.cpp.o CMakeFiles/ardupilot_filter.dir/DerivativeFilter.cpp.o CMakeFiles/ardupilot_filter.dir/ModeFilter.cpp.o CMakeFiles/ardupilot_filter.dir/SlewLimiter.cpp.o
+/usr/bin/ranlib libardupilot_filter.a

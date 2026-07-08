@@ -1,0 +1,54 @@
+[0.019s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/rm_referee_mock': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/rm_referee_mock -- -j16 -l16
+[0.100s] Built target ament_cmake_python_copy_rm_referee_mock
+[0.287s] running egg_info
+[0.288s] writing rm_referee_mock.egg-info/PKG-INFO
+[0.288s] writing dependency_links to rm_referee_mock.egg-info/dependency_links.txt
+[0.288s] writing top-level names to rm_referee_mock.egg-info/top_level.txt
+[0.290s] reading manifest file 'rm_referee_mock.egg-info/SOURCES.txt'
+[0.291s] writing manifest file 'rm_referee_mock.egg-info/SOURCES.txt'
+[0.319s] Built target ament_cmake_python_build_rm_referee_mock_egg
+[0.329s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/rm_referee_mock' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/rm_referee_mock -- -j16 -l16
+[0.333s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/rm_referee_mock': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/rm_referee_mock
+[0.340s] -- Install configuration: ""
+[0.340s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/assets
+[0.341s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/assets/match_control.ui
+[0.341s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/assets/map.jpg
+[0.341s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/plugin.xml
+[0.341s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/lib/rm_referee_mock/rqt_clean_start
+[0.341s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/pythonpath.sh
+[0.341s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/pythonpath.dsv
+[0.341s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info
+[0.341s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/top_level.txt
+[0.341s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/PKG-INFO
+[0.342s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.342s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/dart_client_widget.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_keyboard_publisher.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/widget_confirmed_line_edit.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/publisher_pool.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_dart_client.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_match_control.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_fake_location.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/match_control_widget.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/sentry_posture.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/fake_location_widget.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/keyboard_publisher_widget.py
+[0.342s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/__init__.py
+[0.372s] Listing '/home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock'...
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/ament_index/resource_index/package_run_dependencies/rm_referee_mock
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/ament_index/resource_index/parent_prefix_path/rm_referee_mock
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/ament_prefix_path.sh
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/ament_prefix_path.dsv
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/path.sh
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/path.dsv
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.bash
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.sh
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.zsh
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.dsv
+[0.376s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/package.dsv
+[0.377s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/ament_index/resource_index/packages/rm_referee_mock
+[0.377s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/cmake/rm_referee_mockConfig.cmake
+[0.377s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/cmake/rm_referee_mockConfig-version.cmake
+[0.377s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/package.xml
+[0.378s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/rm_referee_mock' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/rm_referee_mock

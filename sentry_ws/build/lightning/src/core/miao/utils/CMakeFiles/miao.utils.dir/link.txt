@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -fopenmp -fopenmp -msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -O2 -DNDEBUG -fopenmp -fPIC -shared -Wl,-soname,libmiao.utils.so -o libmiao.utils.so CMakeFiles/miao.utils.dir/sampler.cc.o 

@@ -1,0 +1,31 @@
+[0.009s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/can_receive_node.dir/src/can_receive.cpp.o[0m
+[1.623s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_receive.cpp:[m[K In member function ‘[01m[Kvoid CanReceiver::timer_callback()[m[K’:
+[1.623s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_receive.cpp:114:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.623s]   114 |         if ([01;35m[Knbytes < sizeof(struct can_frame)[m[K){return;}
+[1.623s]       |             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.969s] [100%] [32m[1mLinking CXX executable can_receive_node[0m
+[3.160s] [100%] Built target can_receive_node
+[3.170s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[3.180s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/can_comm
+[3.185s] -- Install configuration: ""
+[3.185s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_receive_node
+[3.186s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_receive_node" to ""
+[3.187s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config
+[3.187s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config/can_params.yaml
+[3.187s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/package_run_dependencies/can_comm
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/parent_prefix_path/can_comm
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.sh
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.dsv
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.sh
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.dsv
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.bash
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.sh
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.zsh
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.dsv
+[3.188s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.dsv
+[3.188s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/packages/can_comm
+[3.189s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig.cmake
+[3.189s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig-version.cmake
+[3.189s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.xml
+[3.191s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/can_comm

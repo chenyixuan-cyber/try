@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'can_comm'}
+[0.000464] (-) JobUnselected: {'identifier': 'costmap_intensity'}
+[0.000575] (-) JobUnselected: {'identifier': 'costmap_voxel'}
+[0.000595] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000613] (-) JobUnselected: {'identifier': 'goal_approach_controller'}
+[0.000638] (-) JobUnselected: {'identifier': 'lightning'}
+[0.000657] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000793] (-) JobUnselected: {'identifier': 'livox_to_scan'}
+[0.000815] (-) JobUnselected: {'identifier': 'pb_nav2_plugins'}
+[0.000832] (-) JobUnselected: {'identifier': 'rm_referee'}
+[0.000849] (-) JobUnselected: {'identifier': 'rm_referee_mock'}
+[0.000913] (-) JobUnselected: {'identifier': 'rm_referee_msgs'}
+[0.000948] (-) JobUnselected: {'identifier': 'sentry_msgs'}
+[0.000965] (-) JobUnselected: {'identifier': 'serial_comm'}
+[0.000990] (sentry_eval_bt) JobQueued: {'identifier': 'sentry_eval_bt', 'dependencies': OrderedDict()}
+[0.001149] (sentry_eval_bt) JobStarted: {'identifier': 'sentry_eval_bt'}
+[0.006573] (sentry_eval_bt) JobProgress: {'identifier': 'sentry_eval_bt', 'progress': 'cmake'}
+[0.006890] (sentry_eval_bt) JobProgress: {'identifier': 'sentry_eval_bt', 'progress': 'build'}
+[0.007288] (sentry_eval_bt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt', '--', '-j16', '-l16'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/src/sentry_eval_bt/src'), ('TERM_PROGRAM_VERSION', '1.127.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1471'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1622'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3539'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:14685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1592,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '5f60f6a45ca644098b44975e433d0289'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c3789df4c4d8183a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WIOTR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029549] (sentry_eval_bt) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099854] (-) TimerEvent: {}
+[0.114947] (sentry_eval_bt) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.133988] (sentry_eval_bt) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.135354] (sentry_eval_bt) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.138943] (sentry_eval_bt) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.144235] (sentry_eval_bt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.151984] (sentry_eval_bt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.171206] (sentry_eval_bt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.171945] (sentry_eval_bt) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199958] (-) TimerEvent: {}
+[0.257844] (sentry_eval_bt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.289095] (sentry_eval_bt) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.300089] (-) TimerEvent: {}
+[0.308620] (sentry_eval_bt) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.341643] (sentry_eval_bt) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.373426] (sentry_eval_bt) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400167] (-) TimerEvent: {}
+[0.422217] (sentry_eval_bt) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.422378] (sentry_eval_bt) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.422426] (sentry_eval_bt) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.422584] (sentry_eval_bt) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.422884] (sentry_eval_bt) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.423117] (sentry_eval_bt) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.423693] (sentry_eval_bt) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.423747] (sentry_eval_bt) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.423926] (sentry_eval_bt) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.424452] (sentry_eval_bt) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.435087] (sentry_eval_bt) StdoutLine: {'line': b'-- Generating done\n'}
+[0.439210] (sentry_eval_bt) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/sentry_eval_bt\n'}
+[0.470938] (sentry_eval_bt) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target sentry_eval_bt_node\n'}
+[0.484945] (sentry_eval_bt) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/sentry_eval_bt_node.dir/src/bt_nodes.cpp.o\n'}
+[0.485174] (sentry_eval_bt) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/sentry_eval_bt_node.dir/src/bt_runner.cpp.o\n'}
+[0.500273] (-) TimerEvent: {}
+[0.600488] (-) TimerEvent: {}
+[0.700678] (-) TimerEvent: {}
+[0.800923] (-) TimerEvent: {}
+[0.901201] (-) TimerEvent: {}
+[1.001429] (-) TimerEvent: {}
+[1.101685] (-) TimerEvent: {}
+[1.201924] (-) TimerEvent: {}
+[1.302163] (-) TimerEvent: {}
+[1.402484] (-) TimerEvent: {}
+[1.502819] (-) TimerEvent: {}
+[1.603126] (-) TimerEvent: {}
+[1.703535] (-) TimerEvent: {}
+[1.803808] (-) TimerEvent: {}
+[1.903994] (-) TimerEvent: {}
+[2.004205] (-) TimerEvent: {}
+[2.104414] (-) TimerEvent: {}
+[2.204624] (-) TimerEvent: {}
+[2.304842] (-) TimerEvent: {}
+[2.405066] (-) TimerEvent: {}
+[2.505300] (-) TimerEvent: {}
+[2.605531] (-) TimerEvent: {}
+[2.705733] (-) TimerEvent: {}
+[2.805962] (-) TimerEvent: {}
+[2.906207] (-) TimerEvent: {}
+[3.006439] (-) TimerEvent: {}
+[3.106668] (-) TimerEvent: {}
+[3.206896] (-) TimerEvent: {}
+[3.307114] (-) TimerEvent: {}
+[3.407352] (-) TimerEvent: {}
+[3.507607] (-) TimerEvent: {}
+[3.607859] (-) TimerEvent: {}
+[3.708101] (-) TimerEvent: {}
+[3.808342] (-) TimerEvent: {}
+[3.908594] (-) TimerEvent: {}
+[4.008831] (-) TimerEvent: {}
+[4.109064] (-) TimerEvent: {}
+[4.209288] (-) TimerEvent: {}
+[4.309486] (-) TimerEvent: {}
+[4.409680] (-) TimerEvent: {}
+[4.509878] (-) TimerEvent: {}
+[4.610042] (-) TimerEvent: {}
+[4.710237] (-) TimerEvent: {}
+[4.810458] (-) TimerEvent: {}
+[4.910659] (-) TimerEvent: {}
+[5.010885] (-) TimerEvent: {}
+[5.111137] (-) TimerEvent: {}
+[5.211385] (-) TimerEvent: {}
+[5.311627] (-) TimerEvent: {}
+[5.345034] (sentry_eval_bt) StdoutLine: {'line': b'[100%] Linking CXX executable sentry_eval_bt_node\n'}
+[5.411765] (-) TimerEvent: {}
+[5.511999] (-) TimerEvent: {}
+[5.612233] (-) TimerEvent: {}
+[5.656460] (sentry_eval_bt) StdoutLine: {'line': b'[100%] Built target sentry_eval_bt_node\n'}
+[5.665227] (sentry_eval_bt) CommandEnded: {'returncode': 0}
+[5.665960] (sentry_eval_bt) JobProgress: {'identifier': 'sentry_eval_bt', 'progress': 'install'}
+[5.674547] (sentry_eval_bt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try/sentry_ws/src/sentry_eval_bt/src'), ('TERM_PROGRAM_VERSION', '1.127.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1471'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1622'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3539'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:14685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1592,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '5f60f6a45ca644098b44975e433d0289'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c3789df4c4d8183a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WIOTR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/sentry_eval_bt'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.680657] (sentry_eval_bt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.680865] (sentry_eval_bt) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/lib/sentry_eval_bt/sentry_eval_bt_node\n'}
+[5.683096] (sentry_eval_bt) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/lib/sentry_eval_bt/sentry_eval_bt_node" to ""\n'}
+[5.683257] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config\n'}
+[5.683288] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config/params.yaml\n'}
+[5.683315] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/config/waypoints_bt.xml\n'}
+[5.683339] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/launch\n'}
+[5.683387] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/launch/sentry_eval_bt.launch.py\n'}
+[5.683474] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/package_run_dependencies/sentry_eval_bt\n'}
+[5.683588] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/parent_prefix_path/sentry_eval_bt\n'}
+[5.683671] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/ament_prefix_path.sh\n'}
+[5.683754] (sentry_eval_bt) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/ament_prefix_path.dsv\n'}
+[5.683870] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/path.sh\n'}
+[5.683949] (sentry_eval_bt) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/environment/path.dsv\n'}
+[5.684021] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.bash\n'}
+[5.684080] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.sh\n'}
+[5.684135] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.zsh\n'}
+[5.684192] (sentry_eval_bt) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/local_setup.dsv\n'}
+[5.684262] (sentry_eval_bt) StdoutLine: {'line': b'-- Installing: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/package.dsv\n'}
+[5.684318] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/ament_index/resource_index/packages/sentry_eval_bt\n'}
+[5.684375] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/cmake/sentry_eval_btConfig.cmake\n'}
+[5.684434] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/cmake/sentry_eval_btConfig-version.cmake\n'}
+[5.684494] (sentry_eval_bt) StdoutLine: {'line': b'-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/sentry_eval_bt/share/sentry_eval_bt/package.xml\n'}
+[5.685292] (sentry_eval_bt) CommandEnded: {'returncode': 0}
+[5.694897] (sentry_eval_bt) JobEnded: {'identifier': 'sentry_eval_bt', 'rc': 0}
+[5.695228] (-) EventReactorShutdown: {}

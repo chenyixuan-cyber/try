@@ -1,0 +1,4 @@
+[0.023s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/livox_to_scan': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2:/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/livox_to_scan -- -j16 -l16
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_to_scan_node.dir/src/livox_to_scan_node.cpp.o[0m
+[6.844s] [100%] [32m[1mLinking CXX executable livox_to_scan_node[0m
+[7.182s] [100%] Built target livox_to_scan_node

@@ -1,0 +1,4 @@
+[0.021s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_voxel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_voxel -- -j16 -l16
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/costmap_voxel_layer.dir/src/voxel_filter_layer.cpp.o[0m
+[11.729s] [100%] [32m[1mLinking CXX shared library libcostmap_voxel_layer.so[0m
+[12.719s] [100%] Built target costmap_voxel_layer

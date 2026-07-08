@@ -1,0 +1,9 @@
+[0.009s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/serial_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/serial_comm -- -j16 -l16
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target sentry_comm_node[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/sentry_comm_node.dir/src/sentry_comm_node.cpp.o[0m
+[0.069s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/chen/sentry_try/sentry_ws/src/serial_comm/src/sentry_comm_node.cpp: 没有那个文件或目录
+[0.069s] compilation terminated.
+[0.070s] gmake[2]: *** [CMakeFiles/sentry_comm_node.dir/build.make:76：CMakeFiles/sentry_comm_node.dir/src/sentry_comm_node.cpp.o] 错误 1
+[0.070s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/sentry_comm_node.dir/all] 错误 2
+[0.071s] gmake: *** [Makefile:146：all] 错误 2
+[0.073s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/serial_comm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/serial_comm -- -j16 -l16

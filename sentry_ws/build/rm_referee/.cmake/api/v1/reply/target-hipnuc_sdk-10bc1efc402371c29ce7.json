@@ -1,0 +1,135 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/librm/libs/hipnuc_sdk/libhipnuc_sdk.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libs/librm/libs/hipnuc_sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee/libs/librm/libs/hipnuc_sdk/include/hipnuc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/sentry_try/sentry_ws/src/rm_referee_ros2/rm_referee/libs/librm/libs/hipnuc_sdk/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"id" : "hipnuc_sdk::@0b89280bd08308caa468",
+	"name" : "hipnuc_sdk",
+	"nameOnDisk" : "libhipnuc_sdk.a",
+	"paths" : 
+	{
+		"build" : "libs/librm/libs/hipnuc_sdk",
+		"source" : "libs/librm/libs/hipnuc_sdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/librm/libs/hipnuc_sdk/src/canopen_parser.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/librm/libs/hipnuc_sdk/src/example_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/librm/libs/hipnuc_sdk/src/hipnuc_can_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/librm/libs/hipnuc_sdk/src/hipnuc_dec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/librm/libs/hipnuc_sdk/src/hipnuc_j1939_parser.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/librm/libs/hipnuc_sdk/src/nmea_dec.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

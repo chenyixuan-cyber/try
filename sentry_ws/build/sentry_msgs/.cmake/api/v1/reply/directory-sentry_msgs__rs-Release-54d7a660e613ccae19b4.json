@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sentry_msgs__rs",
+		"source" : "/home/chen/sentry_try/sentry_ws/build/sentry_msgs/sentry_msgs__rs"
+	}
+}

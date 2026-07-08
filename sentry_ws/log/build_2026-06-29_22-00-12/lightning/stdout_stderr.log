@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/chen/sentry_try/sentry_ws/src/lightning-lm" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:1355：cmake_check_build_system] 错误 1

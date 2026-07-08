@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000376] (-) JobUnselected: {'identifier': 'costmap_intensity'}
+[0.000393] (-) JobUnselected: {'identifier': 'costmap_voxel'}
+[0.000404] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000412] (-) JobUnselected: {'identifier': 'goal_approach_controller'}
+[0.000421] (-) JobUnselected: {'identifier': 'lightning'}
+[0.000497] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000506] (-) JobUnselected: {'identifier': 'livox_to_scan'}
+[0.000514] (-) JobUnselected: {'identifier': 'pb_nav2_plugins'}
+[0.000522] (-) JobUnselected: {'identifier': 'rm_referee'}
+[0.000601] (-) JobUnselected: {'identifier': 'rm_referee_mock'}
+[0.000611] (-) JobUnselected: {'identifier': 'rm_referee_msgs'}
+[0.000619] (-) JobUnselected: {'identifier': 'sentry_msgs'}
+[0.000627] (-) JobUnselected: {'identifier': 'serial_comm'}
+[0.000655] (can_comm) JobQueued: {'identifier': 'can_comm', 'dependencies': OrderedDict([('sentry_msgs', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs')])}
+[0.000668] (can_comm) JobStarted: {'identifier': 'can_comm'}
+[0.010050] (can_comm) JobProgress: {'identifier': 'can_comm', 'progress': 'cmake'}
+[0.011225] (can_comm) JobProgress: {'identifier': 'can_comm', 'progress': 'build'}
+[0.011814] (can_comm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/sentry_try/sentry_ws/build/can_comm', '--', '-j16', '-l16'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/can_comm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1466'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1618'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3553'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:15169'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1587,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1587'), ('INVOCATION_ID', '0811db6233e64d5295bac4ae9c54ee42'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ea1f05db986d3501.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I6IQR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/can_comm'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble')]), 'shell': False}
+[0.034748] (can_comm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099767] (-) TimerEvent: {}
+[0.126486] (can_comm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.151366] (can_comm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.152991] (can_comm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.156876] (can_comm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.162899] (can_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.170816] (can_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.191831] (can_comm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.192650] (can_comm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199860] (-) TimerEvent: {}
+[0.296545] (can_comm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299934] (-) TimerEvent: {}
+[0.332420] (can_comm) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.341298] (can_comm) StdoutLine: {'line': b'-- Found sentry_msgs: 0.0.2 (/home/chen/sentry_try/sentry_ws/install/sentry_msgs/share/sentry_msgs/cmake)\n'}
+[0.396052] (can_comm) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.400022] (-) TimerEvent: {}
+[0.405880] (can_comm) StdoutLine: {'line': b'-- Generating done\n'}
+[0.410289] (can_comm) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/can_comm\n'}
+[0.435922] (can_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target can_receive_node\x1b[0m\n'}
+[0.436155] (can_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target can_send_node\x1b[0m\n'}
+[0.451489] (can_comm) StdoutLine: {'line': b'[ 50%] Built target can_receive_node\n'}
+[0.454655] (can_comm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/can_send_node.dir/src/can_send.cpp.o\x1b[0m\n'}
+[0.500128] (-) TimerEvent: {}
+[0.600388] (-) TimerEvent: {}
+[0.700656] (-) TimerEvent: {}
+[0.800909] (-) TimerEvent: {}
+[0.901173] (-) TimerEvent: {}
+[1.001447] (-) TimerEvent: {}
+[1.101760] (-) TimerEvent: {}
+[1.202038] (-) TimerEvent: {}
+[1.302347] (-) TimerEvent: {}
+[1.402726] (-) TimerEvent: {}
+[1.503214] (-) TimerEvent: {}
+[1.603602] (-) TimerEvent: {}
+[1.703866] (-) TimerEvent: {}
+[1.804286] (-) TimerEvent: {}
+[1.904837] (-) TimerEvent: {}
+[2.005164] (-) TimerEvent: {}
+[2.105453] (-) TimerEvent: {}
+[2.205697] (-) TimerEvent: {}
+[2.305958] (-) TimerEvent: {}
+[2.406278] (-) TimerEvent: {}
+[2.506541] (-) TimerEvent: {}
+[2.606848] (-) TimerEvent: {}
+[2.707142] (-) TimerEvent: {}
+[2.807437] (-) TimerEvent: {}
+[2.907702] (-) TimerEvent: {}
+[3.008166] (-) TimerEvent: {}
+[3.108449] (-) TimerEvent: {}
+[3.208727] (-) TimerEvent: {}
+[3.309069] (-) TimerEvent: {}
+[3.409414] (-) TimerEvent: {}
+[3.509782] (-) TimerEvent: {}
+[3.610134] (-) TimerEvent: {}
+[3.710405] (-) TimerEvent: {}
+[3.761630] (can_comm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:70\x1b[m\x1b[K,\n'}
+[3.761837] (can_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8\x1b[m\x1b[K:\n'}
+[3.761899] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rm::modules::BuzzerNote rm::modules::buzzer_melody::Silent::Update(rm::modules::SequenceGenerator<rm::modules::BuzzerNote>::TimePoint)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.761954] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:244:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.762029] (can_comm) StderrLine: {'line': b'  244 |   BuzzerNote Update(\x1b[01;35m\x1b[KTimePoint now\x1b[m\x1b[K) override { return BuzzerNote(0, 0); }\n'}
+[3.762080] (can_comm) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.762125] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rm::modules::buzzer_melody::Silent::Reset(rm::modules::SequenceGenerator<rm::modules::BuzzerNote>::TimePoint)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.762170] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/buzzer_controller.hpp:246:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.762214] (can_comm) StderrLine: {'line': b'  246 |   void Reset(\x1b[01;35m\x1b[KTimePoint now\x1b[m\x1b[K) override {}\n'}
+[3.762255] (can_comm) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.773879] (can_comm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:75\x1b[m\x1b[K,\n'}
+[3.774048] (can_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8\x1b[m\x1b[K:\n'}
+[3.774108] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rm::modules::RgbLedPattern::Rgb rm::modules::led_pattern::Off::Update(rm::modules::SequenceGenerator<std::tuple<unsigned char, unsigned char, unsigned char> >::TimePoint)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.774153] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:58:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.774194] (can_comm) StderrLine: {'line': b'   58 |   Rgb Update(\x1b[01;35m\x1b[KTimePoint now\x1b[m\x1b[K) override { return Rgb(0, 0, 0); }\n'}
+[3.774228] (can_comm) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.774261] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rm::modules::led_pattern::Off::Reset(rm::modules::SequenceGenerator<std::tuple<unsigned char, unsigned char, unsigned char> >::TimePoint)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.774301] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/rgb_led_controller.hpp:60:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.774338] (can_comm) StderrLine: {'line': b'   60 |   void Reset(\x1b[01;35m\x1b[KTimePoint now\x1b[m\x1b[K) override {}\n'}
+[3.774370] (can_comm) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.810503] (-) TimerEvent: {}
+[3.896921] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCanSender::CanSender()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.897114] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:51:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm::hal::linux_::SocketCan\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KBegin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.897176] (can_comm) StderrLine: {'line': b'   51 |             can_->\x1b[01;31m\x1b[Kbegin\x1b[m\x1b[K();\n'}
+[3.897225] (can_comm) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.897269] (can_comm) StderrLine: {'line': b'      |                   \x1b[32m\x1b[KBegin\x1b[m\x1b[K\n'}
+[3.910606] (-) TimerEvent: {}
+[3.913974] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.914117] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:79:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvw_received_once_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcmd_received_once_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.914186] (can_comm) StderrLine: {'line': b'   79 |                 if(!\x1b[01;31m\x1b[Kvw_received_once_\x1b[m\x1b[K){\n'}
+[3.914233] (can_comm) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.914273] (can_comm) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kcmd_received_once_\x1b[m\x1b[K\n'}
+[3.936255] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CanSender::SendFrame()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.936492] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:140:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvw_received_once_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcmd_received_once_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.936555] (can_comm) StderrLine: {'line': b'  140 |             const bool vw_fresh = \x1b[01;31m\x1b[Kvw_received_once_\x1b[m\x1b[K\n'}
+[3.936600] (can_comm) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.936637] (can_comm) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Kcmd_received_once_\x1b[m\x1b[K\n'}
+[4.010835] (-) TimerEvent: {}
+[4.111197] (-) TimerEvent: {}
+[4.113286] (can_comm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.113447] (can_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.113567] (can_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:1\x1b[m\x1b[K:\n'}
+[4.113614] (can_comm) StderrLine: {'line': b'/usr/include/c++/11/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = rm::hal::linux_::SocketCan; _Args = {const char*, int&, int&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<rm::hal::linux_::SocketCan>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.113669] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:50:49:\x1b[m\x1b[K   required from here\n'}
+[4.113724] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:962:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krm::hal::linux_::SocketCan::SocketCan(const char*, int&, int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.113770] (can_comm) StderrLine: {'line': b'  962 |     { return unique_ptr<_Tp>(\x1b[01;31m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[4.113823] (can_comm) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.113865] (can_comm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/hal/can.hpp:37\x1b[m\x1b[K,\n'}
+[4.113906] (can_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:39\x1b[m\x1b[K,\n'}
+[4.113945] (can_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8\x1b[m\x1b[K:\n'}
+[4.113992] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/hal/linux/socketcan.hpp:55:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krm::hal::linux_::SocketCan::SocketCan()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.114042] (can_comm) StderrLine: {'line': b'   55 |   \x1b[01;36m\x1b[KSocketCan\x1b[m\x1b[K() = default;\n'}
+[4.114082] (can_comm) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.114592] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/hal/linux/socketcan.hpp:55:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[4.114669] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/hal/linux/socketcan.hpp:54:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krm::hal::linux_::SocketCan::SocketCan(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.114722] (can_comm) StderrLine: {'line': b'   54 |   explicit \x1b[01;36m\x1b[KSocketCan\x1b[m\x1b[K(const char *dev);\n'}
+[4.114768] (can_comm) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.114811] (can_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/hal/linux/socketcan.hpp:54:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[4.211339] (-) TimerEvent: {}
+[4.311676] (-) TimerEvent: {}
+[4.411991] (-) TimerEvent: {}
+[4.512286] (-) TimerEvent: {}
+[4.612621] (-) TimerEvent: {}
+[4.712928] (-) TimerEvent: {}
+[4.813271] (-) TimerEvent: {}
+[4.913614] (-) TimerEvent: {}
+[5.013936] (-) TimerEvent: {}
+[5.114353] (-) TimerEvent: {}
+[5.214870] (-) TimerEvent: {}
+[5.315197] (-) TimerEvent: {}
+[5.415544] (-) TimerEvent: {}
+[5.515882] (-) TimerEvent: {}
+[5.616208] (-) TimerEvent: {}
+[5.716564] (-) TimerEvent: {}
+[5.816908] (-) TimerEvent: {}
+[5.917205] (-) TimerEvent: {}
+[6.017445] (-) TimerEvent: {}
+[6.117733] (-) TimerEvent: {}
+[6.217970] (-) TimerEvent: {}
+[6.318224] (-) TimerEvent: {}
+[6.418494] (-) TimerEvent: {}
+[6.518754] (-) TimerEvent: {}
+[6.619060] (-) TimerEvent: {}
+[6.719375] (-) TimerEvent: {}
+[6.819706] (-) TimerEvent: {}
+[6.920047] (-) TimerEvent: {}
+[7.020334] (-) TimerEvent: {}
+[7.120608] (-) TimerEvent: {}
+[7.220895] (-) TimerEvent: {}
+[7.321206] (-) TimerEvent: {}
+[7.421512] (-) TimerEvent: {}
+[7.521868] (-) TimerEvent: {}
+[7.622435] (-) TimerEvent: {}
+[7.722710] (-) TimerEvent: {}
+[7.822963] (-) TimerEvent: {}
+[7.923212] (-) TimerEvent: {}
+[7.944463] (can_comm) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/can_send_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/can_send_node.dir/src/can_send.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.944689] (can_comm) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/can_send_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.944914] (can_comm) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.947106] (can_comm) CommandEnded: {'returncode': 2}
+[7.957564] (can_comm) JobEnded: {'identifier': 'can_comm', 'rc': 2}
+[7.968065] (-) EventReactorShutdown: {}

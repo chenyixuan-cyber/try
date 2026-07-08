@@ -1,0 +1,95 @@
+[0.040s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/rm_referee': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/rm_referee -- -j16 -l16
+[0.111s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.599s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.606s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.674s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.675s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.878s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.129s] -- [librm]: Platform: LINUX
+[1.129s] -- [librm]: Linux type: GENERAL
+[1.172s] -- Found Eigen3 
+[1.222s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/rm_referee` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.242s] -- Configuring done
+[1.570s] -- Generating done
+[1.627s] -- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/rm_referee
+[1.748s] [35m[1mConsolidate compiler generated dependencies of target hipnuc_sdk[0m
+[1.752s] [35m[1mConsolidate compiler generated dependencies of target ardupilot_filter[0m
+[1.760s] [35m[1mConsolidate compiler generated dependencies of target tf_publisher[0m
+[1.766s] [35m[1mConsolidate compiler generated dependencies of target referee_node[0m
+[1.786s] [ 14%] Built target hipnuc_sdk
+[1.793s] [ 30%] Built target ardupilot_filter
+[1.809s] [ 34%] Built target tf_publisher
+[1.818s] [ 38%] Built target referee_node
+[1.888s] [35m[1mConsolidate compiler generated dependencies of target rm[0m
+[2.027s] [ 89%] Built target rm
+[2.065s] [35m[1mConsolidate compiler generated dependencies of target referee_node_component[0m
+[2.151s] [ 91%] [32m[1mLinking CXX shared library libreferee_node_component.so[0m
+[4.375s] [ 95%] Built target referee_node_component
+[4.409s] [35m[1mConsolidate compiler generated dependencies of target tf_publisher_component[0m
+[4.452s] [ 97%] [32m[1mLinking CXX shared library libtf_publisher_component.so[0m
+[6.562s] [100%] Built target tf_publisher_component
+[6.587s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/rm_referee' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/rm_referee -- -j16 -l16
+[6.664s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/rm_referee': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/rm_referee
+[6.758s] -- Install configuration: ""
+[6.853s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/rm_referee/referee_node
+[6.857s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/rm_referee/tf_publisher
+[6.859s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libreferee_node_component.so
+[6.977s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libreferee_node_component.so" to ""
+[7.061s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libtf_publisher_component.so
+[7.085s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libtf_publisher_component.so" to ""
+[7.085s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/launch
+[7.085s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/launch/referee_node.launch.py
+[7.085s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/launch/tf_publisher.launch.py
+[7.085s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include
+[7.165s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node
+[7.168s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/referee_node.hpp
+[7.168s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/byte_stream_recorder.hpp
+[7.168s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/log_utils.hpp
+[7.168s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/referee_node/asio_serial.hpp
+[7.171s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/library_path.sh
+[7.171s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/library_path.dsv
+[7.174s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libreferee_node_component.so
+[7.174s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libtf_publisher_component.so
+[7.271s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/package_run_dependencies/rm_referee
+[7.273s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/parent_prefix_path/rm_referee
+[7.274s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/ament_prefix_path.sh
+[7.274s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/ament_prefix_path.dsv
+[7.369s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/path.sh
+[7.369s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/environment/path.dsv
+[7.369s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.bash
+[7.370s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.sh
+[7.370s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.zsh
+[7.370s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/local_setup.dsv
+[7.372s] -- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/package.dsv
+[7.373s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/packages/rm_referee
+[7.469s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/ament_index/resource_index/rclcpp_components/rm_referee
+[7.474s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.475s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.475s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/ament_cmake_export_libraries-extras.cmake
+[7.475s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/rm_refereeConfig.cmake
+[7.475s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/cmake/rm_refereeConfig-version.cmake
+[7.475s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/share/rm_referee/package.xml
+[7.576s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/libardupilot_filter.a
+[7.672s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters
+[7.676s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/HarmonicNotchFilter.h
+[7.676s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/AP_Filter.h
+[7.676s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/filter_math.h
+[7.676s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/AP_Filter_config.h
+[7.676s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/SlewLimiter.h
+[7.676s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/Butter.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/filter_config.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/Filter.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/LowPassFilter2p.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/AverageFilter.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/DerivativeFilter.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/FilterWithBuffer.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/LowPassFilter.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/FilterClass.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/ModeFilter.h
+[7.677s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/include/ap_filters/NotchFilter.h
+[7.775s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/cmake/ardupilot_filter/ardupilot_filter-targets.cmake
+[7.775s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee/lib/cmake/ardupilot_filter/ardupilot_filter-targets-noconfig.cmake
+[7.785s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/rm_referee' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/rm_referee

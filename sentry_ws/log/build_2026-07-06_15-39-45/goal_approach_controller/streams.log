@@ -1,0 +1,27 @@
+[0.036s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/goal_approach_controller -- -j16 -l16
+[0.140s] [ 50%] [32mBuilding CXX object CMakeFiles/goal_approach_controller.dir/src/goal_approach_controller.cpp.o[0m
+[12.524s] [100%] [32m[1mLinking CXX shared library libgoal_approach_controller.so[0m
+[12.878s] [100%] Built target goal_approach_controller
+[12.888s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/goal_approach_controller -- -j16 -l16
+[12.894s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/goal_approach_controller
+[12.903s] -- Install configuration: "Release"
+[12.906s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/goal_approach_controller_plugin.xml
+[12.910s] -- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/libgoal_approach_controller.so
+[12.911s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/goal_approach_controller/lib/libgoal_approach_controller.so" to ""
+[12.917s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/package_run_dependencies/goal_approach_controller
+[12.917s] -- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/parent_prefix_path/goal_approach_controller
+[12.920s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/ament_prefix_path.sh
+[12.920s] -- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/ament_prefix_path.dsv
+[12.921s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/path.sh
+[12.921s] -- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/environment/path.dsv
+[12.924s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.bash
+[12.924s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.sh
+[12.924s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.zsh
+[12.924s] -- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/local_setup.dsv
+[12.924s] -- Installing: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.dsv
+[12.928s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/packages/goal_approach_controller
+[12.931s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/goal_approach_controller
+[12.934s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/cmake/goal_approach_controllerConfig.cmake
+[12.934s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/cmake/goal_approach_controllerConfig-version.cmake
+[12.934s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/goal_approach_controller/share/goal_approach_controller/package.xml
+[12.937s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/goal_approach_controller

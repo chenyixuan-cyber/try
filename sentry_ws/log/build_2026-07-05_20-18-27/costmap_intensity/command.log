@@ -1,0 +1,4 @@
+Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_intensity -- -j16 -l16
+Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_intensity -- -j16 -l16
+Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_intensity
+Invoked command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/costmap_intensity

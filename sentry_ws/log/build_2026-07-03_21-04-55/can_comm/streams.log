@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target can_send_node[0m
+[0.059s] [ 50%] Built target can_receive_node
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/can_send_node.dir/src/can_send.cpp.o[0m
+[1.810s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:[m[K In constructor ‘[01m[KCanSender::CanSender()[m[K’:
+[1.810s] [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:44:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend_freq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.810s]    44 |         int [01;35m[Ksend_freq[m[K = this->get_parameter("send_freq").as_int();
+[1.810s]       |             [01;35m[K^~~~~~~~~[m[K
+[10.694s] [100%] [32m[1mLinking CXX executable can_send_node[0m
+[11.232s] [100%] Built target can_send_node
+[11.243s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/can_comm -- -j16 -l16
+[11.253s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/can_comm': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/can_comm
+[11.261s] -- Install configuration: ""
+[11.261s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_receive_node
+[11.261s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_send_node
+[11.269s] -- Set runtime path of "/home/chen/sentry_try/sentry_ws/install/can_comm/lib/can_comm/can_send_node" to ""
+[11.269s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config
+[11.269s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/config/can_params.yaml
+[11.269s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/package_run_dependencies/can_comm
+[11.269s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/parent_prefix_path/can_comm
+[11.269s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.sh
+[11.269s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/ament_prefix_path.dsv
+[11.269s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.sh
+[11.269s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/environment/path.dsv
+[11.270s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.bash
+[11.270s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.sh
+[11.270s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.zsh
+[11.270s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/local_setup.dsv
+[11.270s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.dsv
+[11.270s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/ament_index/resource_index/packages/can_comm
+[11.270s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig.cmake
+[11.270s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/cmake/can_commConfig-version.cmake
+[11.270s] -- Installing: /home/chen/sentry_try/sentry_ws/install/can_comm/share/can_comm/package.xml
+[11.272s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/can_comm' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/sentry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/can_comm

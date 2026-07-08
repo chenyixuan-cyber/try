@@ -1,0 +1,442 @@
+[0.041s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/lightning-lm -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/lightning
+[0.100s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.207s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.284s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.903s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.913s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.917s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.238s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.258s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.271s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.689s] -- Found Qhull version 8.0.2
+[2.127s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.512s] -- looking for PCL_COMMON
+[2.513s] -- looking for PCL_KDTREE
+[2.514s] -- looking for PCL_OCTREE
+[2.516s] -- looking for PCL_SEARCH
+[2.516s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.516s] -- looking for PCL_FILTERS
+[2.516s] -- looking for PCL_2D
+[2.516s] -- looking for PCL_GEOMETRY
+[2.516s] -- looking for PCL_IO
+[2.517s] -- looking for PCL_FEATURES
+[2.517s] -- looking for PCL_ML
+[2.518s] -- looking for PCL_SEGMENTATION
+[2.525s] -- looking for PCL_VISUALIZATION
+[2.526s] -- looking for PCL_SURFACE
+[2.526s] -- looking for PCL_REGISTRATION
+[2.528s] -- looking for PCL_KEYPOINTS
+[2.530s] -- looking for PCL_TRACKING
+[2.530s] -- looking for PCL_RECOGNITION
+[2.530s] -- looking for PCL_STEREO
+[2.531s] -- looking for PCL_APPS
+[2.538s] -- looking for PCL_IN_HAND_SCANNER
+[2.538s] -- looking for PCL_MODELER
+[2.538s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.538s] -- looking for PCL_OUTOFCORE
+[2.540s] -- looking for PCL_PEOPLE
+[2.556s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[2.563s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.564s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.930s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.933s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.944s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.029s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.033s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.289s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.478s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.501s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[3.522s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[3.526s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.619s] -- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[3.648s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.664s] -- Found rm_referee_msgs: 0.0.0 (/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/share/rm_referee_msgs/cmake)
+[4.266s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.786s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.818s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.818s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.818s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.078s] -- livox_ros_driver2 version: 2.6.0
+[7.079s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[7.795s] [0m/usr/include/apr-1.0[0m
+[7.795s] [0mapr-1[0m
+[9.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.020s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.082s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.082s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.260s] -- Configuring done
+[11.347s] -- Generating done
+[11.435s] -- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/lightning
+[11.471s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/lightning' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/lightning-lm -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/lightning
+[11.473s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning -- -j16 -l16
+[11.520s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c[0m
+[11.520s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_generator_c[0m
+[11.524s] [35m[1mConsolidate compiler generated dependencies of target miao.utils[0m
+[11.536s] [  2%] Built target lightning__rs
+[11.536s] [  2%] Built target lightning__cpp
+[11.537s] [  2%] Built target livox_interfaces2__rs
+[11.543s] [  3%] Built target livox_interfaces2__cpp
+[11.548s] [35m[1mConsolidate compiler generated dependencies of target miao.core[0m
+[11.557s] [  3%] Built target ament_cmake_python_copy_livox_ros_driver2
+[11.557s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_cpp[0m
+[11.557s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_cpp[0m
+[11.557s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_cpp[0m
+[11.562s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp[0m
+[11.562s] [  6%] Built target lightning__rosidl_generator_c
+[11.564s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp[0m
+[11.565s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp[0m
+[11.571s] [  9%] Built target livox_interfaces2__rosidl_generator_c
+[11.577s] [  9%] Built target ament_cmake_python_copy_lightning
+[11.583s] [ 10%] Built target miao.utils
+[11.584s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c[0m
+[11.588s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c[0m
+[11.589s] [ 13%] Built target lightning__rosidl_typesupport_fastrtps_cpp
+[11.592s] [ 16%] Built target lightning__rosidl_typesupport_cpp
+[11.593s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_c[0m
+[11.593s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c[0m
+[11.596s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c[0m
+[11.598s] [ 22%] Built target lightning__rosidl_typesupport_introspection_cpp
+[11.598s] [ 22%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[11.607s] [ 25%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[11.607s] [ 32%] Built target miao.core
+[11.607s] [ 35%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[11.613s] [ 38%] Built target lightning__rosidl_typesupport_c
+[11.614s] [ 41%] Built target lightning__rosidl_typesupport_fastrtps_c
+[11.616s] [ 50%] Built target lightning__rosidl_typesupport_introspection_c
+[11.616s] [ 50%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[11.616s] [ 50%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[11.618s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c[0m
+[11.629s] [ 53%] Built target livox_interfaces2__rosidl_typesupport_c
+[11.641s] [ 53%] Built target lightning
+[11.653s] [ 53%] Built target livox_interfaces2
+[11.665s] [ 54%] Built target lightning__py
+[11.675s] [ 54%] Built target livox_interfaces2__py
+[11.680s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_generator_py[0m
+[11.691s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py[0m
+[11.705s] [ 58%] Built target livox_interfaces2__rosidl_generator_py
+[11.705s] [ 58%] Built target lightning__rosidl_generator_py
+[11.719s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c__pyext[0m
+[11.719s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext[0m
+[11.722s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.723s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext[0m
+[11.723s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.728s] [35m[1mConsolidate compiler generated dependencies of target lightning__rosidl_typesupport_c__pyext[0m
+[11.736s] [35m[1mConsolidate compiler generated dependencies of target lightning.libs[0m
+[11.737s] [ 60%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext
+[11.737s] [ 60%] Built target lightning__rosidl_typesupport_introspection_c__pyext
+[11.738s] [ 62%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[11.743s] [ 64%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[11.743s] [ 66%] Built target lightning__rosidl_typesupport_c__pyext
+[11.743s] [ 66%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[12.004s] [ 89%] Built target lightning.libs
+[12.020s] [35m[1mConsolidate compiler generated dependencies of target run_slam_online[0m
+[12.021s] [35m[1mConsolidate compiler generated dependencies of target run_loop_offline[0m
+[12.021s] [35m[1mConsolidate compiler generated dependencies of target run_loc_offline[0m
+[12.022s] [35m[1mConsolidate compiler generated dependencies of target run_frontend_offline[0m
+[12.025s] [35m[1mConsolidate compiler generated dependencies of target test_ui[0m
+[12.025s] [35m[1mConsolidate compiler generated dependencies of target run_slam_offline[0m
+[12.028s] [35m[1mConsolidate compiler generated dependencies of target run_loc_online[0m
+[12.065s] [ 90%] Built target run_slam_online
+[12.071s] [ 92%] Built target run_slam_offline
+[12.071s] [ 94%] Built target test_ui
+[12.077s] [ 96%] Built target run_loc_online
+[12.077s] [ 97%] Built target run_loc_offline
+[12.083s] [ 99%] Built target run_frontend_offline
+[12.087s] [100%] Built target run_loop_offline
+[12.455s] running egg_info
+[12.455s] running egg_info
+[12.456s] writing lightning.egg-info/PKG-INFO
+[12.456s] writing livox_ros_driver2.egg-info/PKG-INFO
+[12.456s] writing dependency_links to lightning.egg-info/dependency_links.txt
+[12.456s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[12.457s] writing top-level names to lightning.egg-info/top_level.txt
+[12.457s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[12.463s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[12.463s] reading manifest file 'lightning.egg-info/SOURCES.txt'
+[12.465s] writing manifest file 'lightning.egg-info/SOURCES.txt'
+[12.465s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[12.506s] [100%] Built target ament_cmake_python_build_lightning_egg
+[12.511s] [100%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[12.525s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/lightning' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning -- -j16 -l16
+[12.529s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/lightning
+[12.536s] -- Install configuration: "Release"
+[12.536s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/ament_index/resource_index/rosidl_interfaces/lightning
+[12.536s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning
+[12.536s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg
+[12.536s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg/rosidl_generator_c__visibility_control.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/save_map.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/loc_cmd.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__type_support.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__functions.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__struct.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__type_support.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__functions.c
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__functions.c
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__struct.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__functions.h
+[12.537s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/library_path.sh
+[12.537s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/library_path.dsv
+[12.538s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_generator_c.so
+[12.538s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning
+[12.538s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_fastrtps_c.h
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_typesupport_fastrtps_c.so
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/loc_cmd.hpp
+[12.539s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/save_map.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__struct.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__traits.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__type_support.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__builder.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__type_support.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__struct.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__traits.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__builder.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/dds_fastrtps
+[12.540s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_typesupport_fastrtps_cpp.so
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__type_support.c
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__type_support.c
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_introspection_c.h
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[12.541s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_typesupport_introspection_c.so
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_typesupport_c.so
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__type_support.cpp
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__type_support.cpp
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_introspection_cpp.hpp
+[12.542s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_typesupport_introspection_cpp.so
+[12.543s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_typesupport_cpp.so
+[12.543s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/pythonpath.sh
+[12.543s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/pythonpath.dsv
+[12.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info
+[12.544s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/top_level.txt
+[12.544s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/PKG-INFO
+[12.544s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.544s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning
+[12.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/_lightning_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/liblightning__rosidl_generator_py.so
+[12.544s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/_lightning_s.ep.rosidl_typesupport_introspection_c.c
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_loc_cmd.py
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_save_map_s.c
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_save_map.py
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_loc_cmd_s.c
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/__init__.py
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.545s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/_lightning_s.ep.rosidl_typesupport_c.c
+[12.545s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/__init__.py
+[12.573s] Listing '/home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning'...
+[12.573s] Compiling '/home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/__init__.py'...
+[12.573s] Listing '/home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv'...
+[12.580s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.583s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.585s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning__rosidl_generator_py.so
+[12.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/ament_index/resource_index/rust_packages/lightning
+[12.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust
+[12.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust/Cargo.toml
+[12.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust/build.rs
+[12.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust/src
+[12.586s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust/src/srv.rs
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust/src/srv
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust/src/srv/rmw.rs
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/rust/src/lib.rs
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/LocCmd.idl
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/SaveMap.idl
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/LocCmd.srv
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/LocCmd_Request.msg
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/LocCmd_Response.msg
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/SaveMap.srv
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/SaveMap_Request.msg
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/srv/SaveMap_Response.msg
+[12.587s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/config
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/config/default_livox.yaml
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/config/default_vbr.yaml
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/config/default_utbm.yaml
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/config/default_nclt.yaml
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/config/default.yaml
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[12.588s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.589s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[12.590s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.591s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.592s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[12.593s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[12.593s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[12.593s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[12.593s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[12.593s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[12.594s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2-2.6.0-py3.10.egg-info
+[12.594s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2-2.6.0-py3.10.egg-info/top_level.txt
+[12.594s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2-2.6.0-py3.10.egg-info/PKG-INFO
+[12.594s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2-2.6.0-py3.10.egg-info/SOURCES.txt
+[12.594s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2-2.6.0-py3.10.egg-info/dependency_links.txt
+[12.594s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2
+[12.594s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.594s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[12.595s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.595s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[12.626s] Listing '/home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[12.626s] Compiling '/home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[12.626s] Listing '/home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[12.632s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.633s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.633s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.633s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblivox_interfaces2__rosidl_generator_py.so
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/ament_index/resource_index/rust_packages/livox_ros_driver2
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust/Cargo.toml
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust/build.rs
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust/src
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust/src/msg
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust/src/msg/rmw.rs
+[12.634s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust/src/msg.rs
+[12.635s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/rust/src/lib.rs
+[12.635s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/msg/CustomPoint.idl
+[12.635s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/msg/CustomMsg.idl
+[12.635s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/msg/CustomPoint.msg
+[12.635s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/livox_ros_driver2/msg/CustomMsg.msg
+[12.636s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/liblightning.libs.so
+[12.637s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/libmiao.core.so
+[12.637s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/libmiao.utils.so
+[12.638s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/lightning/run_slam_offline
+[12.638s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/lightning/run_slam_online
+[12.639s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/lightning/run_loc_offline
+[12.640s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/lib/lightning/run_loc_online
+[12.640s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/ament_index/resource_index/package_run_dependencies/lightning
+[12.640s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/ament_index/resource_index/parent_prefix_path/lightning
+[12.640s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/ament_prefix_path.sh
+[12.640s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/ament_prefix_path.dsv
+[12.641s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/path.sh
+[12.641s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/environment/path.dsv
+[12.641s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/local_setup.bash
+[12.641s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/local_setup.sh
+[12.641s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/local_setup.zsh
+[12.641s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/local_setup.dsv
+[12.641s] -- Installing: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/package.dsv
+[12.642s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/ament_index/resource_index/packages/lightning
+[12.642s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_cExport.cmake
+[12.642s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_cExport-release.cmake
+[12.642s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cExport.cmake
+[12.642s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cExport-release.cmake
+[12.642s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_cppExport.cmake
+[12.643s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.643s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[12.643s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cExport.cmake
+[12.643s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cExport-release.cmake
+[12.643s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cExport.cmake
+[12.643s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cExport-release.cmake
+[12.643s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cppExport.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cppExport-release.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cppExport.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cppExport-release.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_pyExport.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_pyExport-release.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/rosidl_cmake-extras.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/ament_cmake_export_libraries-extras.cmake
+[12.644s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/ament_cmake_export_targets-extras.cmake
+[12.645s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.645s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.645s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[12.645s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightningConfig.cmake
+[12.645s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/cmake/lightningConfig-version.cmake
+[12.645s] -- Up-to-date: /home/chen/sentry_try/sentry_ws/install/lightning/share/lightning/package.xml
+[12.648s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/lightning' returned '0': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/sentry_try/sentry_ws/build/lightning

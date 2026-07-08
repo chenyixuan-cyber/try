@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libs/librm/libs/hipnuc_sdk",
+		"source" : "libs/librm/libs/hipnuc_sdk"
+	}
+}

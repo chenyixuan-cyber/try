@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/ScanMode.msg
+// generated code does not contain a copyright notice
+
+
+module sentry_msgs {
+  module msg {
+    struct ScanMode {
+      @verbatim (language="comment", text=
+        "扫描模式:0不扫描 1扫描")
+      boolean scan_mod_type;
+    };
+  };
+};

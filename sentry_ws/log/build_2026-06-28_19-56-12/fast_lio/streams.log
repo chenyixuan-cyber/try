@@ -1,0 +1,81 @@
+[0.023s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2:/home/chen/sentry_try/sentry_ws/install/sentry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/sentry_try/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/fast_lio -- -j16 -l16
+[0.060s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.068s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.068s] [  8%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.075s] [  8%] Built target ament_cmake_python_copy_fast_lio
+[0.262s] running egg_info
+[0.263s] creating fast_lio.egg-info
+[0.263s] writing fast_lio.egg-info/PKG-INFO
+[0.263s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.263s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.264s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.266s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.267s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.289s] [  8%] Built target fast_lio__cpp
+[0.291s] [ 11%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[0.301s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.301s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.301s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.301s] [ 19%] Built target fast_lio__rs
+[0.313s] [ 19%] Built target ament_cmake_python_build_fast_lio_egg
+[0.391s] [ 22%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[0.424s] [ 22%] Built target fast_lio__rosidl_generator_c
+[0.434s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.434s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.434s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.537s] [ 33%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[0.589s] [ 36%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[0.606s] [ 38%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[0.637s] [ 41%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[0.655s] [ 44%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[0.671s] [ 47%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[0.704s] [ 50%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[0.706s] [ 50%] Built target fast_lio__rosidl_typesupport_c
+[0.711s] [ 52%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[0.733s] [ 52%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.784s] [ 55%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[0.819s] [ 55%] Built target fast_lio__rosidl_typesupport_cpp
+[0.839s] [ 61%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[0.839s] [ 61%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[0.839s] [ 63%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[0.886s] [ 66%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.907s] [ 69%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[0.950s] [ 69%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.997s] [ 69%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[1.054s] [ 72%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[1.133s] [ 72%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[1.154s] [ 72%] Built target fast_lio
+[1.173s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.488s] [ 75%] Built target fast_lio__py
+[1.507s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[1.609s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[1.645s] [ 80%] Built target fast_lio__rosidl_generator_py
+[1.666s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.666s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.666s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[1.743s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.743s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.747s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.773s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[1.773s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[1.779s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[5.717s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[5.717s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[5.717s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[5.717s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[5.717s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[5.717s]                  from [01m[K/home/chen/sentry_try/sentry_ws/src/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[5.718s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[5.718s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[5.718s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[49.555s] [100%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[50.302s] [100%] Built target fastlio_mapping

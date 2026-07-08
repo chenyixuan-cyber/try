@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c741fcc5663aa2c7b42c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "costmap_intensity",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_intensity_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_intensity_core-Release-5c88f31bf40bf46682e4.json",
+					"name" : "costmap_intensity_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_intensity_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_intensity_uninstall-Release-4ffa27741f94697e2f5f.json",
+					"name" : "costmap_intensity_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8cd04c30efc52a6dd0ec.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chen/sentry_try/sentry_ws/build/costmap_intensity",
+		"source" : "/home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_intensity"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

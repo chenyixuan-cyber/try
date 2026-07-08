@@ -1,0 +1,4 @@
+source;share/sentry_eval_bt/local_setup.bash
+source;share/sentry_eval_bt/local_setup.dsv
+source;share/sentry_eval_bt/local_setup.sh
+source;share/sentry_eval_bt/local_setup.zsh

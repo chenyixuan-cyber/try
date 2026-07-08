@@ -1,0 +1,50 @@
+Built target ament_cmake_python_copy_rm_referee_mock
+running egg_info
+writing rm_referee_mock.egg-info/PKG-INFO
+writing dependency_links to rm_referee_mock.egg-info/dependency_links.txt
+writing top-level names to rm_referee_mock.egg-info/top_level.txt
+reading manifest file 'rm_referee_mock.egg-info/SOURCES.txt'
+writing manifest file 'rm_referee_mock.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_rm_referee_mock_egg
+-- Install configuration: ""
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/assets
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/assets/match_control.ui
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/assets/map.jpg
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/plugin.xml
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/lib/rm_referee_mock/rqt_clean_start
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/pythonpath.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/pythonpath.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info
+-- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/dart_client_widget.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_keyboard_publisher.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/widget_confirmed_line_edit.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/publisher_pool.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_dart_client.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_match_control.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/rqt_plugin_fake_location.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/match_control_widget.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/sentry_posture.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/fake_location_widget.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/keyboard_publisher_widget.py
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock/__init__.py
+Listing '/home/chen/sentry_try/sentry_ws/install/rm_referee_mock/local/lib/python3.10/dist-packages/rm_referee_mock'...
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/ament_index/resource_index/package_run_dependencies/rm_referee_mock
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/ament_index/resource_index/parent_prefix_path/rm_referee_mock
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/path.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/environment/path.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.bash
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.sh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.zsh
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/local_setup.dsv
+-- Installing: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/package.dsv
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/ament_index/resource_index/packages/rm_referee_mock
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/cmake/rm_referee_mockConfig.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/cmake/rm_referee_mockConfig-version.cmake
+-- Up-to-date: /home/chen/sentry_try/sentry_ws/install/rm_referee_mock/share/rm_referee_mock/package.xml

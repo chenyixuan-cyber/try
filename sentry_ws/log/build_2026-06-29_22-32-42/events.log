@@ -1,0 +1,611 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'costmap_intensity'}
+[0.000196] (-) JobUnselected: {'identifier': 'costmap_voxel'}
+[0.000221] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000242] (-) JobUnselected: {'identifier': 'goal_approach_controller'}
+[0.000261] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000414] (-) JobUnselected: {'identifier': 'livox_to_scan'}
+[0.000461] (-) JobUnselected: {'identifier': 'pb_nav2_plugins'}
+[0.000486] (-) JobUnselected: {'identifier': 'rm_referee'}
+[0.000506] (-) JobUnselected: {'identifier': 'rm_referee_mock'}
+[0.000524] (-) JobUnselected: {'identifier': 'rm_referee_msgs'}
+[0.000542] (-) JobUnselected: {'identifier': 'sentry_msgs'}
+[0.000560] (-) JobUnselected: {'identifier': 'serial_comm'}
+[0.000582] (lightning) JobQueued: {'identifier': 'lightning', 'dependencies': OrderedDict([('rm_referee_msgs', '/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs')])}
+[0.000672] (lightning) JobStarted: {'identifier': 'lightning'}
+[0.012314] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'cmake'}
+[0.013106] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'build'}
+[0.013592] (lightning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/sentry_try/sentry_ws/build/lightning', '--clean-first', '--', '-j16', '-l16'], 'cwd': '/home/chen/sentry_try/sentry_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'chen'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/chen/sentry_try'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1493'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1648'), ('BUNDLED_DEBUGPY_PATH', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3722'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:15745'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/chen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/chen/.local/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chen-Legion-R7000-AHP10:@/tmp/.ICE-unix/1618,unix/chen-Legion-R7000-AHP10:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '2764bd7aea83420288b3634a768700d3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chen/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-df1a881036ceb754.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/chen/.config/Code/User/workspaceStorage/621c76f2e78bbbdaffc4f1c65733488b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQE7R3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b15ba65676.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/sentry_try/sentry_ws/build/lightning'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'c23493f4d96b308ab9cbb51694f2bd43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099409] (-) TimerEvent: {}
+[0.199657] (-) TimerEvent: {}
+[0.299966] (-) TimerEvent: {}
+[0.400274] (-) TimerEvent: {}
+[0.500562] (-) TimerEvent: {}
+[0.600881] (-) TimerEvent: {}
+[0.701201] (-) TimerEvent: {}
+[0.732294] (lightning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.789835] (lightning) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.801301] (-) TimerEvent: {}
+[0.836127] (lightning) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.901469] (-) TimerEvent: {}
+[1.001863] (-) TimerEvent: {}
+[1.102146] (-) TimerEvent: {}
+[1.202451] (-) TimerEvent: {}
+[1.242833] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.247282] (lightning) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.247402] (lightning) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.302557] (-) TimerEvent: {}
+[1.350827] (lightning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.354479] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.359527] (lightning) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.402656] (-) TimerEvent: {}
+[1.457012] (lightning) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.502776] (-) TimerEvent: {}
+[1.561419] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.602900] (-) TimerEvent: {}
+[1.656136] (lightning) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.656417] (lightning) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.656500] (lightning) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.656568] (lightning) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.656708] (lightning) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.656871] (lightning) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.657043] (lightning) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.657185] (lightning) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.657294] (lightning) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.657479] (lightning) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.657645] (lightning) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.657786] (lightning) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.657982] (lightning) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.658172] (lightning) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.658341] (lightning) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.658522] (lightning) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.658701] (lightning) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.658870] (lightning) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.659083] (lightning) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.659226] (lightning) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.659586] (lightning) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.659710] (lightning) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.659833] (lightning) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.659950] (lightning) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.660122] (lightning) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.671496] (lightning) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[1.672687] (lightning) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.675955] (lightning) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.703018] (-) TimerEvent: {}
+[1.803309] (-) TimerEvent: {}
+[1.903601] (-) TimerEvent: {}
+[1.909709] (lightning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.915774] (lightning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.930529] (lightning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.955835] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.986746] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003720] (-) TimerEvent: {}
+[2.043765] (lightning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.044988] (lightning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.103868] (-) TimerEvent: {}
+[2.140580] (lightning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.203993] (-) TimerEvent: {}
+[2.222115] (lightning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.233637] (lightning) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.246458] (lightning) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.249469] (lightning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.304103] (lightning) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[2.304317] (-) TimerEvent: {}
+[2.323428] (lightning) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.332469] (lightning) StdoutLine: {'line': b'-- Found rm_referee_msgs: 0.0.0 (/home/chen/sentry_try/sentry_ws/install/rm_referee_msgs/share/rm_referee_msgs/cmake)\n'}
+[2.404422] (-) TimerEvent: {}
+[2.504762] (-) TimerEvent: {}
+[2.572912] (lightning) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.604851] (-) TimerEvent: {}
+[2.705140] (-) TimerEvent: {}
+[2.805429] (-) TimerEvent: {}
+[2.902245] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.905524] (-) TimerEvent: {}
+[3.005844] (-) TimerEvent: {}
+[3.039546] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.063577] (lightning) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.087501] (lightning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.087768] (lightning) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.087858] (lightning) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.105972] (-) TimerEvent: {}
+[3.199382] (lightning) StderrLine: {'line': b'\x1b[33mCMake Warning at thirdparty/livox_ros_driver/CMakeLists.txt:25 (project):\n'}
+[3.199580] (lightning) StderrLine: {'line': b'  VERSION keyword not followed by a value or was followed by a value that\n'}
+[3.199663] (lightning) StderrLine: {'line': b'  expanded to nothing.\n'}
+[3.199726] (lightning) StderrLine: {'line': b'\n'}
+[3.199826] (lightning) StderrLine: {'line': b'\x1b[0m\n'}
+[3.199885] (lightning) StdoutLine: {'line': b'-- livox_ros_driver2 version: \n'}
+[3.199944] (lightning) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[3.206169] (-) TimerEvent: {}
+[3.214016] (lightning) StderrLine: {'line': b'\x1b[0m/usr/include/apr-1.0\x1b[0m\n'}
+[3.214274] (lightning) StderrLine: {'line': b'\x1b[0mapr-1\x1b[0m\n'}
+[3.306254] (-) TimerEvent: {}
+[3.406802] (-) TimerEvent: {}
+[3.507223] (-) TimerEvent: {}
+[3.607698] (-) TimerEvent: {}
+[3.649023] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.707889] (-) TimerEvent: {}
+[3.754456] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.791970] (lightning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.792160] (lightning) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.792235] (lightning) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.807959] (-) TimerEvent: {}
+[3.892004] (lightning) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.908098] (-) TimerEvent: {}
+[4.008603] (-) TimerEvent: {}
+[4.109140] (-) TimerEvent: {}
+[4.209437] (-) TimerEvent: {}
+[4.310017] (-) TimerEvent: {}
+[4.410437] (-) TimerEvent: {}
+[4.429426] (lightning) StdoutLine: {'line': b'-- Generating done\n'}
+[4.494954] (lightning) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/sentry_try/sentry_ws/build/lightning\n'}
+[4.510670] (-) TimerEvent: {}
+[4.541755] (lightning) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.542140] (lightning) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.551969] (lightning) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.552201] (lightning) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.552254] (lightning) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object src/core/miao/utils/CMakeFiles/miao.utils.dir/sampler.cc.o\x1b[0m\n'}
+[4.553102] (lightning) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.553237] (lightning) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/graph.cc.o\x1b[0m\n'}
+[4.553576] (lightning) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.553661] (lightning) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/optimizer.cc.o\x1b[0m\n'}
+[4.553712] (lightning) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/common/string_tools.cc.o\x1b[0m\n'}
+[4.554048] (lightning) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/optimization_algorithm.cc.o\x1b[0m\n'}
+[4.554116] (lightning) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_gauss_newton.cc.o\x1b[0m\n'}
+[4.554166] (lightning) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_lm.cc.o\x1b[0m\n'}
+[4.554757] (lightning) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/math/marginal_covariance_cholesky.cc.o\x1b[0m\n'}
+[4.560928] (lightning) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_lightning\n'}
+[4.561132] (lightning) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_livox_ros_driver2\n'}
+[4.568688] (lightning) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_dogleg.cc.o\x1b[0m\n'}
+[4.610790] (-) TimerEvent: {}
+[4.711876] (-) TimerEvent: {}
+[4.812311] (-) TimerEvent: {}
+[4.829347] (lightning) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.\n"}
+[4.829526] (lightning) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.841959] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[4.845261] (lightning) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[4.845611] (lightning) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[4.845676] (lightning) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[4.852814] (lightning) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[4.855659] (lightning) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[4.906892] (lightning) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[4.912413] (-) TimerEvent: {}
+[4.979514] (lightning) StdoutLine: {'line': b'[ 11%] Built target livox_interfaces2__rs\n'}
+[4.990621] (lightning) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/core/miao/core/CMakeFiles/miao.core.dir/solver/solver.cc.o\x1b[0m\n'}
+[5.003094] (lightning) StdoutLine: {'line': b'[ 11%] Built target lightning__rs\n'}
+[5.012577] (-) TimerEvent: {}
+[5.064768] (lightning) StdoutLine: {'line': b'[ 11%] Built target livox_interfaces2__cpp\n'}
+[5.095853] (lightning) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.113811] (-) TimerEvent: {}
+[5.115606] (lightning) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.145143] (lightning) StdoutLine: {'line': b'[ 13%] Built target lightning__cpp\n'}
+[5.154754] (lightning) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o\x1b[0m\n'}
+[5.170893] (lightning) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.179054] (lightning) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_generator_c.dir/rosidl_generator_c/lightning/srv/detail/loc_cmd__functions.c.o\x1b[0m\n'}
+[5.184049] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.cc:5\x1b[m\x1b[K:\n'}
+[5.184254] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.184319] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.184373] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[5.184415] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.213918] (-) TimerEvent: {}
+[5.242116] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8\x1b[m\x1b[K,\n'}
+[5.242318] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5\x1b[m\x1b[K:\n'}
+[5.242374] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.242422] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::is_dense_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.242472] (lightning) StderrLine: {'line': b'   44 |     bool \x1b[01;35m\x1b[Kis_dense_\x1b[m\x1b[K = true;\n'}
+[5.242513] (lightning) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.242550] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.242591] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType \x1b[01;35m\x1b[Klinear_solver_type_\x1b[m\x1b[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[5.242628] (lightning) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.242663] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.242705] (lightning) StderrLine: {'line': b'   31 |     explicit \x1b[01;35m\x1b[KOptimizerConfig\x1b[m\x1b[K(AlgorithmType algo_type,\n'}
+[5.242764] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.268770] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[5.269691] (lightning) StdoutLine: {'line': b'writing lightning.egg-info/PKG-INFO\n'}
+[5.270167] (lightning) StdoutLine: {'line': b'writing dependency_links to lightning.egg-info/dependency_links.txt\n'}
+[5.271260] (lightning) StdoutLine: {'line': b'writing top-level names to lightning.egg-info/top_level.txt\n'}
+[5.274155] (lightning) StdoutLine: {'line': b"reading manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[5.275051] (lightning) StdoutLine: {'line': b"writing manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[5.320815] (-) TimerEvent: {}
+[5.348435] (lightning) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_lightning_egg\n'}
+[5.380813] (lightning) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.394695] (lightning) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o\x1b[0m\n'}
+[5.421824] (-) TimerEvent: {}
+[5.455348] (lightning) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_generator_c.dir/rosidl_generator_c/lightning/srv/detail/save_map__functions.c.o\x1b[0m\n'}
+[5.521924] (-) TimerEvent: {}
+[5.563102] (lightning) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so\x1b[0m\n'}
+[5.622048] (-) TimerEvent: {}
+[5.629810] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9\x1b[m\x1b[K,\n'}
+[5.630025] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5\x1b[m\x1b[K:\n'}
+[5.630088] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.630142] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.630203] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[5.630248] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.650516] (lightning) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library liblightning__rosidl_generator_c.so\x1b[0m\n'}
+[5.653865] (lightning) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\x1b[0m\n'}
+[5.668500] (lightning) StdoutLine: {'line': b'[ 21%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[5.675240] (lightning) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o\x1b[0m\n'}
+[5.696332] (lightning) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.701543] (lightning) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[5.723926] (-) TimerEvent: {}
+[5.733948] (lightning) StdoutLine: {'line': b'[ 23%] Built target lightning__rosidl_generator_c\n'}
+[5.753648] (lightning) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.763507] (lightning) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[5.824027] (-) TimerEvent: {}
+[5.924616] (-) TimerEvent: {}
+[6.025815] (-) TimerEvent: {}
+[6.060780] (lightning) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/loc_cmd__type_support.cpp.o\x1b[0m\n'}
+[6.127807] (-) TimerEvent: {}
+[6.149621] (lightning) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[6.170865] (lightning) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[6.199278] (lightning) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\x1b[0m\n'}
+[6.227934] (-) TimerEvent: {}
+[6.295718] (lightning) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/loc_cmd__type_support.cpp.o\x1b[0m\n'}
+[6.300753] (lightning) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/loc_cmd__type_support.cpp.o\x1b[0m\n'}
+[6.301756] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8\x1b[m\x1b[K,\n'}
+[6.302011] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7\x1b[m\x1b[K:\n'}
+[6.302195] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.302361] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::is_dense_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.302504] (lightning) StderrLine: {'line': b'   44 |     bool \x1b[01;35m\x1b[Kis_dense_\x1b[m\x1b[K = true;\n'}
+[6.302643] (lightning) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.302887] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.303060] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType \x1b[01;35m\x1b[Klinear_solver_type_\x1b[m\x1b[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[6.303326] (lightning) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.303761] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.303928] (lightning) StderrLine: {'line': b'   31 |     explicit \x1b[01;35m\x1b[KOptimizerConfig\x1b[m\x1b[K(AlgorithmType algo_type,\n'}
+[6.303998] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.311641] (lightning) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libmiao.utils.so\x1b[0m\n'}
+[6.312015] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8\x1b[m\x1b[K,\n'}
+[6.312102] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6\x1b[m\x1b[K:\n'}
+[6.312159] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.312200] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::is_dense_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.312240] (lightning) StderrLine: {'line': b'   44 |     bool \x1b[01;35m\x1b[Kis_dense_\x1b[m\x1b[K = true;\n'}
+[6.312279] (lightning) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.312313] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.312349] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType \x1b[01;35m\x1b[Klinear_solver_type_\x1b[m\x1b[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[6.312387] (lightning) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.312423] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.312460] (lightning) StderrLine: {'line': b'   31 |     explicit \x1b[01;35m\x1b[KOptimizerConfig\x1b[m\x1b[K(AlgorithmType algo_type,\n'}
+[6.312494] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.316769] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8\x1b[m\x1b[K,\n'}
+[6.320036] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6\x1b[m\x1b[K:\n'}
+[6.320316] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.320387] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::is_dense_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.320446] (lightning) StderrLine: {'line': b'   44 |     bool \x1b[01;35m\x1b[Kis_dense_\x1b[m\x1b[K = true;\n'}
+[6.320492] (lightning) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.320532] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.320573] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType \x1b[01;35m\x1b[Klinear_solver_type_\x1b[m\x1b[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[6.320614] (lightning) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.320653] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.320694] (lightning) StderrLine: {'line': b'   31 |     explicit \x1b[01;35m\x1b[KOptimizerConfig\x1b[m\x1b[K(AlgorithmType algo_type,\n'}
+[6.320743] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.320788] (lightning) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.328051] (-) TimerEvent: {}
+[6.338221] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9\x1b[m\x1b[K,\n'}
+[6.338635] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7\x1b[m\x1b[K:\n'}
+[6.338918] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.339178] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.339278] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[6.339336] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.339632] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9\x1b[m\x1b[K,\n'}
+[6.339769] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6\x1b[m\x1b[K:\n'}
+[6.339887] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.339978] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.340052] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[6.340112] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.342496] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8\x1b[m\x1b[K,\n'}
+[6.344990] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5\x1b[m\x1b[K:\n'}
+[6.345157] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.345230] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::is_dense_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.345299] (lightning) StderrLine: {'line': b'   44 |     bool \x1b[01;35m\x1b[Kis_dense_\x1b[m\x1b[K = true;\n'}
+[6.345345] (lightning) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.345390] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.345436] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType \x1b[01;35m\x1b[Klinear_solver_type_\x1b[m\x1b[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[6.345483] (lightning) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.345526] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.345572] (lightning) StderrLine: {'line': b'   31 |     explicit \x1b[01;35m\x1b[KOptimizerConfig\x1b[m\x1b[K(AlgorithmType algo_type,\n'}
+[6.345618] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.353473] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9\x1b[m\x1b[K,\n'}
+[6.353719] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6\x1b[m\x1b[K:\n'}
+[6.353799] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.353848] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.353895] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[6.353935] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.393845] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9\x1b[m\x1b[K,\n'}
+[6.394102] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5\x1b[m\x1b[K:\n'}
+[6.394161] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.394202] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.394259] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[6.394296] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.409577] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/solver/solver.h:9\x1b[m\x1b[K,\n'}
+[6.409891] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/solver/solver.cc:5\x1b[m\x1b[K:\n'}
+[6.409987] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.410050] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.410098] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[6.410137] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.428172] (-) TimerEvent: {}
+[6.466157] (lightning) StdoutLine: {'line': b'[ 29%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[6.482590] (lightning) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.488580] (lightning) StdoutLine: {'line': b'[ 30%] Built target miao.utils\n'}
+[6.501281] (lightning) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/save_map__type_support.cpp.o\x1b[0m\n'}
+[6.519134] (lightning) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.528289] (-) TimerEvent: {}
+[6.586951] (lightning) StdoutLine: {'line': b'[ 31%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[6.602887] (lightning) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[6.628412] (-) TimerEvent: {}
+[6.667331] (lightning) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.678538] (lightning) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.728522] (-) TimerEvent: {}
+[6.813614] (lightning) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.828622] (-) TimerEvent: {}
+[6.850853] (lightning) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library liblightning__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.928768] (-) TimerEvent: {}
+[6.957540] (lightning) StdoutLine: {'line': b'[ 36%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[6.967974] (lightning) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library liblightning__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.970319] (lightning) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.970616] (lightning) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.970680] (lightning) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.008298] (lightning) StdoutLine: {'line': b'[ 39%] Built target lightning__rosidl_typesupport_fastrtps_cpp\n'}
+[7.028968] (-) TimerEvent: {}
+[7.040271] (lightning) StdoutLine: {'line': b'[ 39%] Built target lightning__rosidl_typesupport_cpp\n'}
+[7.069614] (lightning) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o\x1b[0m\n'}
+[7.069839] (lightning) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o\x1b[0m\n'}
+[7.074273] (lightning) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library liblightning__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.129082] (-) TimerEvent: {}
+[7.161620] (lightning) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[7.164612] (lightning) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[7.181984] (lightning) StdoutLine: {'line': b'[ 42%] Built target lightning__rosidl_typesupport_introspection_cpp\n'}
+[7.187443] (lightning) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o\x1b[0m\n'}
+[7.187644] (lightning) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o\x1b[0m\n'}
+[7.208919] (lightning) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.229187] (-) TimerEvent: {}
+[7.258358] (lightning) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.258575] (lightning) StdoutLine: {'line': b'[ 44%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[7.299784] (lightning) StdoutLine: {'line': b'[ 44%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[7.329286] (-) TimerEvent: {}
+[7.350626] (lightning) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/loc_cmd__type_support.cpp.o\x1b[0m\n'}
+[7.350848] (lightning) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[7.392460] (lightning) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library liblightning__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.394212] (lightning) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lightning/srv/detail/save_map__type_support.c.o\x1b[0m\n'}
+[7.394390] (lightning) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lightning/srv/detail/loc_cmd__type_support.c.o\x1b[0m\n'}
+[7.398660] (lightning) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/loc_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[7.398883] (lightning) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/save_map__type_support_c.cpp.o\x1b[0m\n'}
+[7.429397] (-) TimerEvent: {}
+[7.444650] (lightning) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library liblightning__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.444876] (lightning) StdoutLine: {'line': b'[ 50%] Built target lightning__rosidl_typesupport_c\n'}
+[7.476269] (lightning) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.483858] (lightning) StdoutLine: {'line': b'[ 51%] Built target lightning__rosidl_typesupport_introspection_c\n'}
+[7.508565] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool lightning::miao::Optimizer::AddVertex(std::shared_ptr<lightning::miao::Vertex>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.508784] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:288:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<int, std::shared_ptr<lightning::miao::Vertex> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.508850] (lightning) StderrLine: {'line': b'  288 |         if (config_.max_vertex_size_ > 0 && \x1b[01;35m\x1b[Kvertices_.size() == config_.max_vertex_size_\x1b[m\x1b[K) {\n'}
+[7.508891] (lightning) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.529507] (-) TimerEvent: {}
+[7.550069] (lightning) StdoutLine: {'line': b'[ 51%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[7.569678] (lightning) StdoutLine: {'line': b'[ 51%] Built target livox_interfaces2\n'}
+[7.589832] (lightning) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.629619] (-) TimerEvent: {}
+[7.729951] (-) TimerEvent: {}
+[7.736315] (lightning) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library liblightning__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.810197] (lightning) StdoutLine: {'line': b'[ 52%] Built target lightning__rosidl_typesupport_fastrtps_c\n'}
+[7.828474] (lightning) StdoutLine: {'line': b'[ 52%] Built target lightning\n'}
+[7.830030] (-) TimerEvent: {}
+[7.849531] (lightning) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.930146] (-) TimerEvent: {}
+[8.030417] (-) TimerEvent: {}
+[8.046058] (lightning) StdoutLine: {'line': b'[ 53%] Built target livox_interfaces2__py\n'}
+[8.063956] (lightning) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o\x1b[0m\n'}
+[8.064138] (lightning) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o\x1b[0m\n'}
+[8.130506] (-) TimerEvent: {}
+[8.230763] (-) TimerEvent: {}
+[8.315096] (lightning) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\x1b[0m\n'}
+[8.330879] (-) TimerEvent: {}
+[8.340133] (lightning) StdoutLine: {'line': b'[ 55%] Built target lightning__py\n'}
+[8.356963] (lightning) StdoutLine: {'line': b'[ 55%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[8.359228] (lightning) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_generator_py.dir/rosidl_generator_py/lightning/srv/_loc_cmd_s.c.o\x1b[0m\n'}
+[8.359388] (lightning) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_generator_py.dir/rosidl_generator_py/lightning/srv/_save_map_s.c.o\x1b[0m\n'}
+[8.375228] (lightning) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.375459] (lightning) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.375531] (lightning) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.430999] (-) TimerEvent: {}
+[8.483951] (lightning) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.484146] (lightning) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.484207] (lightning) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.484254] (lightning) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lightning/liblightning__rosidl_generator_py.so\x1b[0m\n'}
+[8.515608] (lightning) StdoutLine: {'line': b'[ 62%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.515795] (lightning) StdoutLine: {'line': b'[ 62%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[8.515856] (lightning) StdoutLine: {'line': b'[ 62%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[8.522579] (lightning) StdoutLine: {'line': b'[ 62%] Built target lightning__rosidl_generator_py\n'}
+[8.531104] (-) TimerEvent: {}
+[8.541589] (lightning) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.541780] (lightning) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.541849] (lightning) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/lightning__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.631211] (-) TimerEvent: {}
+[8.667120] (lightning) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.667299] (lightning) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.667363] (lightning) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.703021] (lightning) StdoutLine: {'line': b'[ 65%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.703212] (lightning) StdoutLine: {'line': b'[ 65%] Built target lightning__rosidl_typesupport_c__pyext\n'}
+[8.703267] (lightning) StdoutLine: {'line': b'[ 65%] Built target lightning__rosidl_typesupport_introspection_c__pyext\n'}
+[8.731306] (-) TimerEvent: {}
+[8.831581] (-) TimerEvent: {}
+[8.931890] (-) TimerEvent: {}
+[8.980887] (lightning) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmiao.core.so\x1b[0m\n'}
+[9.032022] (-) TimerEvent: {}
+[9.104616] (lightning) StdoutLine: {'line': b'[ 66%] Built target miao.core\n'}
+[9.128134] (lightning) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o\x1b[0m\n'}
+[9.128379] (lightning) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/options.cc.o\x1b[0m\n'}
+[9.128848] (lightning) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o\x1b[0m\n'}
+[9.128915] (lightning) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o\x1b[0m\n'}
+[9.128954] (lightning) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/io/yaml_io.cc.o\x1b[0m\n'}
+[9.128987] (lightning) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_subgrid.cc.o\x1b[0m\n'}
+[9.129019] (lightning) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o\x1b[0m\n'}
+[9.129051] (lightning) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o\x1b[0m\n'}
+[9.129086] (lightning) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/io/file_io.cc.o\x1b[0m\n'}
+[9.129117] (lightning) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/common/nav_state.cc.o\x1b[0m\n'}
+[9.129148] (lightning) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o\x1b[0m\n'}
+[9.129204] (lightning) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o\x1b[0m\n'}
+[9.129259] (lightning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_map.cc.o\x1b[0m\n'}
+[9.129302] (lightning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o\x1b[0m\n'}
+[9.129788] (lightning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o\x1b[0m\n'}
+[9.129992] (lightning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map_chunk.cc.o\x1b[0m\n'}
+[9.132107] (-) TimerEvent: {}
+[9.233854] (-) TimerEvent: {}
+[9.334505] (-) TimerEvent: {}
+[9.434812] (-) TimerEvent: {}
+[9.535285] (-) TimerEvent: {}
+[9.614905] (lightning) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o\x1b[0m\n'}
+[9.635528] (-) TimerEvent: {}
+[9.736537] (-) TimerEvent: {}
+[9.836978] (-) TimerEvent: {}
+[9.937673] (-) TimerEvent: {}
+[10.042859] (-) TimerEvent: {}
+[10.143496] (-) TimerEvent: {}
+[10.244095] (-) TimerEvent: {}
+[10.345459] (-) TimerEvent: {}
+[10.446145] (-) TimerEvent: {}
+[10.548834] (-) TimerEvent: {}
+[10.649246] (-) TimerEvent: {}
+[10.742040] (lightning) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o\x1b[0m\n'}
+[10.749362] (-) TimerEvent: {}
+[10.846906] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/io/file_io.cc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool lightning::RemoveIfExist(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.847256] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/io/file_io.cc:17:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kint system(const char*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.850014] (-) TimerEvent: {}
+[10.850180] (lightning) StderrLine: {'line': b'   17 |         \x1b[01;35m\x1b[Ksystem(("rm -f " + path).c_str())\x1b[m\x1b[K;\n'}
+[10.850250] (lightning) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.950142] (-) TimerEvent: {}
+[11.020270] (lightning) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o\x1b[0m\n'}
+[11.050255] (-) TimerEvent: {}
+[11.150597] (-) TimerEvent: {}
+[11.250943] (-) TimerEvent: {}
+[11.351361] (-) TimerEvent: {}
+[11.451766] (-) TimerEvent: {}
+[11.554177] (-) TimerEvent: {}
+[11.654567] (-) TimerEvent: {}
+[11.755172] (-) TimerEvent: {}
+[11.855659] (-) TimerEvent: {}
+[11.956973] (-) TimerEvent: {}
+[12.058575] (-) TimerEvent: {}
+[12.079092] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid lightning::g2p5::G2P5Map::SetMissPoint(const float&, const float&, const float&, const float&, float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.079356] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:215:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<int, 2, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.079427] (lightning) StderrLine: {'line': b'  215 |     for (int i = 0; \x1b[01;35m\x1b[Ki < updated_pts.size()\x1b[m\x1b[K; ++i) {\n'}
+[12.079475] (lightning) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.159636] (-) TimerEvent: {}
+[12.261130] (-) TimerEvent: {}
+[12.362817] (-) TimerEvent: {}
+[12.464587] (-) TimerEvent: {}
+[12.565307] (-) TimerEvent: {}
+[12.574352] (lightning) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o\x1b[0m\n'}
+[12.665429] (-) TimerEvent: {}
+[12.768834] (-) TimerEvent: {}
+[12.869230] (-) TimerEvent: {}
+[12.969633] (-) TimerEvent: {}
+[13.047315] (lightning) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o\x1b[0m\n'}
+[13.069755] (-) TimerEvent: {}
+[13.170213] (-) TimerEvent: {}
+[13.273826] (-) TimerEvent: {}
+[13.374196] (-) TimerEvent: {}
+[13.474620] (-) TimerEvent: {}
+[13.575032] (-) TimerEvent: {}
+[13.675414] (-) TimerEvent: {}
+[13.775798] (-) TimerEvent: {}
+[13.876196] (-) TimerEvent: {}
+[13.976613] (-) TimerEvent: {}
+[14.078830] (-) TimerEvent: {}
+[14.179206] (-) TimerEvent: {}
+[14.279552] (-) TimerEvent: {}
+[14.379922] (-) TimerEvent: {}
+[14.480360] (-) TimerEvent: {}
+[14.516664] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.cc:5\x1b[m\x1b[K:\n'}
+[14.516941] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lightning::debug::SigHandle(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.516995] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/options.h:27:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.517036] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K) {\n'}
+[14.517070] (lightning) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[14.580494] (-) TimerEvent: {}
+[14.645831] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5.h:9\x1b[m\x1b[K,\n'}
+[14.646082] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:5\x1b[m\x1b[K:\n'}
+[14.646130] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.646180] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:74:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::Keyframe::state_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.646245] (lightning) StderrLine: {'line': b'   74 |     NavState \x1b[01;35m\x1b[Kstate_\x1b[m\x1b[K;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[14.646293] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[14.646333] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:71:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::SE3 lightning::Keyframe::pose_lio_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.646373] (lightning) StderrLine: {'line': b'   71 |     SE3 \x1b[01;35m\x1b[Kpose_lio_\x1b[m\x1b[K;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[14.646413] (lightning) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.646451] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:22:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.646523] (lightning) StderrLine: {'line': b'   22 |     \x1b[01;35m\x1b[KKeyframe\x1b[m\x1b[K(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[14.646560] (lightning) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.681822] (-) TimerEvent: {}
+[14.782198] (-) TimerEvent: {}
+[14.836957] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:8\x1b[m\x1b[K,\n'}
+[14.837179] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5\x1b[m\x1b[K:\n'}
+[14.837252] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.837295] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:74:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::Keyframe::state_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.837343] (lightning) StderrLine: {'line': b'   74 |     NavState \x1b[01;35m\x1b[Kstate_\x1b[m\x1b[K;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[14.837385] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[14.837422] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:71:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::SE3 lightning::Keyframe::pose_lio_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.837461] (lightning) StderrLine: {'line': b'   71 |     SE3 \x1b[01;35m\x1b[Kpose_lio_\x1b[m\x1b[K;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[14.837502] (lightning) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.837541] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/common/keyframe.h:22:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.837580] (lightning) StderrLine: {'line': b'   22 |     \x1b[01;35m\x1b[KKeyframe\x1b[m\x1b[K(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[14.837618] (lightning) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.877262] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8\x1b[m\x1b[K,\n'}
+[14.877475] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12\x1b[m\x1b[K,\n'}
+[14.877529] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5\x1b[m\x1b[K:\n'}
+[14.877567] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.877613] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::is_dense_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.877654] (lightning) StderrLine: {'line': b'   44 |     bool \x1b[01;35m\x1b[Kis_dense_\x1b[m\x1b[K = true;\n'}
+[14.877690] (lightning) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.877741] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.877824] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType \x1b[01;35m\x1b[Klinear_solver_type_\x1b[m\x1b[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[14.877873] (lightning) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.877919] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.877967] (lightning) StderrLine: {'line': b'   31 |     explicit \x1b[01;35m\x1b[KOptimizerConfig\x1b[m\x1b[K(AlgorithmType algo_type,\n'}
+[14.878012] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.884834] (-) TimerEvent: {}
+[14.926909] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9\x1b[m\x1b[K,\n'}
+[14.927142] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12\x1b[m\x1b[K,\n'}
+[14.927192] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5\x1b[m\x1b[K:\n'}
+[14.927227] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.927265] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.927308] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[14.927342] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.984960] (-) TimerEvent: {}
+[15.085823] (-) TimerEvent: {}
+[15.186773] (-) TimerEvent: {}
+[15.287216] (-) TimerEvent: {}
+[15.312506] (lightning) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o\x1b[0m\n'}
+[15.387657] (-) TimerEvent: {}
+[15.488197] (-) TimerEvent: {}
+[15.517645] (lightning) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/CMakeFiles/lightning.libs.dir/utils/timer.cc.o\x1b[0m\n'}
+[15.588314] (-) TimerEvent: {}
+[15.689347] (-) TimerEvent: {}
+[15.712607] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8\x1b[m\x1b[K,\n'}
+[15.712821] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16\x1b[m\x1b[K,\n'}
+[15.712868] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7\x1b[m\x1b[K,\n'}
+[15.712905] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1\x1b[m\x1b[K:\n'}
+[15.712952] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.712990] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klightning::miao::OptimizerConfig::is_dense_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.713029] (lightning) StderrLine: {'line': b'   44 |     bool \x1b[01;35m\x1b[Kis_dense_\x1b[m\x1b[K = true;\n'}
+[15.713063] (lightning) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.713097] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.713132] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType \x1b[01;35m\x1b[Klinear_solver_type_\x1b[m\x1b[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[15.713165] (lightning) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.713199] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.713239] (lightning) StderrLine: {'line': b'   31 |     explicit \x1b[01;35m\x1b[KOptimizerConfig\x1b[m\x1b[K(AlgorithmType algo_type,\n'}
+[15.713273] (lightning) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.754439] (lightning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9\x1b[m\x1b[K,\n'}
+[15.754689] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16\x1b[m\x1b[K,\n'}
+[15.754758] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7\x1b[m\x1b[K,\n'}
+[15.754809] (lightning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1\x1b[m\x1b[K:\n'}
+[15.754850] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int lightning::miao::Graph::Optimize(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.754893] (lightning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/sentry_try/sentry_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinterations\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.754937] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(\x1b[01;35m\x1b[Kint interations\x1b[m\x1b[K) { return 0; }\n'}
+[15.754988] (lightning) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.790479] (-) TimerEvent: {}
+[15.891310] (-) TimerEvent: {}
+[15.991690] (-) TimerEvent: {}
+[16.094818] (-) TimerEvent: {}
+[16.196834] (-) TimerEvent: {}
+[16.315014] (-) TimerEvent: {}
+[16.415428] (-) TimerEvent: {}
+[16.517937] (-) TimerEvent: {}
+[16.618301] (-) TimerEvent: {}
+[16.719657] (-) TimerEvent: {}

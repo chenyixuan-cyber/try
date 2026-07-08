@@ -1,0 +1,4 @@
+[0.020s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/goal_approach_controller -- -j16 -l16
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/goal_approach_controller.dir/src/goal_approach_controller.cpp.o[0m
+[7.561s] [100%] [32m[1mLinking CXX shared library libgoal_approach_controller.so[0m
+[8.053s] [100%] Built target goal_approach_controller
