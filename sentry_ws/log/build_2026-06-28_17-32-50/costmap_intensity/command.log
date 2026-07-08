@@ -1,1 +1,0 @@
-Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/nav2_plugins/costmap_intensity -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/costmap_intensity

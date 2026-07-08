@@ -1,3 +1,0 @@
-[ 16%] [32mBuilding CXX object CMakeFiles/can_receive_node.dir/src/can_receive.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/can_send_node.dir/src/can_send.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/vyaw_tf_yaw_controller_node.dir/src/vyaw_tf_yaw_controller.cpp.o[0m

@@ -1,1 +1,0 @@
-Invoking command in '/home/chen/sentry_try/sentry_ws/build/goal_approach_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/nav2_plugins/goal_approach_controller -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/goal_approach_controller

@@ -1,9 +1,0 @@
-In file included from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm.hpp:68[m[K,
-                 from [01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/src/can_send.cpp:8[m[K:
-[01m[K/home/chen/sentry_try/sentry_ws/src/can_comm/librm/src/librm/modules/ahrs/ekf.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kkalman/LinearizedSystemModel.hpp: 没有那个文件或目录
-   34 | #include [01;31m[K"kalman/LinearizedSystemModel.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/can_send_node.dir/build.make:76：CMakeFiles/can_send_node.dir/src/can_send.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/can_send_node.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

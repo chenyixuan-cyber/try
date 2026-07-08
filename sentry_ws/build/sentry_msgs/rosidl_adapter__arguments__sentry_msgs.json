@@ -1,8 +1,0 @@
-{
-  "package_name": "sentry_msgs",
-  "non_idl_tuples": [
-    "/home/chen/sentry_try/sentry_ws/src/sentry_msgs:msg/Vw.msg",
-    "/home/chen/sentry_try/sentry_ws/src/sentry_msgs:msg/ScanMode.msg",
-    "/home/chen/sentry_try/sentry_ws/src/sentry_msgs:msg/ArmorPresence.msg"
-  ]
-}

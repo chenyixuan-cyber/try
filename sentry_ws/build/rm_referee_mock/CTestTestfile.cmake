@@ -1,8 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/chen/sentry_try/sentry_ws/src/rm_referee_mock
-# Build directory: /home/chen/sentry_try/sentry_ws/build/rm_referee_mock
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(test_sentry_posture "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chen/sentry_try/sentry_ws/build/rm_referee_mock/test_results/rm_referee_mock/test_sentry_posture.xunit.xml" "--package-name" "rm_referee_mock" "--output-file" "/home/chen/sentry_try/sentry_ws/build/rm_referee_mock/ament_cmake_pytest/test_sentry_posture.txt" "--append-env" "PYTHONPATH=/home/chen/sentry_try/sentry_ws/src/rm_referee_mock" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/chen/sentry_try/sentry_ws/src/rm_referee_mock/test/test_sentry_posture.py" "-o" "cache_dir=/home/chen/sentry_try/sentry_ws/build/rm_referee_mock/ament_cmake_pytest/test_sentry_posture/.cache" "--junit-xml=/home/chen/sentry_try/sentry_ws/build/rm_referee_mock/test_results/rm_referee_mock/test_sentry_posture.xunit.xml" "--junit-prefix=rm_referee_mock")
-set_tests_properties(test_sentry_posture PROPERTIES  LABELS "pytest" TIMEOUT "60" WORKING_DIRECTORY "/home/chen/sentry_try/sentry_ws/build/rm_referee_mock" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake;169;ament_add_test;/home/chen/sentry_try/sentry_ws/src/rm_referee_mock/CMakeLists.txt;30;ament_add_pytest_test;/home/chen/sentry_try/sentry_ws/src/rm_referee_mock/CMakeLists.txt;0;")

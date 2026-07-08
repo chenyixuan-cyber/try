@@ -1,7 +1,0 @@
-{
-  "package_name": "lightning",
-  "non_idl_tuples": [
-    "/home/chen/sentry_try/sentry_ws/src/lightning-lm:srv/LocCmd.srv",
-    "/home/chen/sentry_try/sentry_ws/src/lightning-lm:srv/SaveMap.srv"
-  ]
-}

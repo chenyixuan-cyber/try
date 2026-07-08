@@ -1,6 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/pb_back_up_frees_space_behavior.dir/src/behaviors/back_up_free_space.cpp.o[0m
-[ 50%] [32m[1mLinking CXX shared library libpb_back_up_frees_space_behavior.so[0m
-[ 50%] Built target pb_back_up_frees_space_behavior
-[ 75%] [32mBuilding CXX object CMakeFiles/layers.dir/src/layers/intensity_voxel_layer.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library liblayers.so[0m
-[100%] Built target layers

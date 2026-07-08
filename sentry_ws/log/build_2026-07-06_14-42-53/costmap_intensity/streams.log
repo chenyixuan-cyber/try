@@ -1,3 +1,0 @@
-[0.035s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/costmap_intensity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/costmap_intensity -- -j16 -l16
-[0.186s] [ 33%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/obstacle_layer.cpp.o[0m
-[0.188s] [ 66%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/voxel_layer.cpp.o[0m

@@ -1,7 +1,0 @@
-{
-  "package_name": "livox_ros_driver2",
-  "non_idl_tuples": [
-    "/home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src:msg/CustomPoint.msg",
-    "/home/chen/sentry_try/sentry_ws/src/livox_ros_driver2_humble/src:msg/CustomMsg.msg"
-  ]
-}

@@ -1,2 +1,0 @@
-Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning -- -j16 -l16
-Invoked command in '/home/chen/sentry_try/sentry_ws/build/lightning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning -- -j16 -l16

@@ -1,2 +1,0 @@
-Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/lightning-lm -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/lightning
-Invoked command in '/home/chen/sentry_try/sentry_ws/build/lightning' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/sentry_try/sentry_ws/src/lightning-lm -DCMAKE_INSTALL_PREFIX=/home/chen/sentry_try/sentry_ws/install/lightning

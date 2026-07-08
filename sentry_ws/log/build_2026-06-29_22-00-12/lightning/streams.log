@@ -1,5 +1,0 @@
-[0.008s] Invoking command in '/home/chen/sentry_try/sentry_ws/build/lightning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning -- -j16 -l16
-[0.027s] [0mCMake Error: The source directory "/home/chen/sentry_try/sentry_ws/src/lightning-lm" does not exist.
-[0.027s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.028s] gmake: *** [Makefile:1355：cmake_check_build_system] 错误 1
-[0.032s] Invoked command in '/home/chen/sentry_try/sentry_ws/build/lightning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/sentry_try/sentry_ws/build/lightning -- -j16 -l16
