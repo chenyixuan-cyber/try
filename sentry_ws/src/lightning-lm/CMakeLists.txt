@@ -40,7 +40,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 include(cmake/packages.cmake)
-# rm_referee_msgs 已移除，不再依赖裁判系统消息
+# rm_referee_msgs 恢复使用（裁判系统消息）
 
 # msg 和 srv
 set(MY_SRV_FILES "")

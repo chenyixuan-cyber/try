@@ -50,9 +50,8 @@ add_executable(run_loc_online
 target_link_libraries(run_loc_online
         ${PROJECT_NAME}.libs
         ${third_party_libs}
+        rm_referee_msgs::rm_referee_msgs
 )
-
-# rm_referee_msgs 依赖已移除（不再使用裁判系统）
 
 # 添加 ament_index_cpp 依赖
 target_link_libraries(run_loc_online ament_index_cpp::ament_index_cpp)

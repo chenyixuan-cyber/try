@@ -4,13 +4,15 @@
 #
 # 启动顺序：
 #   1. LiDAR 驱动 (livox_ros_driver2)
-#   2. FAST-LIO 里程计
+#   2. Super-LIO 里程计 (发布 /lio/robo/odom)
 #   3. Lightning 定位
-#   4. Livox → Scan 转换
-#   5. 串口通信 / CAN 通信
-#   6. 裁判系统
-#   7. Nav2 导航栈
-#   8. 哨兵巡航 BT 节点 (延迟启动)
+#   4. TF Only Odom (补齐 TF 树)
+#   5. Livox → Scan 转换
+#   6. 串口通信
+#   7. CAN 通信
+#   8. 裁判系统
+#   9. Nav2 导航栈
+#  10. 哨兵巡航 BT 节点 (延迟启动)
 # =============================================================================
 
 import os
@@ -47,24 +49,24 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 2) FAST-LIO (LiDAR 里程计)
+    # 2) Super-LIO (LiDAR 里程计)
+    #     发布 /lio/odom, /lio/imu/odom, /lio/robo/odom
     # ================================================================
-    fast_lio = Node(
-        package="fast_lio",
-        executable="fastlio_mapping",
-        name="fastlio_mapping",
+    super_lio = Node(
+        package="super_lio",
+        executable="super_lio_node",
+        name="super_lio_node",
         output="screen",
-        arguments=["--log-level", log_level],
+        arguments=["--ros-args", "--log-level", log_level],
         parameters=[
             os.path.join(
-                get_package_share_directory("fast_lio"), "config", "mid360.yaml"
+                get_package_share_directory("super_lio"), "config", "livox_360.yaml"
             ),
-            {"use_sim_time": use_sim_time},
         ],
     )
 
     # ================================================================
-    # 3) Lightning 定位 (map → odom TF)
+    # 3) Lightning 定位
     # ================================================================
     lightning_loc = Node(
         package="lightning",
@@ -80,7 +82,21 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 4) Livox → Scan 转换
+    # 4) TF Only Odom (补齐 TF 树)
+    #    静态 TF: map→odom, base_link→livox_frame
+    #    动态 TF: odom→base_link (从 /lio/robo/odom 计算)
+    # ================================================================
+    tf_only_odom_node = Node(
+        package="sentry_navigation",
+        executable="tf_only_odom",
+        name="tf_only_odom",
+        output="screen",
+        arguments=["--log-level", log_level],
+        parameters=[os.path.join(bringup_dir, "config", "lidar.yaml")],
+    )
+
+    # ================================================================
+    # 5) Livox → Scan 转换
     # ================================================================
     livox_to_scan_node = Node(
         package="livox_to_scan",
@@ -92,7 +108,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 5) 串口通信 (底盘控制)
+    # 6) 串口通信 (底盘控制)
     # ================================================================
     serial_comm_node = Node(
         package="serial_comm",
@@ -107,7 +123,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 6) CAN 通信
+    # 7) CAN 通信
     # ================================================================
     can_comm = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -118,7 +134,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 7) 裁判系统
+    # 8) 裁判系统
     # ================================================================
     referee = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -131,7 +147,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 8) Nav2 导航栈
+    # 9) Nav2 导航栈
     # 使用系统 nav2_bringup 的 navigation_launch.py,
     # 传入我们的 singlenav2_params.yaml
     # ================================================================
@@ -153,7 +169,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 9) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
+    # 10) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
     #    延迟 5s 等待 Nav2 就绪
     # ================================================================
     sentry_patrol = TimerAction(
@@ -183,8 +199,9 @@ def generate_launch_description():
 
     ld = LaunchDescription()
     ld.add_action(livox_driver)
-    ld.add_action(fast_lio)
+    ld.add_action(super_lio)
     ld.add_action(lightning_loc)
+    ld.add_action(tf_only_odom_node)
     ld.add_action(livox_to_scan_node)
     ld.add_action(serial_comm_node)
     ld.add_action(can_comm)

@@ -16,6 +16,7 @@ find_package(OpenCV REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(rosbag2_cpp REQUIRED)
+find_package(rm_referee_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 # OMP

@@ -13,6 +13,7 @@
 #include <vector>
 #include <cmath>
 #include <rclcpp/rclcpp.hpp> 
+#include "rm_referee_msgs/msg/robot_status.hpp"
 #include <yaml-cpp/yaml.h>
 #include <ament_index_cpp/get_package_share_directory.hpp>
 
@@ -34,6 +35,31 @@ int main(int argc, char** argv) {
 
     rclcpp::init(argc, argv);
 
+    // 订阅 /rm_referee/robot_status，获取 robot_id
+    auto status_node = rclcpp::Node::make_shared("robot_status_reader");
+    auto status_prom = std::make_shared<std::promise<rm_referee_msgs::msg::RobotStatus::SharedPtr>>();
+    auto status_fut = status_prom->get_future();
+
+    auto status_sub = status_node->create_subscription<rm_referee_msgs::msg::RobotStatus>(
+        "/rm_referee/robot_status",
+        rclcpp::QoS(10),
+        [status_prom](const rm_referee_msgs::msg::RobotStatus::SharedPtr msg) {
+            try {
+                status_prom->set_value(msg);
+            } catch (...) {
+                // 已设置或其他错误，忽略
+            }
+        });
+
+    // 等待 robot_status，最多等待 2 秒
+    const auto status_timeout = std::chrono::milliseconds(2000);
+    const auto status_start = std::chrono::steady_clock::now();
+    while (status_fut.wait_for(std::chrono::milliseconds(0)) != std::future_status::ready) {
+        rclcpp::spin_some(status_node);
+        if (std::chrono::steady_clock::now() - status_start > status_timeout) break;
+        std::this_thread::sleep_for(std::chrono::milliseconds(10));
+    }
+
     LocSystem::Options opt;
     LocSystem loc(opt);
     if (!loc.Init(FLAGS_config)) {
@@ -43,8 +69,16 @@ int main(int argc, char** argv) {
     // 通过 bringup 的 share 目录读取
     std::string kPoseYaml = ament_index_cpp::get_package_share_directory("bringup") + "/config/loc_start_pose.yaml";
 
-    // 不使用裁判系统，默认加载 red 侧初始位姿
-    std::string side = "red";
+    int robot_id = -1;
+    if (status_fut.wait_for(std::chrono::milliseconds(0)) == std::future_status::ready) {
+        auto status_msg = status_fut.get();
+        robot_id = static_cast<int>(status_msg->robot_id);
+        LOG(INFO) << "收到 /rm_referee/robot_status，robot_id=" << robot_id;
+    } else {
+        LOG(WARNING) << "未收到 /rm_referee/robot_status，使用默认 red 位姿";
+    }
+
+    std::string side = (robot_id == 7) ? "red" : (robot_id == 107) ? "blue" : "red";
 
     double x = 0.0, y = 0.0, z = 0.0;
     double roll_deg = 0.0, pitch_deg = 0.0, yaw_deg = 0.0;
