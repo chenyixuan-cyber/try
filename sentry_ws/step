@@ -59,7 +59,7 @@ bash build.sh
 `build.sh` 内部流程：
 1. **编译 Pangolin** — 解压编译 `src/lightning-lm/thirdparty/Pangolin-0.9.3.zip`（Lightning SLAM 可视化依赖）
 2. **安装系统依赖** — 调用 `depend_install.sh`
-3. **首次编译** — `colcon build --packages-select lightning rm_referee_msgs`
+3. **首次编译** — `colcon build --packages-select lightning`
 4. **创建地图占位文件** — `mkdir -p src/bringup/map && touch ...`
 5. **全量编译** — `colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release`
 
@@ -80,8 +80,8 @@ cd ../../../..
 # 步骤 B：安装系统依赖
 bash depend_install.sh
 
-# 步骤 C：先编译 lightning + 裁判系统消息（lightning 依赖 rm_referee_msgs）
-colcon build --packages-select lightning rm_referee_msgs
+# 步骤 C：编译 lightning（已移除 rm_referee_msgs 依赖）
+colcon build --packages-select lightning
 
 # 步骤 D：创建地图占位
 mkdir -p src/bringup/map
@@ -309,7 +309,7 @@ flowchart LR
 
 | 问题 | 原因与解决 |
 |------|-----------|
-| **`lightning` 编译失败** | 缺少 `rm_referee_msgs`。先执行 `colcon build --packages-select rm_referee_msgs` |
+| **`lightning` 编译失败** | 缺少依赖包。检查 `package.xml` 中的依赖是否都已安装 |
 | **找不到 Livox 驱动** | 确认 `src/` 下包含 `livox_ros_driver2_humble/`，需从[Livox 官方](https://github.com/Livox-SDK/livox_ros_driver2)获取 |
 | **Rviz 中无地图显示** | 检查 `src/bringup/map/map.yaml` 和 `map.pgm` 是否存在且路径正确 |
 | **串口无法打开** | 添加用户到 dialout 组：`sudo usermod -aG dialout $USER`，注销重登录 |

@@ -43,7 +43,7 @@ bash depend_install.sh
 
 # 3、lightning-lm安装，注意，不建议把lightning-lm与其他包同时编译
 cd "$SCRIPT_DIR"
-colcon build --packages-select lightning rm_referee_msgs
+colcon build --packages-select lightning
 if [ $? -ne 0 ]; then
     echo "lightning-lm 编译失败，终止脚本"
     exit 1

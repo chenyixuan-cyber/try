@@ -52,11 +52,7 @@ target_link_libraries(run_loc_online
         ${third_party_libs}
 )
 
-# 添加 rm_referee_msgs 依赖
-ament_target_dependencies(run_loc_online
-        rclcpp
-        rm_referee_msgs
-)
+# rm_referee_msgs 依赖已移除（不再使用裁判系统）
 
 # 添加 ament_index_cpp 依赖
 target_link_libraries(run_loc_online ament_index_cpp::ament_index_cpp)
