@@ -1,12 +1,4 @@
-serial_comm_node:
-  ros__parameters:
-    port: "/dev/ttyACM0"    # 发送与接收共用同一端口
-    baudrate: 115200
-    send_frequency: 500
-    use_sim_time: false
-
-serial_receive_node:
-  ros__parameters:
-    port: "/dev/ttyACM0"    # 与发送节点共用同一串口
+# 废弃：serial_comm 已被 can_comm 替代
+# 串口参数已移至 can_comm 配置中
     baudrate: 115200
     use_sim_time: false

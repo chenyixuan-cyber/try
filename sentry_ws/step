@@ -15,8 +15,8 @@
 source /opt/ros/humble/setup.bash
 
 # 3. 创建工作空间
-mkdir -p ~/sentry_ws/src
-cd ~/sentry_ws
+mkdir -p ~/sentry_try/sentry_ws/src
+cd ~/sentry_try/sentry_ws
 ```
 
 > 💡 建议将 `source /opt/ros/humble/setup.bash` 添加到 `~/.bashrc`
@@ -26,7 +26,7 @@ cd ~/sentry_ws
 ## 第一步：安装系统依赖
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 bash depend_install.sh
 ```
 
@@ -52,7 +52,7 @@ bash depend_install.sh
 ### 2.1 一键编译
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 bash build.sh
 ```
 
@@ -68,7 +68,7 @@ bash build.sh
 如果 `build.sh` 中途出错，可按以下顺序手动执行：
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 
 # 步骤 A：编译第三方库 Pangolin
 cd src/lightning-lm/thirdparty
@@ -80,7 +80,7 @@ cd ../../../..
 # 步骤 B：安装系统依赖
 bash depend_install.sh
 
-# 步骤 C：编译 lightning（已移除 rm_referee_msgs 依赖）
+# 步骤 C：编译 lightning（rm_referee_msgs 仅保留消息定义，供定位使用）
 colcon build --packages-select lightning
 
 # 步骤 D：创建地图占位
@@ -97,7 +97,7 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 source install/setup.bash
 ```
 
-> 💡 建议将 `source ~/sentry_ws/install/setup.bash` 添加到 `~/.bashrc`
+> 💡 建议将 `source ~/sentry_try/sentry_ws/install/setup.bash` 添加到 `~/.bashrc`
 
 ---
 
@@ -106,7 +106,7 @@ source install/setup.bash
 适用于使用 CAN 通信的底盘。只需执行一次：
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 sudo bash can.sh
 ```
 
@@ -151,7 +151,7 @@ export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 ### 5.1 启动建图
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 source install/setup.bash
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 ros2 run lightning run_slam_online --config ./src/bringup/config/default_livox.yaml
@@ -159,7 +159,7 @@ ros2 run lightning run_slam_online --config ./src/bringup/config/default_livox.y
 
 启动后自动拉起：
 - Livox MID360 激光雷达驱动
-- FAST-LIO 里程计
+- Super-LIO 里程计
 - Lightning SLAM 在线建图
 
 ### 5.2 保存地图
@@ -167,7 +167,7 @@ ros2 run lightning run_slam_online --config ./src/bringup/config/default_livox.y
 建图完成后（另开终端）：
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 source install/setup.bash
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 ros2 service call /lightning/save_map lightning/srv/SaveMap "{map_id: 'new_map'}"
@@ -178,7 +178,7 @@ ros2 service call /lightning/save_map lightning/srv/SaveMap "{map_id: 'new_map'}
 ### 5.3 转换为 Nav2 导航地图
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 bash map.sh
 ```
 
@@ -199,7 +199,7 @@ bash map.sh
 确认建图完成后定位功能正常：
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 source install/setup.bash
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 ros2 run lightning run_loc_online --config ./src/bringup/config/default_livox.yaml
@@ -215,7 +215,7 @@ ros2 run lightning run_loc_online --config ./src/bringup/config/default_livox.ya
 ## 第七步：完整启动巡航系统
 
 ```bash
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 bash start.sh
 ```
 
@@ -225,14 +225,12 @@ bash start.sh
 |:---:|------|-----------|------|
 | 1 | `nuclear_cleanup` | 函数 | 强力杀掉所有残留进程 |
 | 2 | Livox 驱动 | `livox_ros_driver2_node` | MID360 雷达数据采集 |
-| 3 | FAST-LIO | `fastlio_mapping` | LiDAR 里程计 → `/odom` |
+| 3 | Super-LIO | `super_lio_node` | LiDAR 里程计 → `/lio/robo/odom` |
 | 4 | Lightning 定位 | `run_loc_online` | 地图匹配定位 → `map` TF |
 | 5 | Livox → Scan | `livox_to_scan_node` | 点云转 2D LaserScan |
-| 6 | 串口通信 | `sentry_comm_node` | 底盘控制指令下发 |
-| 7 | CAN 通信 | `can_comm.launch.py` | CAN 总线收发 |
-| 8 | 裁判系统 | `referee_node.launch.py` | RM 比赛系统对接 |
-| 9 | Nav2 导航栈 | `navigation_launch.py` | 全局规划 + 局部控制 |
-| 10 | 哨兵巡航 BT | `sentry_eval_bt_node` | 按路点自动巡航（延迟 5s） |
+| 6 | CAN 通信 | `can_comm.launch.py` | CAN 总线收发 |
+| 7 | Nav2 导航栈 | `navigation_launch.py` | 全局规划 + 局部控制 |
+| 8 | 哨兵巡航 BT | `sentry_eval_bt_node` | 按路点自动巡航（延迟 5s） |
 
 ### 自动重启机制
 
@@ -274,7 +272,7 @@ flowchart LR
     end
 
     subgraph 感知
-        FAST["FAST-LIO<br/>里程计"]
+        FAST["Super-LIO<br/>里程计"]
         LIGHT["Lightning<br/>定位"]
     end
 
@@ -324,7 +322,7 @@ flowchart LR
 
 ```bash
 # 一键启动（依赖安装 + 编译 + 运行）
-cd ~/sentry_ws
+cd ~/sentry_try/sentry_ws
 bash depend_install.sh   # 安装系统依赖
 bash build.sh            # 编译全部
 bash start.sh            # 启动巡航

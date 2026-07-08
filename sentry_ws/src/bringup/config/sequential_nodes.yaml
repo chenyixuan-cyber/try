@@ -19,20 +19,7 @@ sequential_nodes:
   #   cmd: ["ros2", "launch", "odin_ros_driver", "odin1_ros2.launch.py"]
   #   wait_after: 0
 
-  - label: RM-messages
-    type: execute
-    cmd: ["ros2", "launch", "rm_referee", "referee_node.launch.py"]
-    wait_after: 0
-
-  - label: RM-pos-relay
-    type: execute
-    cmd: ["ros2", "launch", "ground_pos_relay", "ground_pos_relay.launch.py"]
-    wait_after: 0
-
-  # - label: RM-messages-pos
-  #   type: execute
-  #   cmd: ["ros2", "launch", "rm_referee", "referee_node_pos.launch.py"]
-  #   wait_after: 0
+  # 废弃：裁判系统已被移除
 
   - label: Lidar-Filter
     type: node
@@ -110,10 +97,7 @@ sequential_nodes:
   #     - livox_to_scan.yaml
   #   wait_after: 0
 
-  # - label: USB-Serial-Comm
-  #   type: execute
-  #   cmd: ["ros2", "launch", "serial_comm", "serial_comm.launch.py"]
-  #   wait_after: 0
+  # 废弃：serial_comm 已被 can_comm 替代
 
   # - label: CmdVel-Process
   #   type: execute

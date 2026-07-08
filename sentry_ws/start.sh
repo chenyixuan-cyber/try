@@ -26,8 +26,8 @@ function nuclear_cleanup() {
                sentry_eval_bt_node 2>/dev/null
 
     # 3. 杀掉 核心算法与驱动
-    killall -9 fastlio_mapping livox_ros_driver2_node serial_comm_node \
-               sentry_comm_node ekf_node point_cloud_transport 2>/dev/null
+    killall -9 fastlio_mapping super_lio_node livox_ros_driver2_node \
+               ekf_node point_cloud_transport 2>/dev/null
 
     # 4. 杀掉 可视化与辅助工具
     killall -9 rviz2 static_transform_publisher robot_state_publisher \

@@ -8,11 +8,9 @@
 #   3. Lightning 定位
 #   4. TF Only Odom (补齐 TF 树)
 #   5. Livox → Scan 转换
-#   6. 串口通信
-#   7. CAN 通信
-#   8. 裁判系统
-#   9. Nav2 导航栈
-#  10. 哨兵巡航 BT 节点 (延迟启动)
+#   6. CAN 通信
+#   7. Nav2 导航栈
+#   8. 哨兵巡航 BT 节点 (延迟启动)
 # =============================================================================
 
 import os
@@ -108,22 +106,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 6) 串口通信 (底盘控制)
-    # ================================================================
-    serial_comm_node = Node(
-        package="serial_comm",
-        executable="sentry_comm_node",
-        name="sentry_comm_node",
-        output="screen",
-        arguments=["--log-level", log_level],
-        parameters=[os.path.join(
-            get_package_share_directory("serial_comm"),
-            "config", "sentry_params.yaml",
-        )],
-    )
-
-    # ================================================================
-    # 7) CAN 通信
+    # 6) CAN 通信
     # ================================================================
     can_comm = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -134,20 +117,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 8) 裁判系统
-    # ================================================================
-    referee = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(
-                get_package_share_directory("rm_referee"),
-                "launch",
-                "referee_node.launch.py",
-            )
-        )
-    )
-
-    # ================================================================
-    # 9) Nav2 导航栈
+    # 7) Nav2 导航栈
     # 使用系统 nav2_bringup 的 navigation_launch.py,
     # 传入我们的 singlenav2_params.yaml
     # ================================================================
@@ -169,7 +139,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 10) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
+    # 8) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
     #    延迟 5s 等待 Nav2 就绪
     # ================================================================
     sentry_patrol = TimerAction(
@@ -203,9 +173,7 @@ def generate_launch_description():
     ld.add_action(lightning_loc)
     ld.add_action(tf_only_odom_node)
     ld.add_action(livox_to_scan_node)
-    ld.add_action(serial_comm_node)
     ld.add_action(can_comm)
-    ld.add_action(referee)
     ld.add_action(nav2_stack)
     ld.add_action(sentry_patrol)
 
