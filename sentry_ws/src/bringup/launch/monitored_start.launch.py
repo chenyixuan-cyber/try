@@ -9,8 +9,9 @@
 #   4. TF Only Odom (补齐 TF 树)
 #   5. Livox → Scan 转换
 #   6. CAN 通信
-#   7. Nav2 导航栈
-#   8. 哨兵巡航 BT 节点 (延迟启动)
+#   7. RViz2 可视化
+#   8. Nav2 导航栈
+#   9. 哨兵巡航 BT 节点 (延迟启动)
 # =============================================================================
 
 import os
@@ -117,7 +118,21 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 7) Nav2 导航栈
+    # 7) RViz2 可视化
+    # ================================================================
+    rviz2_node = Node(
+        package="rviz2",
+        executable="rviz2",
+        name="rviz2",
+        output="screen",
+        arguments=[
+            "-d", os.path.join(bringup_dir, "config", "nav2_default_view.rviz"),
+            "--ros-args", "--log-level", "warn",
+        ],
+    )
+
+    # ================================================================
+    # 8) Nav2 导航栈
     # 使用系统 nav2_bringup 的 navigation_launch.py,
     # 传入我们的 singlenav2_params.yaml
     # ================================================================
@@ -139,7 +154,7 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 8) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
+    # 9) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
     #    延迟 5s 等待 Nav2 就绪
     # ================================================================
     sentry_patrol = TimerAction(
@@ -174,6 +189,7 @@ def generate_launch_description():
     ld.add_action(tf_only_odom_node)
     ld.add_action(livox_to_scan_node)
     ld.add_action(can_comm)
+    ld.add_action(rviz2_node)
     ld.add_action(nav2_stack)
     ld.add_action(sentry_patrol)
 
