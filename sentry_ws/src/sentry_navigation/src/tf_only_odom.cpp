@@ -165,13 +165,13 @@ private:
             // 可选：把首帧 B 作为零点，使启动时 base_link 与 map/odom 对齐。
             tf2::Transform tf_B_out = tf_B;
             if (align_base_link_to_map_on_start_) {
-                if (!have_initial_tf_B_) {
-                    tf_B0_inv_ = tf_B.inverse();
-                    have_initial_tf_B_ = true;
+                if (!have_initial_tf_b_) {
+                    tf_b0_inv_ = tf_B.inverse();
+                    have_initial_tf_b_ = true;
                     RCLCPP_INFO(this->get_logger(),
                                 "已记录首帧 odom->base_link，后续发布相对位姿（首帧归零）。");
                 }
-                tf_B_out = tf_B0_inv_ * tf_B;
+                tf_B_out = tf_b0_inv_ * tf_B;
             }
 
             // 发布 B(odom->base_link) TF
@@ -246,8 +246,8 @@ private:
     bool have_lio_odom_ = false;
 
     bool align_base_link_to_map_on_start_ = true;
-    bool have_initial_tf_B_ = false;
-    tf2::Transform tf_B0_inv_;
+    bool have_initial_tf_b_ = false;
+    tf2::Transform tf_b0_inv_;
 
     std::string map_frame_for_A_ = "map";
     std::string odom_frame_ = "odom";
