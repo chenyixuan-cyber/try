@@ -9,18 +9,23 @@ if (NOT CMAKE_CXX_STANDARD)
     set(CMAKE_CXX_STANDARD 17)
 endif ()
 
-# set to release by default
-set(CMAKE_BUILD_TYPE Release)
+# 默认 Release，但允许 colcon / 用户在命令行通过 -DCMAKE_BUILD_TYPE=Debug 覆盖
+if (NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release)
+endif ()
 
 # -------------------------------------------------------------
 # 导入第三方库，同时做一些全局编译选项配置
-# 编译选项（优化过，不0再爆内存）
+#
+# PCL_NO_PRECOMPILE — 禁用 PCL 预编译头
+# 注意：此宏会显著增加编译内存开销（每个 .cc 独立实例化 PCL 模板），
+# 全量编译时请用 MAKEFLAGS="-j2" 限制并行度，避免内存耗尽卡死。
 add_definitions("-DPCL_NO_PRECOMPILE")
 
 # 基础 flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -fopenmp")
 
-# Release 优化（无 -g，无 -ggdb）
+# Release 优化（无 -g，无 -ggdb；-j2 以下并行度可安全编译）
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -DNDEBUG -fopenmp -fPIC")
 
 # Debug 模式才加 -g
