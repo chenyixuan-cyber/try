@@ -10,8 +10,9 @@
 #   5. Livox → Scan 转换
 #   6. CAN 通信
 #   7. RViz2 可视化
-#   8. Nav2 导航栈
-#   9. 哨兵巡航 BT 节点 (延迟启动)
+#   8. 地图服务器 + Lifecycle Manager
+#   9. Nav2 导航栈
+#  10. 哨兵巡航 BT 节点 (延迟启动)
 # =============================================================================
 
 import os
@@ -132,7 +133,39 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 8) Nav2 导航栈
+    # 8) 地图服务器 (map_server)
+    #    加载静态地图供 Nav2 全局代价地图使用
+    # ================================================================
+    map_server_node = Node(
+        package="nav2_map_server",
+        executable="map_server",
+        name="map_server",
+        output="screen",
+        parameters=[{
+            "use_sim_time": use_sim_time,
+            "yaml_filename": os.path.join(bringup_dir, "map", "map.yaml"),
+        }],
+    )
+
+    map_lifecycle_manager = TimerAction(
+        period=1.0,
+        actions=[
+            Node(
+                package="nav2_lifecycle_manager",
+                executable="lifecycle_manager",
+                name="lifecycle_manager_map",
+                output="screen",
+                parameters=[{
+                    "use_sim_time": use_sim_time,
+                    "autostart": True,
+                    "node_names": ["map_server"],
+                }],
+            )
+        ],
+    )
+
+    # ================================================================
+    # 9) Nav2 导航栈
     # 使用系统 nav2_bringup 的 navigation_launch.py,
     # 传入我们的 singlenav2_params.yaml
     # ================================================================
@@ -154,8 +187,8 @@ def generate_launch_description():
     )
 
     # ================================================================
-    # 9) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
-    #    延迟 5s 等待 Nav2 就绪
+    # 10) 哨兵巡航 BT 节点 (sentry_eval_bt_node)
+    #    延迟 5s 等待 Nav2 + map_server 就绪
     # ================================================================
     sentry_patrol = TimerAction(
         period=5.0,
@@ -190,6 +223,8 @@ def generate_launch_description():
     ld.add_action(livox_to_scan_node)
     ld.add_action(can_comm)
     ld.add_action(rviz2_node)
+    ld.add_action(map_server_node)
+    ld.add_action(map_lifecycle_manager)
     ld.add_action(nav2_stack)
     ld.add_action(sentry_patrol)
 

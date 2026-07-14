@@ -1,10 +1,10 @@
 /**:
   ros__parameters:
-    lio.map.save_map: false
-    lio.map.if_filter: true
+    lio.map.save_map: true
+    lio.map.if_filter: false
     lio.map.save_map_dir: "map"
     lio.map.map_name: "map.pcd"
-    lio.map.ds_size: 0.25
+    lio.map.ds_size: 0.05
     lio.map.save_interval: 500
 
     lio.ros.lidar_topic: "/livox/lidar"
