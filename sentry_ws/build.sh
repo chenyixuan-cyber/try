@@ -50,6 +50,6 @@ echo "lightning-lm 编译完成"
 mkdir -p "$SCRIPT_DIR/src/bringup/map"
 touch "$SCRIPT_DIR/src/bringup/map/map.yaml" "$SCRIPT_DIR/src/bringup/map/map.pgm"
 
-# 6、导航
-colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+# 6、导航（限制并行度以防 NUC 低内存环境 OOM）
+MAKEFLAGS="-j2" colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --parallel-workers 1
 
