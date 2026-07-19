@@ -29,7 +29,7 @@ public:
         this->declare_parameter<std::string>("yaw_topic", "/target/yaw");
         this->declare_parameter<std::string>("pitch_topic", "/target/pitch");
         this->declare_parameter<std::string>("distance_topic", "/target/distance");
-        this->declare_parameter<std::string>("diankong_yaw_topic", "/diankong_yaw");
+        this->declare_parameter<std::string>("diankong_yaw_topic", "/diankong/yaw");
         this->declare_parameter<double>("publish_rate_hz", 50.0);
 
         // 读取参数

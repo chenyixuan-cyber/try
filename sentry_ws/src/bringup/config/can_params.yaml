@@ -26,7 +26,8 @@ can_receive:
     yaw_topic: "/target/yaw"
     pitch_topic: "/target/pitch"
     distance_topic: "/target/distance"
-    publish_rate_hz: 50.0
+    diankong_yaw_topic: "/diankong/yaw"
+    publish_rate_hz: 500.0
 
 target_frame:
   ros__parameters:
@@ -35,6 +36,8 @@ target_frame:
     base_frame: "base_link"
     target_frame: "target_frame"
     target_pose_topic: "/detected_target_pose"
+    planner_name_topic: "/planner_name"
+    auto_navigate: true
 
 vyaw_tf_yaw_controller:
   ros__parameters:
@@ -50,4 +53,6 @@ vyaw_tf_yaw_controller:
     outpost_pose_x: 13.48
     outpost_pose_y: 3.92
 
+    diankong_yaw_topic: "/diankong/yaw"
+    diankong_yaw_timeout_s: 0.5
     publish_rate_hz: 30.0
