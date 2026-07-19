@@ -58,25 +58,25 @@ sequential_nodes:
     cmd: ["ros2", "launch", "super_lio", "Livox_mid360.py"]
     wait_after: 0
 
-  # - label: TF-Odom-Publisher
-  #   type: node
-  #   package: sentry_navigation
-  #   executable: tf_odom_publisher
-  #   name: tf_odom_publisher
-  #   parameters:
-  #     - lidar.yaml
-  #   arguments: ["--ros-args"]
-  #   wait_after: 0
-
-  - label: TF-Only-Odom
+  - label: TF-Odom-Publisher
     type: node
     package: sentry_navigation
-    executable: tf_only_odom
-    name: tf_only_odom
+    executable: tf_odom_publisher
+    name: tf_odom_publisher
     parameters:
       - lidar.yaml
     arguments: ["--ros-args"]
     wait_after: 0
+
+  # - label: TF-Only-Odom
+  #   type: node
+  #   package: sentry_navigation
+  #   executable: tf_only_odom
+  #   name: tf_only_odom
+  #   parameters:
+  #     - lidar.yaml
+  #   arguments: ["--ros-args"]
+  #   wait_after: 0
 
   # - label: Odin-TF
   #   type: node

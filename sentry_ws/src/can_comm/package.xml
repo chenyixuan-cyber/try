@@ -1,25 +1,24 @@
-<?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-	<name>can_comm</name>
-	<version>0.0.1</version>
-	<description>CAN communication package</description>
-	<maintainer email="your@email.com">Your Name</maintainer>
-	<license>Apache-2.0</license>
+  <name>can_comm</name>
+  <version>0.0.1</version>
+  <description>CAN communication node, mirroring serial_comm_node behavior over CAN bus.</description>
 
-	<buildtool_depend>ament_cmake</buildtool_depend>
+  <maintainer email="todo@example.com">TODO_MAINTAINER</maintainer>
+  <license>TODO_LICENSE</license>
 
-	<depend>rclcpp</depend>
-	<depend>rclcpp_action</depend>
-	<depend>std_msgs</depend>
-	<depend>geometry_msgs</depend>
-	<depend>sentry_msgs</depend>
-	<depend>nav2_msgs</depend>
-	<depend>tf2_ros</depend>
-	<depend>tf2</depend>
-	<depend>tf2_geometry_msgs</depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-	<export>
-		<build_type>ament_cmake</build_type>
-	</export>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>sentry_msgs</depend>
+  <depend>rm_referee_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>nav2_msgs</depend>
+  <depend>rclcpp_action</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>

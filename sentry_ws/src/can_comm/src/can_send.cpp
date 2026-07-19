@@ -1,174 +1,216 @@
 #include <rclcpp/rclcpp.hpp>
-#include <rclcpp/qos.hpp>
-#include <std_msgs/msg/float32.hpp>
-#include <std_msgs/msg/bool.hpp>
 #include <geometry_msgs/msg/twist.hpp>
 #include <sentry_msgs/msg/vw.hpp>
+#include <sentry_msgs/msg/armor_presence.hpp>
 #include <sentry_msgs/msg/scan_mode.hpp>
+#include <std_msgs/msg/bool.hpp>
+#include <std_msgs/msg/float32.hpp>
+#include "rm_referee_msgs/msg/game_status.hpp"
+#include <rclcpp/qos.hpp>
 
-#include <linux/can.h>
-#include <linux/can/raw.h>
-#include <net/if.h>
-#include <sys/ioctl.h>
-#include <sys/socket.h>
-#include <unistd.h>
+#include <librm.hpp>
+
+using rm::hal::Can;
 
 #include <cstdint>
-#include <memory>
-#include <string>
 #include <mutex>
 #include <chrono>
-#include <iostream>
-#include <cstring>
+#include <memory>
 #include <algorithm>
 
-class CanSender : public rclcpp::Node 
+using namespace std::chrono_literals;
+
+class CanCommNode : public rclcpp::Node
 {
 public:
-    CanSender() : Node("can_send")
+    CanCommNode()
+    : Node("can_send")
     {
-        //参数声明，获取和赋值
+        // 参数声明
         this->declare_parameter<std::string>("port", "can2");
-        this->declare_parameter<int>("send_freq", 100);
+        this->declare_parameter<int>("send_frequency", 500);
+        // 发送用的 CAN ID 参数（单帧发送）
         this->declare_parameter<int>("id_scan", 0x190);
-        this->declare_parameter<double>("publish_rate", 50.0);
-        this->declare_parameter<double>("cmd_timeout_s", 0.5);
-        this->declare_parameter<double>("vw_timeout_s", 1.0);
-
-        this->declare_parameter<std::string>("cmd_topic", "/cmd_vel");
+        this->declare_parameter<std::string>("cmd_vel_topic", "/cmd_vel");
         this->declare_parameter<std::string>("vw_topic", "/vw");
-        this->declare_parameter<std::string>("scan_model_topic", "/scan_model");
+        this->declare_parameter<std::string>("scan_mod_type_topic", "/scan_mod_type");
+        this->declare_parameter<std::string>("NLJG_mode_type_topic", "/NLJG_mode_type");
+        this->declare_parameter<std::string>("outpost_mode_type_topic", "/outpost_mode_type");
+        this->declare_parameter<std::string>("all_detect_topic", "/detector/armor_presence");
+        this->declare_parameter<std::string>("game_status_topic", "/rm_referee/game_status");
         this->declare_parameter<std::string>("target_yaw_topic", "/target_yaw");
+        this->declare_parameter<double>("cmd_vel_timeout_s", 0.1);
+        // target_yaw 无超时：电控靠值不再更新来判定停止
+        this->declare_parameter<double>("vw_timeout_s", 0.1);
 
-        std::string port = this->get_parameter("port").as_string();
-        int send_freq = this->get_parameter("send_freq").as_int();
-        int id_scan = this->get_parameter("id_scan").as_int();
-        double publish_rate = this->get_parameter("publish_rate").as_double();
-        double cmd_timeout_s = this->get_parameter("cmd_timeout_s").as_double();
-        double vw_timeout_s = this->get_parameter("vw_timeout_s").as_double();
-        std::string cmd_topic = this->get_parameter("cmd_topic").as_string();
-        std::string vw_topic = this->get_parameter("vw_topic").as_string();
-        std::string scan_model_topic = this->get_parameter("scan_model_topic").as_string();
-        std::string target_yaw_topic = this->get_parameter("target_yaw_topic").as_string();
-        
-        // 打开并绑定 SocketCAN 发送 socket
-        send_fd_ = socket(PF_CAN, SOCK_RAW, CAN_RAW);
-        if (send_fd_ < 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to create CAN socket");
+        // 读取参数
+        std::string port      = this->get_parameter("port").as_string();
+        int send_freq  = this->get_parameter("send_frequency").as_int();
+        int id_scan_int = this->get_parameter("id_scan").as_int();
+        id_scan_ = static_cast<uint32_t>(id_scan_int);
+
+        std::string cmd_vel_topic       = this->get_parameter("cmd_vel_topic").as_string();
+        std::string vw_topic            = this->get_parameter("vw_topic").as_string();
+        std::string scan_mod_type_topic = this->get_parameter("scan_mod_type_topic").as_string();
+        std::string NLJG_mode_type_topic = this->get_parameter("NLJG_mode_type_topic").as_string();
+        std::string outpost_mode_type_topic = this->get_parameter("outpost_mode_type_topic").as_string();
+        std::string all_detect_topic    = this->get_parameter("all_detect_topic").as_string();
+        std::string game_status_topic   = this->get_parameter("game_status_topic").as_string();
+        std::string target_yaw_topic   = this->get_parameter("target_yaw_topic").as_string();
+        cmd_vel_timeout_s_ = this->get_parameter("cmd_vel_timeout_s").as_double();
+        vw_timeout_s_ = this->get_parameter("vw_timeout_s").as_double();
+
+        // 打开 CAN 设备
+        try {
+            can_ = std::make_unique<Can>(port.c_str());
+            can_->Begin();
+            RCLCPP_INFO(this->get_logger(), "✓ CAN 打开: %s", port.c_str());
+        } catch (...) {
+            RCLCPP_ERROR(this->get_logger(), "✗ CAN 打开失败: %s", port.c_str());
             rclcpp::shutdown();
             return;
         }
-        struct ifreq ifr;
-        std::strncpy(ifr.ifr_name, port.c_str(), IFNAMSIZ - 1);
-        if (ioctl(send_fd_, SIOCGIFINDEX, &ifr) < 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to get interface index for %s", port.c_str());
-            close(send_fd_);
-            rclcpp::shutdown();
-            return;
-        }
-        struct sockaddr_can addr;
-        addr.can_family = AF_CAN;
-        addr.can_ifindex = ifr.ifr_ifindex;
-        if (bind(send_fd_, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to bind CAN socket");
-            close(send_fd_);
-            rclcpp::shutdown();
-            return;
-        }
-        RCLCPP_INFO(this->get_logger(),"can send socket opened: %s",port.c_str());
-        // 保存成员参数
-        id_scan_ = static_cast<uint32_t>(id_scan);
-        cmd_timeout_s_ = cmd_timeout_s;
-        vw_timeout_s_ = vw_timeout_s;
-        //订阅发布者
+
+        // 订阅话题
         cmd_vel_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
-            cmd_topic, 10, 
-            std::bind(&CanSender::cmd_vel_callback, this, std::placeholders::_1));
-        
-        scan_model_topic_sub_ = this->create_subscription<sentry_msgs::msg::ScanMode>(
-            scan_model_topic, 10,
-            [this](const sentry_msgs::msg::ScanMode::SharedPtr msg) {
-                std::lock_guard<std::mutex> lock(scan_model_mutex_);
-                scan_model_type_ = msg->scan_mod_type;
-                scan_model_type_received_ = true;
-            });
-            
+            cmd_vel_topic, 10,
+            std::bind(&CanCommNode::cmdVelCallback, this, std::placeholders::_1));
+
         vw_sub_ = this->create_subscription<sentry_msgs::msg::Vw>(
             vw_topic, 10,
-            [this](const sentry_msgs::msg::Vw::SharedPtr msg) {
-                std::lock_guard<std::mutex> lock(vw_mutex_);
-                if(!vw_received_once_){
+            [this](const sentry_msgs::msg::Vw::SharedPtr m) {
+                std::lock_guard<std::mutex> lk(mutex_);
+                if (!vw_received_once_) {
                     vw_received_once_ = true;
                 }
-                vw_ = msg->vw;
+                vw_ = m->vw;
                 last_vw_msg_time_ = this->now();
+            });
+
+        scan_mod_sub_ = this->create_subscription<sentry_msgs::msg::ScanMode>(
+            scan_mod_type_topic, 10,
+            [this](const sentry_msgs::msg::ScanMode::SharedPtr m) {
+                std::lock_guard<std::mutex> lk(mutex_);
+                scan_mod_type_ = m->scan_mod_type;
+                scan_mod_type_topic_received_ = true;
+            });
+
+        NLJG_mode_sub_ = this->create_subscription<std_msgs::msg::Bool>(
+            NLJG_mode_type_topic, 10,
+            [this](const std_msgs::msg::Bool::SharedPtr m) {
+                std::lock_guard<std::mutex> lk(mutex_);
+                NLJG_mode_ = m->data;
+            });
+
+        outpost_mode_sub_ = this->create_subscription<std_msgs::msg::Bool>(
+            outpost_mode_type_topic, 10,
+            [this](const std_msgs::msg::Bool::SharedPtr m) {
+                std::lock_guard<std::mutex> lk(mutex_);
+                outpost_mode_ = m->data;
+            });
+
+        game_status_sub_ = this->create_subscription<rm_referee_msgs::msg::GameStatus>(
+            game_status_topic,
+            rclcpp::SensorDataQoS(),   
+            std::bind(&CanCommNode::gamestatusCallback, this, std::placeholders::_1));
+
+        armor_presence_sub_ = this->create_subscription<sentry_msgs::msg::ArmorPresence>(
+            all_detect_topic, 10,
+            [this](const sentry_msgs::msg::ArmorPresence::SharedPtr m) {
+                std::lock_guard<std::mutex> lk(mutex_);
+                armor_left_   = m->left;
+                armor_behind_ = m->behind;
+                armor_right_  = m->right;
             });
 
         target_yaw_sub_ = this->create_subscription<std_msgs::msg::Float32>(
             target_yaw_topic, 10,
-            [this](const std_msgs::msg::Float32::SharedPtr msg) {
-                std::lock_guard<std::mutex> lock(target_yaw_mutex_);
-                target_yaw_ = msg->data;
-                last_target_yaw_msg_time_ = this->now();
+            [this](const std_msgs::msg::Float32::SharedPtr m) {
+                std::lock_guard<std::mutex> lk(mutex_);
+                target_yaw_ = m->data;
             });
-        
-        //创建定时器
-        if(publish_rate <= 0.0){publish_rate = 50.0;}
-        const auto period_ms = static_cast<int>(1000.0 / publish_rate);
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(period_ms),
-            std::bind(&CanSender::SendFrame, this));
-        last_log_time_ = this->now();
 
-        RCLCPP_INFO(this->get_logger(), "==========================================");
-        RCLCPP_INFO(this->get_logger(), "CAN sender node initialized successfully.");
-        RCLCPP_INFO(this->get_logger(), "==========================================");
+        // 定时发送 CAN 帧
+        if (send_freq <= 0) send_freq = 1;
+        int period_ms = 1000 / send_freq;
+        last_log_ = this->now();
+        timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(period_ms),
+            std::bind(&CanCommNode::sendFrame, this));
+
+        RCLCPP_INFO(this->get_logger(), "========================================");
+        RCLCPP_INFO(this->get_logger(), "CAN 通信节点初始化完成");
+        RCLCPP_INFO(this->get_logger(), "========================================");
     }
 
-    ~CanSender() override { if (send_fd_ >= 0) close(send_fd_); }
+    ~CanCommNode() override = default;
 
 private:
-    void cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
+    // cmd_vel 回调，仅更新 vx_ / vy_
+    void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
     {
-        std::lock_guard<std::mutex> lock(cmd_vel_mutex_);
-        vx_ = static_cast<float>(msg->linear.x);
-        vy_ = static_cast<float>(msg->linear.y);
-        cmd_received_once_ = true;
+        std::lock_guard<std::mutex> lock(mutex_);
+        vx_   = static_cast<float>(msg->linear.x);
+        vy_   = static_cast<float>(msg->linear.y);
+        cmd_vel_received_once_ = true;
         last_cmd_vel_msg_time_ = this->now();
     }
 
-     void SendFrame()
+    void gamestatusCallback(const rm_referee_msgs::msg::GameStatus::SharedPtr msg)
     {
-         if (send_fd_ < 0) { return; }
+        if (!msg) return;
+        std::lock_guard<std::mutex> lock(mutex_);
+        game_progress_ = msg->game_progress;
+        if (!scan_mod_type_topic_received_) {
+            scan_mod_type_ = (msg->game_progress == 4);
+        }
+    }
 
-       float vx, vy, vw, target_yaw;
-       bool scan_model_type;
-       {
-           std::lock_guard<std::mutex> lock1(cmd_vel_mutex_);
-           vx = vx_;
-           vy = vy_;
-           target_yaw = target_yaw_;
-           vw = vw_;
-           scan_model_type = scan_model_type_;
+    void sendFrame()
+    {
+        if (!can_) return;
 
-           const auto now = this->now();
-           const bool cmd_vel_fresh = cmd_received_once_ 
-                && (now - last_cmd_vel_msg_time_).seconds() < cmd_timeout_s_;
+        float vx, vy, target_yaw, vw;
+        bool scan;
+        bool NLJG_mode;
+        bool outpost_mode;
+        uint8_t left = 0;
+        uint8_t behind = 0;
+        uint8_t right = 0;
+        {
+            std::lock_guard<std::mutex> lock(mutex_);
+            vx         = vx_;
+            vy         = vy_;
+            target_yaw = target_yaw_;
+            vw         = vw_;
+            scan       = scan_mod_type_;
+            NLJG_mode  = NLJG_mode_;
+            outpost_mode = outpost_mode_;
+            left   = armor_left_;
+            behind = armor_behind_;
+            right  = armor_right_;
+
+            const auto now = this->now();
+            const bool cmd_vel_fresh =
+                cmd_vel_received_once_ &&
+                (now - last_cmd_vel_msg_time_).seconds() <= cmd_vel_timeout_s_;
             if (!cmd_vel_fresh) {
                 vx = 0.0f;
                 vy = 0.0f;
             }
 
-            const bool vw_fresh = vw_received_once_ 
-                && (now - last_vw_msg_time_).seconds() < vw_timeout_s_;
+            const bool vw_fresh =
+                vw_received_once_ &&
+                (now - last_vw_msg_time_).seconds() <= vw_timeout_s_;
             if (!vw_fresh) {
                 vw = 0.0f;
             }
-       }
-    
-    // 限幅 lambda
-    auto clamp = [](float v, float min_v, float max_v) {
-        return std::max(std::min(v, max_v), min_v);
-    };
+        }
+
+        // 限幅 lambda
+        auto clamp = [](float v, float min_v, float max_v) {
+            return std::max(std::min(v, max_v), min_v);
+        };
 
         // vx/vy/vw: 归一化到 [-1, 1] 再乘 127 → int8_t
         int8_t vx_q = static_cast<int8_t>(clamp(vx, -1.0f, 1.0f) * 127.0f);
@@ -188,16 +230,8 @@ private:
         data[1] = static_cast<uint8_t>(vy_q);
 
         // byte [2-3]: target_yaw (int16_t, big-endian, ×100, 范围[-180,180])
-        data[2] = static_cast<uint8_t>((target_yaw_q >> 8) & 0xFF);
-        data[3] = static_cast<uint8_t>(target_yaw_q & 0xFF);
-
-        // 解析旗标：如果没有上游定义，先用默认/scan_model_type_
-        bool left = false;
-        bool behind = false;
-        bool right = false;
-        bool scan = scan_model_type;
-        bool NLJG_mode = false;
-        bool outpost_mode = false;
+        data[2] = (target_yaw_q >> 8) & 0xFF;
+        data[3] = target_yaw_q & 0xFF;
 
         // byte [4]: 低4位 = left|behind|right, 高4位 = scan_mode|NLJG_mode|outpost_mode
         data[4] = (left ? 1 : 0)
@@ -210,61 +244,73 @@ private:
         // byte [5]: vw (int8_t)
         data[5] = static_cast<uint8_t>(vw_q);
 
-        struct can_frame frame{};
-        frame.can_id = static_cast<canid_t>(id_scan_);
-        frame.can_dlc = sizeof(data);
-        std::memcpy(frame.data, data, sizeof(data));
-        ssize_t nbytes = write(send_fd_, &frame, sizeof(frame));
-        (void)nbytes;
+        try {
+            can_->Write(id_scan_, data, sizeof(data));
+        } catch (const std::exception &e) {
+            RCLCPP_ERROR_THROTTLE(this->get_logger(), *this->get_clock(), 2000,
+                "CAN Write failed: %s", e.what());
+        }
 
-        //频率日志
-        freq_count_++;
+        // 频率日志
+        send_count_++;
         auto now = this->now();
-        double elapsed = (now - last_log_time_).seconds();
-        if (elapsed >= 1.0) {
-            RCLCPP_INFO(this->get_logger(), "CAN send frequency: %.2f Hz", freq_count_ / elapsed);
-            last_log_time_ = now;
-            freq_count_ = 0;
+        double dt = (now - last_log_).seconds();
+        if (dt >= 1.0) {
+            double freq = send_count_ / dt;
+            RCLCPP_INFO(this->get_logger(),
+                        "CAN发送频率: %.1f Hz | vx=%.3f vy=%.3f target_yaw=%.3f vw=%.3f scan=%u NLJG_mode=%u outpost_mode=%u left=%u behind=%u right=%u",
+                        freq, vx, vy, target_yaw, vw,
+                        static_cast<unsigned>(scan),
+                        static_cast<unsigned>(NLJG_mode),
+                        static_cast<unsigned>(outpost_mode),
+                        static_cast<unsigned>(left),
+                        static_cast<unsigned>(behind),
+                        static_cast<unsigned>(right));
+            send_count_ = 0;
+            last_log_ = now;
         }
     }
 
 private:
-    int send_fd_ = -1;
-    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_sub_;
-    rclcpp::Subscription<sentry_msgs::msg::ScanMode>::SharedPtr scan_model_topic_sub_;
-    rclcpp::Subscription<sentry_msgs::msg::Vw>::SharedPtr vw_sub_;
-    rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr target_yaw_sub_;
-    rclcpp::TimerBase::SharedPtr timer_;
+    std::unique_ptr<Can> can_;
 
-    float vx_ = 0.0f;
-    float vy_ = 0.0f;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr       cmd_vel_sub_;
+    rclcpp::Subscription<sentry_msgs::msg::Vw>::SharedPtr            vw_sub_;
+    rclcpp::Subscription<sentry_msgs::msg::ScanMode>::SharedPtr      scan_mod_sub_;
+    rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr             NLJG_mode_sub_;
+    rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr             outpost_mode_sub_;
+    rclcpp::Subscription<rm_referee_msgs::msg::GameStatus>::SharedPtr game_status_sub_;
+    rclcpp::Subscription<sentry_msgs::msg::ArmorPresence>::SharedPtr armor_presence_sub_;
+    rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr            target_yaw_sub_;
+    rclcpp::TimerBase::SharedPtr                                     timer_;
+
+    std::mutex mutex_;
+    float vx_ = 0.0f, vy_ = 0.0f, target_yaw_ = 0.0f;
     float vw_ = 0.0f;
-    float target_yaw_ = 0.0f;
-
-    // mutexes for protecting shared state
-    std::mutex cmd_vel_mutex_;
-    std::mutex vw_mutex_;
-    std::mutex scan_model_mutex_;
-    std::mutex target_yaw_mutex_;
-    rclcpp::Time last_log_time_;
-    uint32_t id_scan_ = 0x190;
-    size_t freq_count_ = 0;
-    double cmd_timeout_s_ = 0.5;
-    double vw_timeout_s_ = 1.0;
-    bool cmd_received_once_ = false;
     bool vw_received_once_ = false;
-    bool scan_model_type_received_ = false;
-    bool scan_model_type_ = false;
+    uint8_t game_progress_ = 0;
+    bool scan_mod_type_ = false;
+    bool scan_mod_type_topic_received_ = false;
+    bool NLJG_mode_ = false;
+    bool outpost_mode_ = false;
+    uint8_t armor_left_ = 0, armor_behind_ = 0, armor_right_ = 0;
+
+    bool cmd_vel_received_once_ = false;
     rclcpp::Time last_cmd_vel_msg_time_;
     rclcpp::Time last_vw_msg_time_;
-    rclcpp::Time last_target_yaw_msg_time_;
+    double cmd_vel_timeout_s_ = 0.5;
+    double vw_timeout_s_ = 0.5;
+
+    uint32_t id_scan_ = 0x190;
+
+    size_t send_count_ = 0;
+    rclcpp::Time last_log_;
 };
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<CanSender>();
-    rclcpp::spin(node);
+    rclcpp::spin(std::make_shared<CanCommNode>());
     rclcpp::shutdown();
     return 0;
 }

@@ -5,29 +5,36 @@ import os
 
 
 def generate_launch_description():
-    config_file_path = os.path.join(
-        get_package_share_directory('can_comm'), 'config', 'can_params.yaml')
+    can_comm_share = get_package_share_directory('bringup')
+    config_file = os.path.join(can_comm_share, 'config', 'can_params.yaml')
 
     return LaunchDescription([
         Node(
             package='can_comm',
-            executable='can_receive_node',
-            name='can_receive_node',
+            executable='can_comm_node',
+            name='can_send',
             output='screen',
-            parameters=[config_file_path],
+            parameters=[config_file],
         ),
         Node(
             package='can_comm',
-            executable='can_send_node',
-            name='can_send_node',
+            executable='can_receive_node',
+            name='can_receive',
             output='screen',
-            parameters=[config_file_path],
+            parameters=[config_file],
+        ),
+        Node(
+            package='can_comm',
+            executable='target_frame_node',
+            name='target_frame',
+            output='screen',
+            parameters=[config_file],
         ),
         Node(
             package='can_comm',
             executable='vyaw_tf_yaw_controller_node',
-            name='vyaw_tf_yaw_controller_node',
+            name='vyaw_tf_yaw_controller',
             output='screen',
-            parameters=[config_file_path],
+            parameters=[config_file],
         ),
     ])
