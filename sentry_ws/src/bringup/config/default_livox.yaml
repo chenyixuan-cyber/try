@@ -1,7 +1,7 @@
-# 针对NCLT的配置
+# 实车配置（基于 NCLT 配置修改）
 common:
   dataset: "nclt"
-  lidar_topic: "points_raw"
+  lidar_topic: "/livox/lidar"
   livox_lidar_topic: "/livox/lidar"
   imu_topic: "/livox/imu"
 
@@ -60,7 +60,7 @@ system:
   lidar_loc_skip_num: 4
   lidar_odom_skip_num: 2
   map_path: ./data/new_map/
-  pub_tf: true
+  pub_tf: false    # tf_only_odom 负责 TF 树，Lightning 不发布 TF 以避免冲突
 
 loop_closing:
   loop_kf_gap: 20       # 每隔多少个关键帧检查一次

@@ -1,9 +1,14 @@
+# =============================================================================
+# 注意：actual 启动 (monitored_start.launch.py) 直接传入 singlenav2_params.yaml
+# 作为参数，本文件仅在单独启动 sentry_eval_bt.launch.py 时生效。
+# 如需修改巡航路点，请改 singlenav2_params.yaml 中的 sentry_eval_bt_node.points
+# =============================================================================
 sentry_eval_bt_node:
   ros__parameters:
     loop_points: true
     stop_on_last: false
     points: [
-      -0.2, -6.5, 0.0,   
+      -0.2, -6.5, 0.0,
       1.2, -6.5, 0.0,
       1.0, 0.5, 0.0,
       2.15, 0.6, 0.0,

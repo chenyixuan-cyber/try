@@ -1,4 +1,7 @@
 sequential_nodes:
+  ########################################
+  # 1) LiDAR 驱动
+  ########################################
   - label: Livox-Driver
     type: execute
     cmd: ["ros2", "launch", "livox_ros_driver2", "msg_MID360_launch.py"]
@@ -58,80 +61,88 @@ sequential_nodes:
     cmd: ["ros2", "launch", "super_lio", "Livox_mid360.py"]
     wait_after: 0
 
-  - label: TF-Odom-Publisher
+  ########################################
+  # 3) Lightning 定位
+  ########################################
+  - label: Lightning-LM
+    type: execute
+    cmd: [
+      "ros2", "run", "lightning", "run_loc_online",
+      "--config", "default_livox.yaml"
+    ]
+    use_config_dir_as_cwd: true
+    wait_after: 0
+
+  ########################################
+  # 4) TF Only Odom (补齐 TF 树)
+  ########################################
+  - label: TF-Only-Odom
     type: node
     package: sentry_navigation
-    executable: tf_odom_publisher
-    name: tf_odom_publisher
+    executable: tf_only_odom
+    name: tf_only_odom
     parameters:
       - lidar.yaml
     arguments: ["--ros-args"]
     wait_after: 0
 
-  # - label: TF-Only-Odom
-  #   type: node
-  #   package: sentry_navigation
-  #   executable: tf_only_odom
-  #   name: tf_only_odom
-  #   parameters:
-  #     - lidar.yaml
-  #   arguments: ["--ros-args"]
-  #   wait_after: 0
+  ########################################
+  # 5) Livox → Scan 转换
+  ########################################
+  - label: Livox-to-Scan
+    type: node
+    package: livox_to_scan
+    executable: livox_to_scan_node
+    name: livox_to_scan_node
+    parameters:
+      - livox_to_scan.yaml
+    arguments: ["--ros-args"]
+    wait_after: 0
 
-  # - label: Odin-TF
-  #   type: node
-  #   package: sentry_navigation
-  #   executable: odin_tf
-  #   name: odin_tf
-  #   parameters:
-  #     - odin.yaml
-  #   arguments: ["--ros-args"]
-  #   wait_after: 0
-
-  # - label: Livox-to-Scan
-  #   type: node
-  #   package: livox_to_scan
-  #   executable: livox_to_scan_node
-  #   name: livox_to_scan_node
-  #   parameters:
-  #     - livox_to_scan.yaml
-  #   wait_after: 0
-
-  # 废弃：serial_comm 已被 can_comm 替代
-
-  # - label: CmdVel-Process
-  #   type: execute
-  #   cmd: ["ros2", "launch", "cmd_vel_process", "cmd_vel_process.launch.py"]
-  #   wait_after: 0
-
+  ########################################
+  # 6) CAN 通信
+  ########################################
   - label: Can-Comm
     type: execute
     cmd: ["ros2", "launch", "can_comm", "can_comm.launch.py"]
     wait_after: 0
 
-  - label: Navigation-Stack
+  ########################################
+  # 7) RViz2 可视化
+  ########################################
+  - label: RViz2
+    type: node
+    package: rviz2
+    executable: rviz2
+    name: rviz2
+    arguments:
+      - "-d"
+      - "nav2_default_view.rviz"
+      - "--ros-args"
+      - "--log-level"
+      - "warn"
+    wait_after: 0
+
+  ########################################
+  # 8) Nav2 导航栈 (使用 singlenav2_params.yaml)
+  ########################################
+  - label: Nav2-Stack
     type: execute
     cmd: [
-      "ros2", "launch", "sentry_navigation", "navigation_launch.py",
-      "map:=/home/nuc/Desktop/SentryNav2026_XDU/src/bringup/map/map.yaml", "use_rviz:=true"
+      "ros2", "launch", "nav2_bringup", "navigation_launch.py",
+      "params_file:=singlenav2_params.yaml",
+      "use_sim_time:=false",
+      "autostart:=true",
+      "use_composition:=false"
     ]
     wait_after: 0
 
-  # - label: behavior-tree-nodes
-  #   type: execute
-  #   cmd: ["ros2", "launch", "sentry_eval_bt", "sentry_eval_bt.launch.py"]
-  #   wait_after: 0
-
+  ########################################
+  # 9) 哨兵巡航 BT 节点
+  ########################################
   - label: Sentry-BT
     type: execute
     cmd: [
-      "ros2", "launch", "sentry_nav_bt_test", "sentry_nav_bt_test.launch.py"
+      "ros2", "launch", "sentry_eval_bt", "sentry_eval_bt.launch.py"
     ]
     wait_after: 0
-
-  # - label: Rosbag-Record
-  #   type: execute
-  #   cmd: [
-  #     "ros2", "launch", "rosbag_record", "rosbag_record.launch.py"
-  #   ]
-  #   wait_after: 0
